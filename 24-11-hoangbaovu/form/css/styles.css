@@ -1,0 +1,61 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#login {
+	background: #ccc;
+	width: 1165px;
+	padding: 50px;
+	margin: 0 auto;
+}
+
+#login h1 {
+	color: #4eb8dc;
+	margin-bottom: 25px;
+}
+
+#login #inputs {
+	margin-bottom: 30px;
+}
+
+#login #inputs input {
+	border: 1px solid #e8e8e8;
+	height: 37px;
+	padding-left: 80px;
+	width: 42%;
+}
+
+#login #username, #login #password {
+	background-image: url(../img/user.png);
+	background-repeat: no-repeat;
+	background-size: 65px 40px;
+	background-color: #fefefe;
+}
+
+#login #password {
+	background-image: url(../img/pass.png);
+}
+
+#submit {
+	background: #b4b4b4;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 2em;
+	height: 60px;
+	width: 180px;
+}
+
+#actions {
+	margin-bottom: 25px;
+}
+
+.info p {
+	color: #b4bac0;
+}
+
+.info a {
+	color: #0080c4;
+	font-size: 1.2em;
+}
