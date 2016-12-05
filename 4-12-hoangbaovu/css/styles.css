@@ -3,6 +3,50 @@
 	padding: 0;
 }
 
+/*hover menu effect*/
+
+@keyframes fadeIn {
+	from { 
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	from { 
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	from { 
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.fade-in {
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1;
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration: .3s;
+	-moz-animation-duration: .3s;
+	animation-duration: .3s;
+}
+
 #main nav {
 	width: 960px;
 	margin: 0 auto;
@@ -47,6 +91,8 @@
 	position: absolute;
 	top: 102%;
 	left: 0;
+
+	/*menu hover effect*/
 }
 
 #main .dropdown:hover .sub-menu {
@@ -62,4 +108,8 @@
 	width: 200px;
 	text-align: left;
 	padding-left: 10px;
+
+	/* hover effect */
+
+	
 }
