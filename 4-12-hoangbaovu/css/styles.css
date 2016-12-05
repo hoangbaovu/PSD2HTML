@@ -89,10 +89,9 @@
 .sub-menu {
 	display: none;
 	position: absolute;
-	top: 102%;
+	top: 100%;
 	left: 0;
-
-	/*menu hover effect*/
+	border-top: 1px solid #fff;
 }
 
 #main .dropdown:hover .sub-menu {
@@ -108,8 +107,4 @@
 	width: 200px;
 	text-align: left;
 	padding-left: 10px;
-
-	/* hover effect */
-
-	
 }
