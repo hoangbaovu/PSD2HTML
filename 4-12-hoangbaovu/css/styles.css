@@ -5,7 +5,7 @@
 
 /*hover menu effect*/
 
-@keyframes fadeIn {
+/*@keyframes fadeIn {
 	from { 
 		opacity: 0;
 	}
@@ -45,7 +45,7 @@
 	-webkit-animation-duration: .3s;
 	-moz-animation-duration: .3s;
 	animation-duration: .3s;
-}
+}*/
 
 #main nav {
 	width: 960px;
@@ -94,9 +94,9 @@
 	border-top: 1px solid #fff;
 }
 
-#main .dropdown:hover .sub-menu {
+/*#main .dropdown:hover .sub-menu {
 	display: block;
-}
+}*/
 
 #main .dropdown .sub-menu li {
 	background: #00A69B;
