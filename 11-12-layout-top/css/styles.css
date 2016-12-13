@@ -15,6 +15,31 @@
     float: left;
 }
 
+.btn {
+    border: 1px solid #000;
+    border-radius: 25px;
+    color: #000;
+    display: block;
+    margin: 30px auto 0;
+    padding: 5px 0;
+    text-decoration: none;
+    width: 327px;
+    position: relative;
+}
+
+    .btn::before {
+        content: ">";
+        height: 0;
+        left: 50px;
+        position: absolute;
+        top: 4px;
+        width: 0;
+    }
+
+    .btn:hover {
+        text-decoration: underline;
+    }
+
 /* HEADER */
 
 #header {
@@ -170,3 +195,24 @@
         .intro-footer .right a:hover {
             text-decoration: underline;
         }
+
+/* Community */
+
+.community {
+    background: url(../img/car.png) no-repeat left top;
+    text-align: center;
+    padding: 20px 0;
+}
+
+    /*.community h2 {
+        font-family: "Kozuka Gothic Pr6N";
+        font-size: 33px;
+    }
+
+    .community p {
+        font-size: 19px;
+    }*/
+
+    .community .btn {
+        font-size: 25px;
+    }
