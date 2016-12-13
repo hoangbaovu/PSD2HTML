@@ -155,6 +155,15 @@ hr {
     position: relative;
 }
 
+.intro-header .help {
+    background: url(../img/help.png) no-repeat center center;
+    width: 37px;
+    height: 160px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
 .intro-content {
     position: absolute;
     top: 40%;
