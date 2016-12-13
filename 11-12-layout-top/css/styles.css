@@ -216,3 +216,68 @@
     .community .btn {
         font-size: 25px;
     }
+
+.list-container {
+    display: table;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.list-item {
+    float: left;
+    width: calc(100% / 3);
+    height: 232px;
+    position: relative;
+}
+
+.list-item:hover h2{
+    text-decoration: underline;
+}
+
+    .list-item a {
+        color: #fff;
+        display: block;
+        overflow: hidden;
+        height: 232px;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .list-item img {
+        height: 232px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .list-item h2 {
+        font-size: 28px;
+    }
+
+    .list-item p {
+        font-size: 18px;
+    }
+
+    .list-item .first, .list-item .list-title  {
+        margin-top: 48px;
+        position: absolute;
+        z-index: 2;
+        margin-left: auto;
+        margin-right: auto;
+        left: 70px;
+        right: 70px;
+    }
+
+    .list-item .list-title {
+        background: rgba(0, 0, 0, 0.5);
+        margin-top: 88px;
+        padding: 0 74px;
+    }
+    .list-item .list-title h2 {
+        font-size: 22px;
+    }
