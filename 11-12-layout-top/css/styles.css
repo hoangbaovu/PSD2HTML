@@ -403,3 +403,32 @@ p.phone {
     font-size: 11.85px;
     margin-top: 60px;
 }
+
+.box-share {
+	position:fixed;
+	width: 214px;
+	bottom: 30%;
+	right:5%;
+	border:1px solid #d2d2d2;
+	background:#FFF;
+	padding: 15px;
+	z-index: 9999;
+}
+
+.box-facebook-share {
+    margin-top: -20px;
+}
+
+.facebook-img {
+    margin: -30px auto 0 76px;
+}
+
+#top {
+    background: url(../img/top.jpg) no-repeat center center;
+    width: 85px;
+    height: 29px;
+    position:fixed;
+	bottom: 10%;
+	right: 10%;
+	z-index: 9999;
+}
