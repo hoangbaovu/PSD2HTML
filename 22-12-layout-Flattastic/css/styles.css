@@ -11,6 +11,10 @@ a:hover {
   text-decoration: underline;
 }
 
+img:hover {
+  opacity: .8;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -137,6 +141,10 @@ header li a {
 
 /*Recent Works*/
 
+.recent-works {
+  margin-bottom: 50px;
+}
+
 .recent-works h2{
   color: #434a54;
   font-size: 24px;
@@ -166,5 +174,37 @@ header li a {
 }
 
 .recent-works .item img:hover {
-  opacity: 0.5;
+  opacity: 0.8;
+}
+
+/*About*/
+
+.about {
+  margin-bottom: 60px;
+}
+
+.about h2 {
+  color: #434a54;
+  font-size: 72px;
+}
+
+.about span {
+  color: #00aeff;
+}
+
+.about p {
+  font-size: 15px;
+  margin: 40px 0;
+}
+
+.about .socical li a{
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+  background: #ebedee;
+}
+
+.about .socical img {
+  display: block;
+  margin: calc(100% / 3) auto 0;
 }
