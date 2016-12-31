@@ -73,6 +73,14 @@ header nav li.active a {
   color: #fb2274;
 }
 
+header.background-header {
+  background: red;
+}
+
+.shrink {
+  background: rgba(0,0,0,0.9);
+}
+
 /*Banner*/
 
 .banner {
