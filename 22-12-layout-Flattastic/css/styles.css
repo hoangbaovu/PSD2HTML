@@ -158,7 +158,7 @@ header li a {
     width: calc(100% / 2);
     height: 250px;
     position: relative;
-    margin: 50px 0;
+    margin: 50px 28px 50px -28px;
 }
 
 .recent-works .item img {
@@ -166,5 +166,5 @@ header li a {
 }
 
 .recent-works .item img:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
