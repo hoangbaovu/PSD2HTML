@@ -110,9 +110,22 @@ header.background-header {
   margin: 30px 0;
 }
 
+@keyframes jumpDown {
+  from {
+    transform: scale(1.2);
+  }
+}
+
 .banner #jump-down {
   position: absolute;
   bottom: 17%;
+  animation-name: jumpDown;
+  animation-duration: .5s; 
+  animation-timing-function: ease-out; 
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
 }
 
 /*About*/
