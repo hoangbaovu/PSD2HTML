@@ -93,9 +93,10 @@ header nav li.active a {
   font-weight: 700;
 }
 
-.banner .pink {
-  color: #fb2274;
+.pink {
+  color: #fb2274 !important;
 }
+
 .banner p {
   margin: 30px 0;
 }
@@ -152,4 +153,90 @@ header nav li.active a {
   font-size: 24px;
   font-weight: 700;
   margin: 20px 0;
+}
+
+/*Contact*/
+
+#contact {
+  background: url(../img/map.png) no-repeat center top;
+  height: 684px;
+  position: relative;
+}
+
+#contact .address-box {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 30px;
+  margin-top: 60%;
+  position: relative;
+}
+
+#contact .map-location {
+  margin-top: -65px;
+  position: absolute;
+}
+
+#contact .address-box h4 {
+  color: #444;
+  font-size: 36px;
+  font-weight: 300;
+  position: relative;
+  padding-bottom: 35px;
+}
+
+#contact .address-box h4::after {
+  background: #a9a9a9;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50px;
+  height: 1px;
+  width: 150px;
+}
+
+#contact .address-box p {
+  color: #a9a9a9;
+}
+
+#contact .pull-right {
+  position: absolute;
+  background: #fff;
+  width: calc(100% / 2);
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+#contact .pull-right h3 {
+  font-size: 48px;
+  color: #444;
+}
+
+#contact .pull-right h3 {
+  padding: 100px 0 80px;
+}
+
+#contact form {
+  padding: 0 50px;
+  width: 600px;
+}
+
+#contact .form-group {
+  margin: 20px 0;
+}
+
+#contact input, textarea {
+  background: #fafafa;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #efefef;
+  padding: 20px 30px;
+  color: #a9a9a9;
+}
+
+#contact .btn {
+  border: 1px solid #fb2274;
+  color: #fb2274;
+  font-weight: bold;
+  cursor: pointer;
 }
