@@ -276,7 +276,7 @@ hr {
 .list-item {
     float: left;
     width: calc(100% / 3);
-    height: 232px;
+    height: 302px;
     position: relative;
 }
 
