@@ -107,19 +107,19 @@ header nav li.active a {
 
 /*About*/
 
-#about {
+#about, #our-service {
   text-align: center;
   padding: 100px 0; 
 }
 
-#about h3 {
+#about h3, #our-service h3 {
   color: #444;
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 66px;
 }
 
-#about p {
+#about p, #our-service p {
   color: #a9a9a9;
   font-size: 28px;
   line-height: 1.5;
@@ -130,4 +130,26 @@ header nav li.active a {
   border: 2px solid #fb2274;
   color: #fb2274;
   padding: 20px 48px;
+}
+
+/*Our Services*/
+
+#our-service {
+  background: #fafafa;
+}
+
+#our-service .list-item {
+  display: flex;
+}
+
+#our-service .item {
+  background: #fff;
+  margin: 10px;
+}
+
+#our-service .item p {
+  color: #444;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 0;
 }
