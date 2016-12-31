@@ -73,6 +73,8 @@ header nav li.active a {
   color: #fb2274;
 }
 
+/*Banner*/
+
 .banner {
   color: #fff;
   background: url(../img/bg-header.png) no-repeat top center;
@@ -101,4 +103,31 @@ header nav li.active a {
 .banner #jump-down {
   position: absolute;
   bottom: 17%;
+}
+
+/*About*/
+
+#about {
+  text-align: center;
+  padding: 100px 0; 
+}
+
+#about h3 {
+  color: #444;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 66px;
+}
+
+#about p {
+  color: #a9a9a9;
+  font-size: 28px;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+
+.btn {
+  border: 2px solid #fb2274;
+  color: #fb2274;
+  padding: 20px 48px;
 }
