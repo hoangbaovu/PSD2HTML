@@ -156,6 +156,10 @@ header.background-header {
   margin: 10px;
 }
 
+#our-service .item:hover img {
+  opacity: .8;
+}
+
 #our-service .item p {
   color: #444;
   font-size: 24px;
