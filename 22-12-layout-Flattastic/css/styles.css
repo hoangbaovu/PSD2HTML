@@ -66,7 +66,7 @@ header li a {
 .jumbotron {
   background: #31333e;
   padding-top: 60px;
-  margin-bottom: 150px;
+  margin-bottom: 180px;
   height: 600px;
 }
 
@@ -96,4 +96,37 @@ header li a {
 
 .jumbotron .slider {
   margin-top: 20px;
+}
+
+/* Intro */
+
+.intro .container {
+  display: flex;
+  text-align: center;
+}
+
+.intro .item {
+  width: 100%;
+}
+
+
+.intro .content .title {
+  color: #434a54;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.intro .content p {
+  font-size: 15px;
+  font-weight: 300px;
+  margin: 30px auto;
+  width: 60%;
+  line-height: 2;
+}
+
+.intro .read-more {
+  color: #00aeff;
+  font-size: 15px;
+  text-transform: uppercase;
 }
