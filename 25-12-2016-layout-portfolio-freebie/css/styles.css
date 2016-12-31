@@ -79,6 +79,7 @@ header.background-header {
 
 .shrink {
   background: rgba(0,0,0,0.9);
+  transition: background .3s;
 }
 
 /*Banner*/
