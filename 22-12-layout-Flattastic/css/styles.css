@@ -208,3 +208,9 @@ header li a {
   display: block;
   margin: calc(100% / 3) auto 0;
 }
+
+/*footer*/
+
+#footer {
+  margin-bottom: 80px;
+}
