@@ -32,6 +32,10 @@ a:hover {
   text-align: center;
 }
 
+.clearfix {
+  clear: both;
+}
+
 header {
   background: #fff;
   height: 80px;
@@ -57,4 +61,34 @@ header li {
 
 header li a {
   color: #434a54;
+}
+
+.jumbotron {
+  background: #31333e;
+  padding-top: 60px;
+  height: 600px;
+}
+
+.jumbotron h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+.jumbotron p {
+  margin: -20px 0 80px;
+}
+
+.jumbotron .btn {
+  color: #fff;
+  background: #00aeff;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 15px 20px;
+  margin: 0 auto;
+}
+
+.jumbotron img {
+  display: block;
+  margin: 0 auto;
 }
