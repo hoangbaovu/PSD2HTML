@@ -1,6 +1,10 @@
 #header {
   background: rgba(53,63,70, 0.8);
   height: 150px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 #header .pull-left {
@@ -32,3 +36,60 @@
   display: block;
 }
 
+#home.banner {
+  background: url(../images/banner.png);
+  height: 800px;
+}
+
+#home .content {
+  padding-top: 25%;
+}
+
+#home .content span {
+  background: rgba(53,63,70, 0.8);
+  color: #fff;
+  font-family: "Segoe UI";
+  font-size: 42px;
+  padding: 18px 32px;
+  line-height: 2.5;
+  margin-bottom: 12px;
+}
+
+#services {
+  background: #4bcaff;
+  color: #fff;
+  padding: 80px 0;
+}
+
+#services li {
+  width: calc(100% / 4 - 34px);
+  display: inline-block;
+  padding-right: 30px;
+}
+
+#services .item h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+#services .item p {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+#features {
+  background: #515f67;
+  padding: 80px 0;
+  color: #fff;
+}
+
+#features p {
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+#features .btn {
+  border: 1px solid #353f46;
+  padding: 16px 40px;
+}
