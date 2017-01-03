@@ -1,0 +1,34 @@
+#header {
+  background: rgba(53,63,70, 0.8);
+  height: 150px;
+}
+
+#header .pull-left {
+  margin-top: 45px;
+}
+
+#header .pull-right {
+  margin-top: 67px;
+}
+
+#header nav a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 18px 11px;
+}
+
+#header nav .active a{
+  padding: 18px 11px;
+  border: 2px solid #4bcaff;
+  color: #4bcaff;
+}
+
+.logo {
+  background: url(../images/logo.png);
+  width: 127px;
+  height: 23px;
+  display: block;
+}
+
