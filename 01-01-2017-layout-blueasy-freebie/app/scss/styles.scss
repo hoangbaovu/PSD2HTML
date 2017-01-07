@@ -150,3 +150,41 @@ section .title::after {
   font-size: 28px;
   line-height: 1.8;
 }
+
+#who {
+  background: url(../images/who.jpg) no-repeat top center;
+  background-size: 100%;
+  color: #fff;
+  height: 506px;
+  padding: 80px 0;
+}
+
+#who p {
+  font-size: 14px;
+  line-height: 24px;
+  padding-right: 20px;
+  margin-bottom: 30px;
+}
+
+#testimonials {
+  color: #515f67;
+
+  .title {
+    color: #515f67;
+
+    &::after {
+      background: #515f67;
+    }
+  }
+
+  p {
+    font-size: 28px;
+    line-height: 50px;
+  }
+
+  span {
+    color: #4bcaff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
