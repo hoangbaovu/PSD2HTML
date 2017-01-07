@@ -128,7 +128,7 @@ section .title::after {
   background: url(../images/who.jpg) no-repeat top center;
   background-size: 100%;
   color: #fff;
-  height: 506px;
+  height: 325px;
   padding: 80px 0; }
 
 #who p {
@@ -138,7 +138,8 @@ section .title::after {
   margin-bottom: 30px; }
 
 #testimonials {
-  color: #515f67; }
+  color: #515f67;
+  padding: 80px 0; }
   #testimonials .title {
     color: #515f67; }
     #testimonials .title::after {
