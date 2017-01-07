@@ -5,32 +5,27 @@
   top: 0;
   left: 0;
   width: 100%; }
-
-#header .pull-left {
-  margin-top: 45px; }
-
-#header .pull-right {
-  margin-top: 67px; }
+  #header .pull-left {
+    margin-top: 45px; }
+  #header .pull-right {
+    margin-top: 67px; }
+  #header nav a {
+    border: 2px solid transparent;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px 11px; }
+    #header nav a:hover {
+      border: 2px solid #4bcaff;
+      color: #4bcaff; }
+  #header nav .active a {
+    padding: 18px 11px;
+    border: 2px solid #4bcaff;
+    color: #4bcaff; }
 
 .transition, #header nav a, #features .btn {
   transition: all .3s; }
-
-#header nav a {
-  border: 2px solid transparent;
-  color: #fff;
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 18px 11px; }
-
-#header nav a:hover {
-  border: 2px solid #4bcaff;
-  color: #4bcaff; }
-
-#header nav .active a {
-  padding: 18px 11px;
-  border: 2px solid #4bcaff;
-  color: #4bcaff; }
 
 .logo {
   background: url(../images/logo.png);
@@ -43,15 +38,14 @@ section .title {
   font-size: 30px;
   position: relative;
   margin-bottom: 40px; }
-
-section .title::after {
-  background: #fff;
-  content: '';
-  display: block;
-  height: 2px;
-  position: absolute;
-  bottom: -10px;
-  width: 45px; }
+  section .title::after {
+    background: #fff;
+    content: '';
+    display: block;
+    height: 2px;
+    position: absolute;
+    bottom: -10px;
+    width: 45px; }
 
 #home.banner {
   background: url(../images/banner.png) no-repeat top center;
@@ -60,69 +54,60 @@ section .title::after {
 
 #home .content {
   padding-top: 25%; }
-
-#home .content span {
-  background: rgba(53, 63, 70, 0.8);
-  color: #fff;
-  font-family: "Segoe UI";
-  font-size: 42px;
-  padding: 18px 32px;
-  line-height: 2.5;
-  margin-bottom: 12px; }
+  #home .content span {
+    background: rgba(53, 63, 70, 0.8);
+    color: #fff;
+    font-family: "Segoe UI";
+    font-size: 42px;
+    padding: 18px 32px;
+    line-height: 2.5;
+    margin-bottom: 12px; }
 
 #services {
   background: #4bcaff;
   color: #fff;
   padding: 80px 0; }
-
-#services li {
-  width: calc(100% / 4 - 34px);
-  display: inline-block;
-  padding-right: 20px; }
-
-#services .item h4 {
-  font-size: 24px;
-  font-weight: bold;
-  margin: 20px 0; }
-
-#services .item p {
-  font-size: 12px;
-  line-height: 1.4; }
+  #services li {
+    width: calc(100% / 4 - 34px);
+    display: inline-block;
+    padding-right: 20px; }
+  #services .item h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0; }
+  #services .item p {
+    font-size: 12px;
+    line-height: 1.4; }
 
 #features {
   background: #515f67;
   padding: 80px 0;
   color: #fff;
   overflow: hidden; }
-
-#features p {
-  font-size: 14px;
-  margin-bottom: 32px;
-  padding-right: 60px; }
-
-#features .btn {
-  border: 1px solid #353f46;
-  color: #353f46;
-  font-weight: bold;
-  font-size: 14px;
-  padding: 16px 40px;
-  text-transform: uppercase; }
-
-#features .btn:hover {
-  border: 1px solid #4bcaff;
-  color: #4bcaff; }
-
-#features .video {
-  margin-top: -75px; }
+  #features p {
+    font-size: 14px;
+    margin-bottom: 32px;
+    padding-right: 60px; }
+  #features .btn {
+    border: 1px solid #353f46;
+    color: #353f46;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 16px 40px;
+    text-transform: uppercase; }
+    #features .btn:hover {
+      border: 1px solid #4bcaff;
+      color: #4bcaff; }
+  #features .video {
+    margin-top: -75px; }
 
 #twitter {
   background: #4bcaff;
   color: #fff;
   padding: 80px 0; }
-
-#twitter p {
-  font-size: 28px;
-  line-height: 1.8; }
+  #twitter p {
+    font-size: 28px;
+    line-height: 1.8; }
 
 #who {
   background: url(../images/who.jpg) no-repeat top center;
@@ -130,12 +115,11 @@ section .title::after {
   color: #fff;
   height: 325px;
   padding: 80px 0; }
-
-#who p {
-  font-size: 14px;
-  line-height: 24px;
-  padding-right: 20px;
-  margin-bottom: 30px; }
+  #who p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-right: 20px;
+    margin-bottom: 30px; }
 
 #testimonials {
   color: #515f67;
