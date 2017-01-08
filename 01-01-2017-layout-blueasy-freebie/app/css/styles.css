@@ -194,9 +194,10 @@ section .title {
     text-transform: uppercase; }
   #contact .form-group input, #contact .form-group textarea {
     background: transparent;
+    color: #fff;
     outline: 0;
     border: 1px solid #fff;
-    padding: 10px 5px;
+    padding: 10px 5px 10px 15px;
     margin-bottom: 20px;
     width: 470px; }
   #contact .form-group textarea {
