@@ -79,6 +79,41 @@ section .title {
     font-size: 12px;
     line-height: 1.4; }
 
+#portfolio {
+  padding: 80px 0; }
+  #portfolio .title {
+    color: #515f67; }
+    #portfolio .title::after {
+      background: #515f67; }
+    #portfolio .title span {
+      font-size: 14px; }
+      #portfolio .title span li {
+        padding: 10px 20px;
+        border: 2px solid transparent; }
+        #portfolio .title span li.active {
+          border: 2px solid #4bcaff; }
+        #portfolio .title span li a {
+          color: #4bcaff;
+          text-transform: uppercase; }
+  #portfolio li {
+    margin-right: 19px;
+    margin-bottom: 19px; }
+  #portfolio li.item:hover {
+    opacity: 0.8; }
+  #portfolio .item {
+    position: relative; }
+    #portfolio .item .hover {
+      display: none; }
+    #portfolio .item:hover .hover {
+      display: block; }
+  #portfolio .hover {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
 #features {
   background: #515f67;
   padding: 80px 0;

@@ -121,6 +121,68 @@ section {
 		}
 	}
 }
+
+#portfolio {
+	padding: 80px 0;
+
+  .title {
+    color: #515f67;
+
+    &::after {
+      background: #515f67;
+    }
+
+		span {
+			font-size: 14px;
+			
+			li {
+				padding: 10px 20px;
+				border: 2px solid transparent;
+				
+				&.active {
+					border: 2px solid #4bcaff;
+				}
+				a {
+					color: #4bcaff;
+					text-transform: uppercase;
+				}
+			}
+		}
+  }
+
+	li {
+		margin-right: 19px;
+		margin-bottom: 19px;
+	}
+
+	li.item:hover {
+		opacity: 0.8;
+	}
+
+	.item {
+		position: relative;
+
+		.hover {
+			display: none;
+		}
+
+		&:hover {
+
+			.hover {
+				display: block;
+			}
+		}
+	}
+
+	.hover {
+		background: rgba(0,0,0,0.7);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
 #features {
 
 	background: #515f67;
