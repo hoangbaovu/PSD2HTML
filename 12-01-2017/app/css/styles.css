@@ -528,3 +528,31 @@ main {
   border-top-right-radius: 10px;
   padding: 26px 0px 26px 94px;
   color: #fa5a5c; }
+
+.huychuong .pd {
+  overflow: hidden; }
+
+.huychuong .col-1 {
+  width: 210px;
+  float: left; }
+
+.huychuong .col-2 {
+  padding-left: 230px; }
+  .huychuong .col-2 p {
+    letter-spacing: 0.24em;
+    color: #666; }
+
+.huychuong .btn {
+  background: url(../images/button/bg.png);
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  padding: 8px 0px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  position: relative; }
+  .huychuong .btn img {
+    position: absolute;
+    left: 128px;
+    top: 8px; }
