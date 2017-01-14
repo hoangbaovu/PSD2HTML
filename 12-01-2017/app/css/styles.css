@@ -443,10 +443,13 @@ a:hover {
   width: 100%;
   float: left; }
 
+.pd {
+  padding: 20px 25px 25px; }
+
 main {
   overflow: hidden; }
 
-.top {
+#top {
   background: #ffb8b8;
   font-size: 14px;
   padding: 10px 0; }
@@ -484,8 +487,7 @@ main {
   .box .content {
     background: #fff;
     border-radius: 5px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-    padding: 20px 25px 25px; }
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); }
     .box .content p {
       font-size: 14px;
       line-height: 24px; }
@@ -508,3 +510,21 @@ main {
   background: url(../images/bg_title_huychuong.jpg);
   font-size: 30px;
   padding: 40px 0 3px 98px; }
+
+.huychuong .box-content {
+  background: #ffc4c4; }
+
+.huychuong .content {
+  position: relative; }
+  .huychuong .content .top {
+    position: absolute;
+    top: 0;
+    left: 10px; }
+
+.huychuong h3.title {
+  background: #fffeca;
+  border-bottom: 1px solid #ffc4c3;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 26px 0px 26px 94px;
+  color: #fa5a5c; }

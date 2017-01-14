@@ -1,8 +1,12 @@
+.pd {
+  padding: 20px 25px 25px;
+}
+
 main {
   overflow: hidden;
 }
 
-.top {
+#top {
   background: #ffb8b8;
   font-size: 14px;
   padding: 10px 0;
@@ -52,7 +56,6 @@ main {
     background: #fff;
     border-radius: 5px;
     box-shadow: 2px 2px 8px rgba(0,0,0,.3);
-    padding: 20px 25px 25px;
     
 
     p {
@@ -88,6 +91,30 @@ main {
       font-size: 30px;
       padding: 40px 0 3px 98px;
     }
+  }
+
+  .box-content {
+    background: #ffc4c4;
+  }
+
+  .content {
+
+    position: relative;
+
+    .top {
+      position: absolute;
+      top: 0;
+      left: 10px;
+    }
+  }
+
+  h3.title {
+    background: #fffeca;
+    border-bottom: 1px solid #ffc4c3;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 26px 0px 26px 94px;
+    color: #fa5a5c;
   }
 
 }
