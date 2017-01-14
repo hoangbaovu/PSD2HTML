@@ -95,6 +95,12 @@ main {
 
   .box-content {
     background: #ffc4c4;
+    border-radius: 0;
+
+    &:last-child {
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
   }
 
   .content {

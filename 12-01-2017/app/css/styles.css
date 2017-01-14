@@ -512,7 +512,11 @@ main {
   padding: 40px 0 3px 98px; }
 
 .huychuong .box-content {
-  background: #ffc4c4; }
+  background: #ffc4c4;
+  border-radius: 0; }
+  .huychuong .box-content:last-child {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
 
 .huychuong .content {
   position: relative; }
