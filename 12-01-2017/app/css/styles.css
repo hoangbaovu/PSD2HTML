@@ -489,3 +489,6 @@ main {
     .box .content p {
       font-size: 14px;
       line-height: 24px; }
+
+.huychuong-title h2 {
+  background: url(../images/bg_title_huychuong.jpg); }
