@@ -414,7 +414,7 @@ a:hover {
   text-decoration: underline; }
 
 .container {
-  width: 1171px;
+  width: 960px;
   margin: 0 auto; }
 
 .pull-left {
@@ -442,3 +442,50 @@ a:hover {
 .col-12 {
   width: 100%;
   float: left; }
+
+main {
+  overflow: hidden; }
+
+.top {
+  background: #ffb8b8;
+  font-size: 14px;
+  padding: 10px 0; }
+
+.intro {
+  background: url(../images/slider_bg.jpg);
+  height: 300px;
+  margin-bottom: 20px; }
+
+#primary {
+  width: 680px;
+  float: left; }
+
+.box {
+  margin-bottom: 30px; }
+  .box-title {
+    position: relative; }
+    .box-title img {
+      position: absolute;
+      top: -38px;
+      left: 10px; }
+    .box-title h2 {
+      background: url(../images/bg_title_1.jpg);
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      color: #fff;
+      font-size: 24px;
+      padding: 12px 0 12px 156px;
+      margin-top: 36px; }
+  .box .box-content {
+    background: #efefef;
+    padding: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
+  .box .content {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px 25px 25px; }
+    .box .content p {
+      font-size: 14px;
+      line-height: 24px; }
