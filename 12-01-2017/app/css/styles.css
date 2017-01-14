@@ -530,7 +530,8 @@ main {
   color: #fa5a5c; }
 
 .huychuong .description {
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 20px; }
 
 .huychuong .col-1 {
   width: 210px;
