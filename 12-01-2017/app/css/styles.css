@@ -595,6 +595,7 @@ aside {
     border: 3px solid #fff;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
     margin-top: 36px;
+    margin-bottom: 16px;
     padding: 2px; }
   aside .widget-title {
     position: relative; }
