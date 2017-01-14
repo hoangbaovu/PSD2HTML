@@ -50,6 +50,10 @@ main {
     padding: 15px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+
+    p {
+      color: #666;
+    }
   }
 
   .content {
@@ -190,6 +194,48 @@ main {
       }
     }
   }
+}
+
+.end {
+
+  .box-content {
+    border-radius: 10px;
+  }
+}
+
+aside {
+  margin-left: 30px;
+  width: 250px;
+  float: left;
+
+  .widget {
+  background: #f6f6f6;
+  border-radius: 10px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+  margin-top: 36px;
+  padding: 2px;
+  }
+
+  .widget-title {
+    position: relative;
+  }
+
+  .icon {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+  }
+
+  h3.title {
+    background: url(../images/aside/bg_title.jpg);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    padding: 13px 0 13px 60px;
+  }
+
 }
 
 #footer {
