@@ -490,5 +490,21 @@ main {
       font-size: 14px;
       line-height: 24px; }
 
-.huychuong-title h2 {
-  background: url(../images/bg_title_huychuong.jpg); }
+.huychuong .box-title img {
+  top: -24px; }
+
+.huychuong .box-title .date {
+  background: url(../images/huychuong_button.png) no-repeat;
+  height: 28px;
+  padding: 3px 20px 0;
+  position: absolute;
+  top: 8px;
+  left: 100px;
+  width: 212px; }
+  .huychuong .box-title .date span {
+    color: #fff; }
+
+.huychuong .box-title h2 {
+  background: url(../images/bg_title_huychuong.jpg);
+  font-size: 30px;
+  padding: 40px 0 3px 98px; }
