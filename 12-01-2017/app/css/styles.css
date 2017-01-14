@@ -616,8 +616,7 @@ aside {
     list-style-position: inside; }
   aside li {
     border-bottom: 1px solid #e4e4e4;
-    padding-left: 10px;
-    padding-bottom: 10px; }
+    padding: 10px 0 10px 10px; }
     aside li a {
       color: #2995e1;
       font-size: 14px; }
