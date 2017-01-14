@@ -556,3 +556,21 @@ main {
     position: absolute;
     left: 128px;
     top: 8px; }
+
+.huychuong .info table {
+  width: 100%; }
+
+.huychuong .info td {
+  border: 1px solid #cdcdcd;
+  color: #333;
+  padding: 10px 0; }
+  .huychuong .info td.color {
+    color: #ff3d3f; }
+  .huychuong .info td:first-child {
+    background: #ececec;
+    font: bold 14px;
+    text-align: center;
+    width: 34%; }
+  .huychuong .info td:last-child {
+    font-size: 13px;
+    padding-left: 20px; }
