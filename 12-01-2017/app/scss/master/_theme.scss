@@ -216,6 +216,12 @@ aside {
     margin-top: 36px;
     margin-bottom: 16px;
     padding: 2px;
+
+    &:nth-child(2) {
+      h3.title {
+        padding: 6px 21px 4px 50px;
+      }
+    }
   }
 
   .widget-title {
@@ -234,7 +240,7 @@ aside {
     border-top-right-radius: 10px;
     color: #fff;
     font-size: 16px;
-    padding: 13px 0 13px 60px;
+    padding: 13px 0 13px 50px;
   }
 
   .pd {

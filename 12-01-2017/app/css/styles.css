@@ -597,6 +597,8 @@ aside {
     margin-top: 36px;
     margin-bottom: 16px;
     padding: 2px; }
+    aside .widget:nth-child(2) h3.title {
+      padding: 6px 21px 4px 50px; }
   aside .widget-title {
     position: relative; }
   aside .icon {
@@ -609,7 +611,7 @@ aside {
     border-top-right-radius: 10px;
     color: #fff;
     font-size: 16px;
-    padding: 13px 0 13px 60px; }
+    padding: 13px 0 13px 50px; }
   aside .pd {
     padding: 20px 1px 25px; }
   aside ul {
