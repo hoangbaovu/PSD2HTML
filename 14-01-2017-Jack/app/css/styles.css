@@ -471,6 +471,9 @@ a:hover {
     #header .menu a:hover {
       color: #fff; }
 
+#header .social a {
+  padding: 0; }
+
 .social {
   margin-top: -5px; }
 
