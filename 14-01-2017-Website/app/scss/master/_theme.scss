@@ -232,3 +232,84 @@
     }
   }
 }
+
+// Contact
+
+%lr {
+  text-align: left;
+
+  p {
+    color: #5a5a5a;
+    font-size: 16px;
+  }
+}
+
+#contact {
+  @extend %section;
+
+  .left {
+    @extend %lr;
+    width: 320px;
+    margin-right: 40px;
+  }
+
+  .right {
+    @extend %lr;
+    width: 540px;
+
+  }
+
+  .form-control {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  textarea {
+    background: #f2f2f2;
+    border: 1px solid #d9d9d9;
+    padding: 20px;
+
+    &::-moz-placeholder {
+      font-style: italic;
+      color: #5f5f5f;
+    }
+
+    &::-webkit-input-placeholder{
+      font-style: italic;
+      color: #5f5f5f;
+    }
+  }
+
+  input {
+    @extend textarea;
+  }
+
+  .btn {
+    @extend textarea;
+    background: #6995a9;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    padding: 20px 92px;
+    margin-right: -43px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+    @extend %transition;
+
+    &::after {
+      background: url(../images/index/icon-contact.png);
+      content: "";
+      position: absolute;
+      top: 21px;
+      left: 25%;
+      width: 16px;
+      height: 14px;
+    }
+
+    &:hover {
+      background: #3E7CF6;
+    }
+  }
+}

@@ -216,7 +216,9 @@ button,
 input,
 optgroup,
 select,
-textarea {
+textarea,
+#contact input,
+#contact .btn {
   font-family: sans-serif;
   /* 1 */
   font-size: 100%;
@@ -316,7 +318,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE.
  */
-textarea {
+textarea, #contact input, #contact .btn {
   overflow: auto; }
 
 /**
@@ -407,7 +409,7 @@ template {
   padding: 0;
   outline: 0; }
 
-a, img {
+a, img, #contact .btn {
   transition: all .3s; }
 
 a {
@@ -432,7 +434,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .jumbotron, #features, #team {
+.text-center, .jumbotron, #features, #team, #contact {
   text-align: center; }
 
 .clearfix {
@@ -492,16 +494,16 @@ a:hover {
     .jumbotron #jump:hover {
       opacity: .8; }
 
-#features, #team {
+#features, #team, #contact {
   padding: 50px 0 70px;
   overflow: hidden; }
-  #features h3, #team h3 {
+  #features h3, #team h3, #contact h3 {
     text-transform: uppercase;
     font-size: 30px;
     position: relative;
     padding-bottom: 20px;
     margin-bottom: 40px; }
-    #features h3::after, #team h3::after, #features .features-work h3.item-box::before, .features-work #features h3.item-box::before, #team .features-work h3.item-box::before, .features-work #team h3.item-box::before {
+    #features h3::after, #team h3::after, #contact h3::after, #features .features-work h3.item-box::before, .features-work #features h3.item-box::before, #team .features-work h3.item-box::before, .features-work #team h3.item-box::before, #contact .features-work h3.item-box::before, .features-work #contact h3.item-box::before {
       content: "";
       background: #303030;
       height: 3px;
@@ -509,7 +511,7 @@ a:hover {
       position: absolute;
       bottom: 0;
       left: 36%; }
-  #features p, #team p {
+  #features p, #team p, #contact p {
     color: #5a5a5a;
     font-size: 16px;
     margin-bottom: 20px;
@@ -588,3 +590,53 @@ a:hover {
     background: url(../images/index/team/icon-skype.png);
     width: 18px;
     height: 18px; }
+
+#contact .left, #contact .right {
+  text-align: left; }
+  #contact .left p, #contact .right p {
+    color: #5a5a5a;
+    font-size: 16px; }
+
+#contact .left {
+  width: 320px;
+  margin-right: 40px; }
+
+#contact .right {
+  width: 540px; }
+
+#contact .form-control {
+  width: 100%;
+  margin-bottom: 20px; }
+
+#contact textarea, #contact input, #contact .btn {
+  background: #f2f2f2;
+  border: 1px solid #d9d9d9;
+  padding: 20px; }
+  #contact textarea::-moz-placeholder, #contact input::-moz-placeholder, #contact .btn::-moz-placeholder {
+    font-style: italic;
+    color: #5f5f5f; }
+  #contact textarea::-webkit-input-placeholder, #contact input::-webkit-input-placeholder, #contact .btn::-webkit-input-placeholder {
+    font-style: italic;
+    color: #5f5f5f; }
+
+#contact .btn {
+  background: #6995a9;
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  padding: 20px 92px;
+  margin-right: -43px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.4); }
+  #contact .btn::after, #contact .features-work .btn.item-box::before, .features-work #contact .btn.item-box::before {
+    background: url(../images/index/icon-contact.png);
+    content: "";
+    position: absolute;
+    top: 21px;
+    left: 25%;
+    width: 16px;
+    height: 14px; }
+  #contact .btn:hover {
+    background: #3E7CF6; }
