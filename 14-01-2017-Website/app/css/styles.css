@@ -458,6 +458,8 @@ a:hover {
     padding: 40px 50px; }
     #header .menu li {
       margin: 0 50px; }
+    #header .menu .active a {
+      color: #303030; }
     #header .menu a {
       font-size: 12px;
       font-weight: bold;
