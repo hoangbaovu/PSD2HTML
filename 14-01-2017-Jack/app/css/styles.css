@@ -432,7 +432,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .jumbotron h2, #features, #projects {
+.text-center, .jumbotron h2, #features, #projects, #testimonials {
   text-align: center; }
 
 .clearfix {
@@ -568,18 +568,34 @@ a:hover {
     font-size: 13px;
     line-height: 24px; }
 
-#projects {
+#projects, #testimonials {
   padding: 55px 0; }
-  #projects .flex {
+  #projects .flex, #testimonials .flex {
     display: flex; }
-  #projects .col {
+  #projects .col, #testimonials .col {
     width: 100%; }
-  #projects h3 {
+  #projects h3, #testimonials h3 {
     color: #848b90;
     font-size: 24px; }
-  #projects p {
+  #projects p, #testimonials p {
     color: #a5adb2;
     font-size: 16px;
     margin: 20px 0 60px; }
-  #projects a:hover img {
+  #projects a:hover img, #testimonials a:hover img {
     opacity: .8; }
+
+#testimonials .col {
+  padding: 0 50px; }
+  #testimonials .col:first-child {
+    padding: 0; }
+  #testimonials .col:last-child {
+    padding: 0; }
+  #testimonials .col h4 {
+    font-size: 20px;
+    color: #43b5fd;
+    margin-top: 20px; }
+  #testimonials .col footer {
+    margin-top: 34px; }
+    #testimonials .col footer p {
+      font-size: 13px;
+      margin: 0 0 10px; }

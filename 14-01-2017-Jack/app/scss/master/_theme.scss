@@ -235,5 +235,32 @@
 // Testimonials
 
 #testimonials {
-  
+  @extend #projects;
+
+  .col {
+    padding: 0 50px;
+
+    &:first-child {
+      padding: 0;
+    }
+
+    &:last-child {
+      padding: 0;
+    }
+
+    h4 {
+      font-size: 20px;
+      color: #43b5fd;
+      margin-top: 20px;
+    }
+
+    footer {
+      margin-top: 34px;
+
+      p {
+        font-size: 13px;
+        margin: 0 0 10px;
+      }
+    }
+  }
 }
