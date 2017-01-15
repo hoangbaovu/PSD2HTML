@@ -407,6 +407,9 @@ template {
   padding: 0;
   outline: 0; }
 
+body {
+  font-family: 'Open Sans', sans-serif; }
+
 a {
   text-decoration: none; }
 
@@ -414,7 +417,7 @@ a:hover {
   text-decoration: underline; }
 
 .container {
-  width: 1171px;
+  width: 1000px;
   margin: 0 auto; }
 
 .pull-left {
@@ -429,7 +432,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center {
+.text-center, .jumbotron h2 {
   text-align: center; }
 
 .clearfix {
@@ -445,7 +448,8 @@ a:hover {
 
 #header .navbar {
   background: #262933;
-  min-height: 106px; }
+  min-height: 106px;
+  overflow: hidden; }
 
 #header .logo {
   padding: 40px 0; }
@@ -482,3 +486,11 @@ a:hover {
     background: url(../images/social/google.png) no-repeat; }
   #header .social a.twitter {
     background: url(../images/social/twitter.png) no-repeat; }
+
+.jumbotron {
+  background: url(../images/header_bg.jpg) top center;
+  background-size: 100% 100%; }
+  .jumbotron h2 {
+    color: #fff;
+    font-size: 30px;
+    padding: 30px 0; }
