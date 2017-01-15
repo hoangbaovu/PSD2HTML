@@ -492,7 +492,7 @@ a:hover {
     position: relative;
     padding-bottom: 20px;
     margin-bottom: 40px; }
-    #features h3::after, #team h3::after, #features .work h3.item-box::before, .work #features h3.item-box::before, #team .work h3.item-box::before, .work #team h3.item-box::before {
+    #features h3::after, #team h3::after, #features .features-work h3.item-box::before, .features-work #features h3.item-box::before, #team .features-work h3.item-box::before, .features-work #team h3.item-box::before {
       content: "";
       background: #303030;
       height: 3px;
@@ -506,19 +506,14 @@ a:hover {
     margin-bottom: 20px;
     line-height: 25px; }
 
-.list-item .item-box {
-  float: left;
-  display: block;
-  margin: 19px;
-  position: relative; }
-
-.work .item-box {
+.features-work .item-box {
   float: left;
   display: block;
   width: 262px;
   height: 170px;
-  margin: 19px; }
-  .work .item-box::after, .work .item-box::before {
+  margin: 19px;
+  position: relative; }
+  .features-work .item-box::after, .features-work .item-box::before {
     content: "";
     height: 100%;
     width: 100%;
@@ -528,9 +523,9 @@ a:hover {
     left: 0;
     opacity: 0;
     transition: all .3s; }
-  .work .item-box:hover::after, .work .item-box:hover::before {
+  .features-work .item-box:hover::after, .features-work .item-box:hover::before {
     opacity: 1; }
-  .work .item-box::before {
+  .features-work .item-box::before {
     content: "+";
     font-size: 3em;
     color: #fff;
@@ -542,3 +537,43 @@ a:hover {
   background: #f3f3f3;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5; }
+  #team .list-item h4 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  #team .list-item p {
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 10px; }
+  #team .item {
+    float: left;
+    background: #fff;
+    width: 211px;
+    height: 211px;
+    box-shadow: 2px 2px 4px -1px rgba(0, 0, 0, 0.4);
+    margin-right: 18px; }
+    #team .item:last-child {
+      margin-right: 0; }
+  #team .item-box img {
+    margin: 20px 0 10px; }
+  #team .social a {
+    display: inline-block;
+    margin: 0 10px; }
+    #team .social a:hover {
+      opacity: .8; }
+  #team .social .twitter {
+    background: url(../images/index/team/icon-twitter.png);
+    width: 17px;
+    height: 12px; }
+  #team .social .linkedin {
+    background: url(../images/index/team/icon-linkedin.png);
+    width: 15px;
+    height: 14px; }
+  #team .social .dribbbel {
+    background: url(../images/index/team/icon-dribbbel.png);
+    width: 14px;
+    height: 14px; }
+  #team .social .skype {
+    background: url(../images/index/team/icon-skype.png);
+    width: 18px;
+    height: 18px; }

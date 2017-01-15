@@ -91,31 +91,24 @@
   }
 }
 
+// List-item
+
 // Features
 
 #features {
   @extend %section;
 }
 
-// List-item
+// Features Work
 
-.list-item {
-
-  .item-box {
-    float: left;
-    display: block;
-    margin: 19px;
-    position: relative;
-  }
-}
-
-.work {
+.features-work {
   .item-box {
     float: left;
     display: block;
     width: 262px;
     height: 170px;
     margin: 19px;
+    position: relative;
 
     &::after {
       content: "";
@@ -153,4 +146,73 @@
   background: #f3f3f3;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
+
+  .list-item {
+    
+    h4 {
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 12px;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+  }
+
+  .item {
+    float: left;
+    background: #fff;
+    width: 211px;
+    height: 211px;
+    box-shadow: 2px 2px 4px -1px rgba(0, 0, 0, 0.4);
+    margin-right: 18px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .item-box {
+    
+    img {
+      margin: 20px 0 10px;
+    }
+  }
+
+  .social {
+    a {
+      display: inline-block;
+      margin: 0 10px;
+
+      &:hover {
+        opacity: .8;
+      }
+    }
+    .twitter {
+      background: url(../images/index/team/icon-twitter.png);
+      width: 17px;
+      height: 12px;
+    }
+    
+    .linkedin {
+      background: url(../images/index/team/icon-linkedin.png);
+      width: 15px;
+      height: 14px;
+    }
+
+    .dribbbel {
+      background: url(../images/index/team/icon-dribbbel.png);
+      width: 14px;
+      height: 14px;
+    }
+
+    .skype {
+      background: url(../images/index/team/icon-skype.png);
+      width: 18px;
+      height: 18px;
+    }
+  }
 }
