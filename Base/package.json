@@ -1,5 +1,5 @@
 {
-  "name": "01-01-2017-layout-blueasy-freebie",
+  "name": "14-01-2017-Web",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/hoangbaovu/baitapweb.git"
+    "url": "git+ssh://git@github.com/hoangbaovu/PSD2HTML.git"
   },
   "author": "hoangbaovu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hoangbaovu/baitapweb/issues"
+    "url": "https://github.com/hoangbaovu/PSD2HTML/issues"
   },
-  "homepage": "https://github.com/hoangbaovu/baitapweb#readme",
+  "homepage": "https://github.com/hoangbaovu/PSD2HTML#readme",
   "devDependencies": {
     "browser-sync": "^2.18.5",
     "del": "^2.2.2",
@@ -30,3 +30,4 @@
     "run-sequence": "^1.2.2"
   }
 }
+
