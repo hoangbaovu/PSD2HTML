@@ -501,11 +501,12 @@ a:hover {
   padding: 7px;
   box-shadow: 2px 0px 7px 1px rgba(0, 0, 0, 0.5); }
   .slider-content {
-    background: url(../images/slider-content-bg.jpg) no-repeat #262933;
+    background: url(../images/slider-content-bg.jpg) no-repeat #2C3544;
+    height: 337px;
     overflow: hidden; }
   .slider-left {
     padding: 55px 50px;
-    width: 480px; }
+    width: 390px; }
   .slider-title {
     font-size: 28px;
     margin-bottom: 20px; }
@@ -516,5 +517,14 @@ a:hover {
   .slider p {
     color: #c8c8c8;
     font-size: 13px;
-    margin-top: 20px;
+    margin: 20px 0;
     line-height: 24px; }
+  .slider .more-info {
+    margin-top: 36px; }
+  .slider .btn {
+    background: #43b5fd;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 12px; }
