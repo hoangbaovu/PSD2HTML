@@ -491,7 +491,7 @@ a:hover {
     position: relative;
     padding-bottom: 20px;
     margin-bottom: 40px; }
-    #features h3::after, #features .list-item h3.item-box:hover::before, .list-item #features h3.item-box:hover::before {
+    #features h3::after, #features .list-item h3.item-box::before, .list-item #features h3.item-box::before {
       content: "";
       background: #303030;
       height: 3px;
@@ -502,6 +502,7 @@ a:hover {
   #features p {
     color: #5a5a5a;
     font-size: 16px;
+    margin-bottom: 20px;
     line-height: 25px; }
 
 .list-item .item-box {
@@ -511,15 +512,19 @@ a:hover {
   height: 170px;
   margin: 19px;
   position: relative; }
-  .list-item .item-box:hover::after, .list-item .item-box:hover::before {
+  .list-item .item-box::after, .list-item .item-box::before {
     content: "";
     height: 100%;
     width: 100%;
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
     top: 0;
-    left: 0; }
-  .list-item .item-box:hover::before {
+    left: 0;
+    opacity: 0;
+    transition: all .3s; }
+  .list-item .item-box:hover::after, .list-item .item-box:hover::before {
+    opacity: 1; }
+  .list-item .item-box::before {
     content: "+";
     font-size: 3em;
     color: #fff;
