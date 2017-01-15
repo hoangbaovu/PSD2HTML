@@ -494,3 +494,27 @@ a:hover {
     color: #fff;
     font-size: 30px;
     padding: 30px 0; }
+
+.slider {
+  background: #fff;
+  color: #fff;
+  padding: 7px;
+  box-shadow: 2px 0px 7px 1px rgba(0, 0, 0, 0.5); }
+  .slider-content {
+    background: url(../images/slider-content-bg.jpg) no-repeat #262933;
+    overflow: hidden; }
+  .slider-left {
+    padding: 55px 50px;
+    width: 480px; }
+  .slider-title {
+    font-size: 28px;
+    margin-bottom: 20px; }
+  .slider-link {
+    color: #43b5fd;
+    font-size: 16px;
+    font-weight: 600; }
+  .slider p {
+    color: #c8c8c8;
+    font-size: 13px;
+    margin-top: 20px;
+    line-height: 24px; }

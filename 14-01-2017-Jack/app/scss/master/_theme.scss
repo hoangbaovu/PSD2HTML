@@ -79,3 +79,40 @@
     @extend .text-center;
   }
 }
+
+.slider {
+  background: #fff;
+  color: #fff;
+  padding: 7px;
+  box-shadow: 2px 0px 7px 1px rgba(0, 0, 0, 0.5);
+
+  &-content {
+    background: url(../images/slider-content-bg.jpg) no-repeat #262933;
+    overflow: hidden;
+  }
+
+  &-left {
+    padding: 55px 50px;
+    width: 480px;
+  }
+
+  &-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  &-link {
+    color: #43b5fd;
+    font-size: 16px;
+    font-weight: 600;
+    
+  }
+
+  p {
+    
+    color: #c8c8c8;
+    font-size: 13px;
+    margin-top: 20px;
+    line-height: 24px;
+  }
+}
