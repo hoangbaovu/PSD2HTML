@@ -536,3 +536,15 @@ a:hover {
     border: 2px solid #6b7a86; }
   .slider a:hover img {
     opacity: .8; }
+
+.news .pull-left {
+  color: #848b90;
+  font-size: 24px;
+  font-weight: 600; }
+
+.news .pull-right {
+  font-size: 15px;
+  color: #a5adb2;
+  padding-top: 8px; }
+  .news .pull-right span {
+    color: #43b5fd; }

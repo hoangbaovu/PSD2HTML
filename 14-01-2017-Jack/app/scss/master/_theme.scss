@@ -144,3 +144,24 @@
     }
   }
 }
+
+// .News
+
+.news {
+
+  .pull-left {
+    color: #848b90;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .pull-right {
+    font-size: 15px;
+    color: #a5adb2;
+    padding-top: 8px;
+
+    span {
+      color: #43b5fd;
+    }
+  }
+}
