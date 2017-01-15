@@ -26,3 +26,22 @@
     }
   }
 }
+
+.jumbotron {
+  background: url(../images/index/jumbotron.jpg) no-repeat top center;
+  background-size: 100% 100%;
+  padding: 175px 0 206px;
+  @extend .text-center;
+  color: #303030;
+
+  h2 {
+    font-size: 40px;
+    margin-bottom: 33px;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: #5a5a5a;
+    font-style: italic;
+  }
+}

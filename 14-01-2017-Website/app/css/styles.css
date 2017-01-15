@@ -429,7 +429,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center {
+.text-center, .jumbotron {
   text-align: center; }
 
 .clearfix {
@@ -460,3 +460,16 @@ a:hover {
       font-weight: bold;
       color: #a7a7a7;
       text-transform: uppercase; }
+
+.jumbotron {
+  background: url(../images/index/jumbotron.jpg) no-repeat top center;
+  background-size: 100% 100%;
+  padding: 175px 0 206px;
+  color: #303030; }
+  .jumbotron h2 {
+    font-size: 40px;
+    margin-bottom: 33px;
+    text-transform: uppercase; }
+  .jumbotron p {
+    color: #5a5a5a;
+    font-style: italic; }
