@@ -104,10 +104,18 @@
   .item-box {
     float: left;
     display: block;
+    margin: 19px;
+    position: relative;
+  }
+}
+
+.work {
+  .item-box {
+    float: left;
+    display: block;
     width: 262px;
     height: 170px;
     margin: 19px;
-    position: relative;
 
     &::after {
       content: "";
@@ -136,4 +144,13 @@
     }
 
   }
+}
+
+// Team
+
+#team {
+  @extend %section;
+  background: #f3f3f3;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
 }
