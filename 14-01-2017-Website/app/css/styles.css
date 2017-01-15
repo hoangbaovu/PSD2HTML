@@ -485,6 +485,8 @@ a:hover {
     position: absolute;
     bottom: 53px;
     left: 47%; }
+    .jumbotron #jump:hover {
+      opacity: .8; }
 
 #features, #team {
   padding: 50px 0 70px;

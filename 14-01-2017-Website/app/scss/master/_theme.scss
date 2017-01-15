@@ -56,6 +56,10 @@
     position: absolute;
     bottom: 53px;
     left: 47%;
+
+    &:hover {
+      opacity: .8;
+    }
   }
 }
 
