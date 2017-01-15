@@ -179,6 +179,10 @@
     
     img {
       margin: 20px 0 10px;
+
+      &:hover {
+        opacity: .8;
+      }
     }
   }
 

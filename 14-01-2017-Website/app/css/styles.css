@@ -556,6 +556,8 @@ a:hover {
       margin-right: 0; }
   #team .item-box img {
     margin: 20px 0 10px; }
+    #team .item-box img:hover {
+      opacity: .8; }
   #team .social a {
     display: inline-block;
     margin: 0 10px; }
