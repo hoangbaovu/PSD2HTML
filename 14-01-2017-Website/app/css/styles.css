@@ -454,6 +454,8 @@ a:hover {
     min-height: 102px; }
   #header .logo {
     padding: 10px 0; }
+    #header .logo:hover {
+      opacity: .8; }
   #header .menu {
     padding: 40px 50px; }
     #header .menu li {

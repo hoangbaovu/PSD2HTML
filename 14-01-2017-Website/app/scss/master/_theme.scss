@@ -9,6 +9,10 @@
 
   .logo {
     padding: 10px 0;
+
+    &:hover {
+      opacity: .8;
+    }
   }
 
   .menu {
