@@ -466,3 +466,19 @@ a:hover {
     transition: all .3s; }
     #header .menu a:hover {
       color: #fff; }
+
+#header .social {
+  margin-top: -5px; }
+
+#header .social a {
+  display: block;
+  width: 28px;
+  height: 29px;
+  padding: 0;
+  margin: 0 5px; }
+  #header .social a.facebook {
+    background: url(../images/social/fb.png) no-repeat; }
+  #header .social a.google {
+    background: url(../images/social/google.png) no-repeat; }
+  #header .social a.twitter {
+    background: url(../images/social/twitter.png) no-repeat; }

@@ -39,4 +39,27 @@
       }
     }
   }
+
+  .social {
+    margin-top: -5px;
+  }
+
+  .social a {
+
+    display: block;
+    width: 28px;
+    height: 29px;
+    padding: 0;
+    margin: 0 5px;
+
+    &.facebook {
+      background: url(../images/social/fb.png) no-repeat;
+    }
+    &.google {
+      background: url(../images/social/google.png) no-repeat;
+    }
+    &.twitter {
+      background: url(../images/social/twitter.png) no-repeat;
+    }
+  }
 }
