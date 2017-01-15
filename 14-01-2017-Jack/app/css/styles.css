@@ -489,7 +489,8 @@ a:hover {
 
 .jumbotron {
   background: url(../images/header_bg.jpg) no-repeat top center;
-  background-size: 100%; }
+  background-size: 100%;
+  padding-bottom: 65px; }
   .jumbotron h2 {
     color: #fff;
     font-size: 30px;
