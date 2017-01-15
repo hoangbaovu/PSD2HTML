@@ -203,6 +203,7 @@
 #projects {
 
   padding: 55px 0;
+  @extend .text-center;
 
   .flex {
     display: flex;
@@ -215,13 +216,12 @@
   h3 {
     color: #848b90;
     font-size: 24px;
-    @extend .text-center;
+    
   }
 
   p {
     color: #a5adb2;
     font-size: 16px;
-    @extend .text-center;
     margin: 20px 0 60px;
   }
 

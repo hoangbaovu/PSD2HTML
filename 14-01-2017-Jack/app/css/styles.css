@@ -432,7 +432,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .jumbotron h2, #features, #projects h3, #projects p {
+.text-center, .jumbotron h2, #features, #projects {
   text-align: center; }
 
 .clearfix {
