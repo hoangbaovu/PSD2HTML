@@ -33,6 +33,7 @@
   padding: 175px 0 206px;
   @extend .text-center;
   color: #303030;
+  position: relative;
 
   h2 {
     font-size: 40px;
@@ -43,5 +44,15 @@
   p {
     color: #5a5a5a;
     font-style: italic;
+  }
+
+  #jump {
+    background: url(../images/index/arrow-bottom.png) no-repeat;
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 53px;
+    left: 47%;
   }
 }

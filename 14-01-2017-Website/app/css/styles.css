@@ -465,7 +465,8 @@ a:hover {
   background: url(../images/index/jumbotron.jpg) no-repeat top center;
   background-size: 100% 100%;
   padding: 175px 0 206px;
-  color: #303030; }
+  color: #303030;
+  position: relative; }
   .jumbotron h2 {
     font-size: 40px;
     margin-bottom: 33px;
@@ -473,3 +474,11 @@ a:hover {
   .jumbotron p {
     color: #5a5a5a;
     font-style: italic; }
+  .jumbotron #jump {
+    background: url(../images/index/arrow-bottom.png) no-repeat;
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 53px;
+    left: 47%; }
