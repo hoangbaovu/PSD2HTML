@@ -533,3 +533,5 @@ a:hover {
   .slider .btn-more-info {
     background: transparent;
     border: 2px solid #6b7a86; }
+  .slider a:hover img {
+    opacity: .8; }
