@@ -640,3 +640,11 @@ a:hover {
     height: 14px; }
   #contact .btn:hover {
     background: #3E7CF6; }
+
+#footer {
+  background: #4f4f4f;
+  overflow: hidden;
+  color: #6e6e6e;
+  padding: 37px 0; }
+  #footer span {
+    color: #949494; }
