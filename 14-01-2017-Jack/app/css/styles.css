@@ -432,7 +432,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .jumbotron h2, #features {
+.text-center, .jumbotron h2, #features, #projects h3, #projects p {
   text-align: center; }
 
 .clearfix {
@@ -567,3 +567,19 @@ a:hover {
   #features p {
     font-size: 13px;
     line-height: 24px; }
+
+#projects {
+  padding: 55px 0; }
+  #projects .flex {
+    display: flex; }
+  #projects .col {
+    width: 100%; }
+  #projects h3 {
+    color: #848b90;
+    font-size: 24px; }
+  #projects p {
+    color: #a5adb2;
+    font-size: 16px;
+    margin: 20px 0 60px; }
+  #projects a:hover img {
+    opacity: .8; }
