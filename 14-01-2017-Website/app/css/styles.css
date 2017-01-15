@@ -429,7 +429,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .jumbotron {
+.text-center, .jumbotron, #features {
   text-align: center; }
 
 .clearfix {
@@ -482,3 +482,24 @@ a:hover {
     position: absolute;
     bottom: 53px;
     left: 47%; }
+
+#features {
+  padding: 50px 0 70px; }
+  #features h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 40px; }
+    #features h3::after {
+      content: "";
+      background: #303030;
+      height: 3px;
+      width: 240px;
+      position: absolute;
+      bottom: 0;
+      left: 40%; }
+  #features p {
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 25px; }

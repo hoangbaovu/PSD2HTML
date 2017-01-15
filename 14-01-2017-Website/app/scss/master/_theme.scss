@@ -27,6 +27,8 @@
   }
 }
 
+// Jumbotron
+
 .jumbotron {
   background: url(../images/index/jumbotron.jpg) no-repeat top center;
   background-size: 100% 100%;
@@ -55,4 +57,40 @@
     bottom: 53px;
     left: 47%;
   }
+}
+
+%section {
+  padding: 50px 0 70px;
+  @extend .text-center;
+
+  h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    
+
+    &::after {
+      content: "";
+      background: #303030;
+      height: 3px;
+      width: 240px;
+      position: absolute;
+      bottom: 0;
+      left: 40%;
+    }
+  }
+
+  p {
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+// Features
+
+#features {
+  @extend %section;
 }
