@@ -432,7 +432,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .jumbotron h2 {
+.text-center, .jumbotron h2, #features {
   text-align: center; }
 
 .clearfix {
@@ -549,3 +549,21 @@ a:hover {
   padding-top: 8px; }
   .news .pull-right span {
     color: #43b5fd; }
+
+#features {
+  background: url(../images/header_bg.jpg) no-repeat top center;
+  background-size: 100% 100%;
+  color: #fff;
+  padding: 80px 0;
+  overflow: hidden; }
+  #features .container {
+    display: flex; }
+  #features .col {
+    width: 100%;
+    padding: 0 15px; }
+  #features h4 {
+    font-size: 20px;
+    margin: 15px 0 30px; }
+  #features p {
+    font-size: 13px;
+    line-height: 24px; }
