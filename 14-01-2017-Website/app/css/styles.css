@@ -442,3 +442,21 @@ a:hover {
 .col-12 {
   width: 100%;
   float: left; }
+
+#header {
+  background: #fff; }
+  #header .navbar {
+    background: #fff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.4);
+    min-height: 102px; }
+  #header .logo {
+    padding: 10px 0; }
+  #header .menu {
+    padding: 40px 50px; }
+    #header .menu li {
+      margin: 0 50px; }
+    #header .menu a {
+      font-size: 12px;
+      font-weight: bold;
+      color: #a7a7a7;
+      text-transform: uppercase; }
