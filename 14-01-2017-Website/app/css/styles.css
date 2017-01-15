@@ -414,7 +414,7 @@ a:hover {
   text-decoration: underline; }
 
 .container {
-  width: 1171px;
+  width: 900px;
   margin: 0 auto; }
 
 .pull-left {
@@ -491,7 +491,7 @@ a:hover {
     position: relative;
     padding-bottom: 20px;
     margin-bottom: 40px; }
-    #features h3::after {
+    #features h3::after, #features .list-item h3.item-box:hover::before, .list-item #features h3.item-box:hover::before {
       content: "";
       background: #303030;
       height: 3px;
@@ -503,3 +503,26 @@ a:hover {
     color: #5a5a5a;
     font-size: 16px;
     line-height: 25px; }
+
+.list-item .item-box {
+  float: left;
+  display: block;
+  width: 262px;
+  height: 170px;
+  margin: 19px;
+  position: relative; }
+  .list-item .item-box:hover::after, .list-item .item-box:hover::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0; }
+  .list-item .item-box:hover::before {
+    content: "+";
+    font-size: 3em;
+    color: #fff;
+    line-height: 3.2em;
+    color: #fff;
+    z-index: 1; }

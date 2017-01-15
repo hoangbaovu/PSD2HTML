@@ -94,3 +94,41 @@
 #features {
   @extend %section;
 }
+
+// List-item
+
+.list-item {
+
+  .item-box {
+    float: left;
+    display: block;
+    width: 262px;
+    height: 170px;
+    margin: 19px;
+    position: relative;
+
+    &:hover {
+      &::after {
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+        top: 0;
+        left: 0;
+      }
+
+      &::before {
+        @extend ::after;
+        content: "+";
+        font-size: 3em;
+        color: #fff;
+        line-height: 3.2em;
+        color: #fff;
+        z-index: 1
+      }
+    }
+
+
+  }
+}
