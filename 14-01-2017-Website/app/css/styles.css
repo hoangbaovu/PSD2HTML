@@ -407,6 +407,9 @@ template {
   padding: 0;
   outline: 0; }
 
+a, img {
+  transition: all .3s; }
+
 a {
   text-decoration: none; }
 

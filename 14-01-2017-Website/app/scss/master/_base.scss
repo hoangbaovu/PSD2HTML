@@ -4,12 +4,21 @@
   outline: 0;
 }
 
+%transition {
+  transition: all .3s;
+}
+
 a {
   text-decoration: none;
+  @extend %transition;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+img {
+  @extend %transition;
 }
 
 .container {
