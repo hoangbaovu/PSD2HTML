@@ -471,20 +471,20 @@ a:hover {
     #header .menu a:hover {
       color: #fff; }
 
-#header .social {
+.social {
   margin-top: -5px; }
 
-#header .social a {
+.social a {
   display: block;
   width: 28px;
   height: 29px;
   padding: 0;
   margin: 0 5px; }
-  #header .social a.facebook {
+  .social a.facebook {
     background: url(../images/social/fb.png) no-repeat; }
-  #header .social a.google {
+  .social a.google {
     background: url(../images/social/google.png) no-repeat; }
-  #header .social a.twitter {
+  .social a.twitter {
     background: url(../images/social/twitter.png) no-repeat; }
 
 .jumbotron {
@@ -599,3 +599,8 @@ a:hover {
     #testimonials .col footer p {
       font-size: 13px;
       margin: 0 0 10px; }
+
+#footer {
+  background: #262933;
+  padding: 42px 0 50px;
+  color: #c9c9c9; }

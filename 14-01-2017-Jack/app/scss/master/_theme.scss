@@ -40,8 +40,9 @@
       }
     }
   }
+}
 
-  .social {
+.social {
     margin-top: -5px;
   }
 
@@ -63,7 +64,6 @@
       background: url(../images/social/twitter.png) no-repeat;
     }
   }
-}
 
 // Jumbotron
 
@@ -263,4 +263,10 @@
       }
     }
   }
+}
+
+#footer {
+  background: #262933;
+  padding: 42px 0 50px;
+  color: #c9c9c9;
 }
