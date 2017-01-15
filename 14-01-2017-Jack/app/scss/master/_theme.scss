@@ -1,0 +1,42 @@
+#header {
+  .navbar {
+    background: #262933;
+    min-height: 106px;
+  }
+
+  .logo {
+    padding: 40px 0;
+    
+    a {
+      color: #fff;
+      font-size: 24px;
+    }
+  }
+
+  .menu {
+
+    padding: 46px 0;
+
+    .active {
+      
+      a {
+        color: #fff;
+      }
+    }
+
+    a {
+      color: #9d9fa5;
+      padding: 0 20px;
+      text-transform: uppercase;
+      font: {
+        size: 12px;
+        weight: bold;
+      }
+      transition: all .3s;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
