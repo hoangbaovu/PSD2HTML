@@ -75,6 +75,7 @@ body {
       height: 30px;
       padding: 25px;
       margin: 0 auto;
+      transition: transform .3s ease;
 
       &.facebook {
         background: url(../images/common/social/facebook.png) no-repeat center center;
@@ -90,6 +91,10 @@ body {
 
       &.share {
         background: url(../images/common/social/share.png) no-repeat center center;
+      }
+
+      &:hover {
+        transform: rotate(-10deg);
       }
     }
   }

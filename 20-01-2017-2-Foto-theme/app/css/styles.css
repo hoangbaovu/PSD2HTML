@@ -493,7 +493,8 @@ body {
       width: 30px;
       height: 30px;
       padding: 25px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      transition: transform .3s ease; }
       .sidebar .social-share a.facebook {
         background: url(../images/common/social/facebook.png) no-repeat center center; }
       .sidebar .social-share a.twitter {
@@ -502,6 +503,8 @@ body {
         background: url(../images/common/social/gplus.png) no-repeat center center; }
       .sidebar .social-share a.share {
         background: url(../images/common/social/share.png) no-repeat center center; }
+      .sidebar .social-share a:hover {
+        transform: rotate(-10deg); }
 
 #main {
   margin-left: 320px; }
