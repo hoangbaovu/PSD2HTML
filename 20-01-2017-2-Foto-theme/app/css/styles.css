@@ -453,7 +453,8 @@ body {
   left: 0;
   width: 270px;
   height: 100%;
-  padding: 0 10px 0 40px; }
+  padding: 0 10px 0 40px;
+  overflow: hidden; }
   .sidebar a {
     color: #fff; }
   .sidebar .logo {
