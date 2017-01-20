@@ -1,0 +1,46 @@
+.sidebar {
+  background: #454444;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 270px;
+  height: 100%;
+  padding: 0 10px 0 20px;
+
+  a {
+    color: #fff;
+  }
+
+  .logo {
+    font-size: 40px;
+    margin: 80px 0 0;
+  }
+
+  hr {
+    background: #383838;
+    border: 0;
+    height: 1px;
+    margin: 80px 0;
+    width: 150px;
+  }
+
+  .navbar {
+
+    a {
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: all .3s;
+    }
+
+    li {
+      padding-bottom: 30px;
+    }
+
+    .active a, a:hover{
+      border-bottom: 1px solid #fff;
+      padding-bottom: 5px;
+    }
+
+  }
+  // .navbar
+}

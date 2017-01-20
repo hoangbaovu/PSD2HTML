@@ -401,3 +401,73 @@ template {
  */
 [hidden] {
   display: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+.container {
+  width: 1171px;
+  margin: 0 auto; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.list-inline li {
+  display: inline-block; }
+
+.list-unstyled {
+  list-style: none; }
+
+.text-center {
+  text-align: center; }
+
+.clearfix {
+  clear: both; }
+
+.col-6 {
+  width: 50%;
+  float: left; }
+
+.col-12 {
+  width: 100%;
+  float: left; }
+
+.sidebar {
+  background: #454444;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 270px;
+  height: 100%;
+  padding: 0 10px 0 20px; }
+  .sidebar a {
+    color: #fff; }
+  .sidebar .logo {
+    font-size: 40px;
+    margin: 80px 0 0; }
+  .sidebar hr {
+    background: #383838;
+    border: 0;
+    height: 1px;
+    margin: 80px 0;
+    width: 150px; }
+  .sidebar .navbar a {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all .3s; }
+  .sidebar .navbar li {
+    padding-bottom: 30px; }
+  .sidebar .navbar .active a, .sidebar .navbar a:hover {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px; }
