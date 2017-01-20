@@ -94,3 +94,63 @@ body {
     }
   }
 }
+
+#main {
+  margin-left: 320px;
+}
+
+.list-item {
+  display: flex;
+  flex-wrap: wrap;
+
+  .item {
+    width: calc(100%/4);
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    a {
+      color: #535252;
+    }
+
+    .overlay {
+      background: #f4f4f4;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      height: 100%;
+      width: 100%;
+      transition: all .3s;
+
+      h2 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 40%;
+        text-transform: uppercase;
+        @extend .text-center;
+        position: relative;
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: 160%;
+          left: 30%;
+          height: 1px;
+          background: #d5d5d5;
+          width: 120px;
+        }
+      }
+    }
+
+    &:hover {
+
+      .overlay {
+        opacity: 1;
+      }
+    }
+  }
+}

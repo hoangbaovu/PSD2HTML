@@ -429,7 +429,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center {
+.text-center, .list-item .item .overlay h2 {
   text-align: center; }
 
 .clearfix {
@@ -502,3 +502,43 @@ body {
         background: url(../images/common/social/gplus.png) no-repeat center center; }
       .sidebar .social-share a.share {
         background: url(../images/common/social/share.png) no-repeat center center; }
+
+#main {
+  margin-left: 320px; }
+
+.list-item {
+  display: flex;
+  flex-wrap: wrap; }
+  .list-item .item {
+    width: calc(100%/4);
+    position: relative; }
+    .list-item .item img {
+      width: 100%;
+      height: 100%; }
+    .list-item .item a {
+      color: #535252; }
+    .list-item .item .overlay {
+      background: #f4f4f4;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      height: 100%;
+      width: 100%;
+      transition: all .3s; }
+      .list-item .item .overlay h2 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 40%;
+        text-transform: uppercase;
+        position: relative; }
+        .list-item .item .overlay h2::before {
+          content: "";
+          position: absolute;
+          top: 160%;
+          left: 30%;
+          height: 1px;
+          background: #d5d5d5;
+          width: 120px; }
+    .list-item .item:hover .overlay {
+      opacity: 1; }
