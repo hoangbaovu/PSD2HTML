@@ -474,3 +474,30 @@ body {
   .sidebar .navbar .active a, .sidebar .navbar a:hover {
     border-bottom: 1px solid #fff;
     padding-bottom: 5px; }
+  .sidebar .social-share {
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+    .sidebar .social-share li {
+      border-top: 1px solid #383838;
+      border-right: 1px solid #383838;
+      margin: 0px -2px -5px;
+      transition: background .3s; }
+      .sidebar .social-share li::last-child {
+        border-right: 0; }
+      .sidebar .social-share li:hover {
+        background: #383838; }
+    .sidebar .social-share a {
+      display: block;
+      width: 30px;
+      height: 30px;
+      padding: 25px;
+      margin: 0 auto; }
+      .sidebar .social-share a.facebook {
+        background: url(../images/common/social/facebook.png) no-repeat center center; }
+      .sidebar .social-share a.twitter {
+        background: url(../images/common/social/twitter.png) no-repeat center center; }
+      .sidebar .social-share a.gplus {
+        background: url(../images/common/social/gplus.png) no-repeat center center; }
+      .sidebar .social-share a.share {
+        background: url(../images/common/social/share.png) no-repeat center center; }

@@ -47,4 +47,49 @@ body {
 
   }
   // .navbar
+
+  .social-share{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    li {
+      border-top: 1px solid #383838;
+      border-right: 1px solid #383838;
+      margin: 0px -2px -5px;
+      transition: background .3s;
+
+      &::last-child {
+        border-right: 0;
+      }
+
+      &:hover {
+        background: #383838;
+      }
+    }
+
+    a {
+      display: block;
+      width: 30px;
+      height: 30px;
+      padding: 25px;
+      margin: 0 auto;
+
+      &.facebook {
+        background: url(../images/common/social/facebook.png) no-repeat center center;
+      }
+
+      &.twitter {
+        background: url(../images/common/social/twitter.png) no-repeat center center;
+      }
+
+      &.gplus {
+        background: url(../images/common/social/gplus.png) no-repeat center center;
+      }
+
+      &.share {
+        background: url(../images/common/social/share.png) no-repeat center center;
+      }
+    }
+  }
 }
