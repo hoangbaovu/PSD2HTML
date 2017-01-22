@@ -1,4 +1,4 @@
-// Header 
+// Header
 
 .navbar {
   
@@ -12,15 +12,26 @@
 
   .navbar-nav {
     @extend .pull-right;
+    text-transform: uppercase;
+    font-size: 18px;
+    
+
+    a {
+      color: #fff;
+      padding: 0 10px;
+    }
   }
 }
 
 .social-share {
 
+  @extend .pull-right;
+
   a {
     display: block;
     width: 20px;
     height: 19px;
+    padding: 0 !important;
 
     &.facebook {
       background: url(../images/common/social-share.png) 0 0;

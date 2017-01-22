@@ -420,7 +420,7 @@ a:hover {
 .pull-left, .navbar .nav-brand {
   float: left; }
 
-.pull-right, .navbar .navbar-nav {
+.pull-right, .navbar .navbar-nav, .social-share {
   float: right; }
 
 .list-inline li, .navbar .nav li {
@@ -443,10 +443,18 @@ a:hover {
   width: 100%;
   float: left; }
 
+.navbar .navbar-nav {
+  text-transform: uppercase;
+  font-size: 18px; }
+  .navbar .navbar-nav a {
+    color: #fff;
+    padding: 0 10px; }
+
 .social-share a {
   display: block;
   width: 20px;
-  height: 19px; }
+  height: 19px;
+  padding: 0 !important; }
   .social-share a.facebook {
     background: url(../images/common/social-share.png) 0 0; }
   .social-share a.twitter {
