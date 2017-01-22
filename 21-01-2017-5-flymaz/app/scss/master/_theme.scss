@@ -47,6 +47,12 @@ $primary-color-hover: #025aa5;
   position: fixed;
   width: 100%;
   padding-top: 57px;
+  transition: all .3s;
+}
+
+.shrink {
+  padding: 20px 0 !important;
+  background: #222;
 }
 
 .navbar {

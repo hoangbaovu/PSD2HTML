@@ -469,7 +469,12 @@ a:hover {
 #header {
   position: fixed;
   width: 100%;
-  padding-top: 57px; }
+  padding-top: 57px;
+  transition: all .3s; }
+
+.shrink {
+  padding: 20px 0 !important;
+  background: #222; }
 
 .navbar .navbar-nav {
   margin-top: 20px;
