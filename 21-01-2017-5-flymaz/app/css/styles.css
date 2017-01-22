@@ -443,6 +443,11 @@ a:hover {
   width: 100%;
   float: left; }
 
+#header {
+  position: fixed;
+  width: 100%;
+  padding-top: 57px; }
+
 .navbar .navbar-nav {
   text-transform: uppercase;
   font-size: 18px; }
