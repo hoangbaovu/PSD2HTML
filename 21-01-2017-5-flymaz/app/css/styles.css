@@ -475,6 +475,10 @@ a:hover {
 .shrink {
   padding: 20px 0 !important;
   background: #222; }
+  .shrink .navbar-nav a {
+    transition: color .3s; }
+    .shrink .navbar-nav a:hover {
+      color: #007ee5; }
 
 .navbar .navbar-nav {
   margin-top: 20px;

@@ -53,6 +53,14 @@ $primary-color-hover: #025aa5;
 .shrink {
   padding: 20px 0 !important;
   background: #222;
+
+  .navbar-nav a {
+    transition: color .3s;
+    
+    &:hover {
+      color: $primary-color;
+    }
+  }
 }
 
 .navbar {
