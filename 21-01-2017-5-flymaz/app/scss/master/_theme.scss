@@ -146,6 +146,7 @@ $primary-color-hover: #025aa5;
   
     h3 {
       @extend %u-bold;
+      color: $primary-color;
       font-size: 26px;
       margin-bottom: 20px;
     }

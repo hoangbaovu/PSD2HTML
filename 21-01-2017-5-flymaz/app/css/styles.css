@@ -521,6 +521,7 @@ a:hover {
   .features .title {
     width: 715px; }
     .features .title h3 {
+      color: #007ee5;
       font-size: 26px;
       margin-bottom: 20px; }
     .features .title p {
