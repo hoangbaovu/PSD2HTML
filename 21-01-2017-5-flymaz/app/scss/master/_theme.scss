@@ -15,6 +15,27 @@
   }
 }
 
+.social-share {
+
+  a {
+    display: block;
+    width: 20px;
+    height: 19px;
+
+    &.facebook {
+      background: url(../images/common/social-share.png) 0 0;
+    }
+
+    &.twitter {
+      background: url(../images/common/social-share.png) -32px 0;
+    }
+
+    &.gplus {
+      background: url(../images/common/social-share.png) 21px 0;
+    }
+  }
+}
+
 // jumbotron
 
 .jumbotron {

@@ -443,6 +443,17 @@ a:hover {
   width: 100%;
   float: left; }
 
+.social-share a {
+  display: block;
+  width: 20px;
+  height: 19px; }
+  .social-share a.facebook {
+    background: url(../images/common/social-share.png) 0 0; }
+  .social-share a.twitter {
+    background: url(../images/common/social-share.png) -32px 0; }
+  .social-share a.gplus {
+    background: url(../images/common/social-share.png) 21px 0; }
+
 .jumbotron {
   background: url(../images/index/header_bg.jpg) no-repeat;
   background-size: 100%;
