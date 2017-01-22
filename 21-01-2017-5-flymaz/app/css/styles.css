@@ -429,7 +429,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center {
+.text-center, .jumbotron {
   text-align: center; }
 
 .clearfix {
@@ -442,6 +442,15 @@ a:hover {
 .col-12 {
   width: 100%;
   float: left; }
+
+.btn {
+  border-radius: 25px;
+  color: #fff;
+  display: inline-block;
+  padding: 20px 50px;
+  text-transform: uppercase; }
+  .btn-primary {
+    background: #007ee5; }
 
 #header {
   position: fixed;
@@ -470,4 +479,11 @@ a:hover {
 .jumbotron {
   background: url(../images/index/header_bg.jpg) no-repeat;
   background-size: 100%;
-  padding: 20px; }
+  padding: 350px 0;
+  color: #fff; }
+  .jumbotron h2 {
+    font-size: 36px;
+    margin-bottom: 30px; }
+  .jumbotron p {
+    font-size: 18px;
+    margin-bottom: 50px; }

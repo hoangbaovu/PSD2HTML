@@ -1,3 +1,19 @@
+// Common
+
+$primary-color: #007ee5;
+
+.btn {
+  border-radius: 25px;
+  color: #fff;
+  display: inline-block;
+  padding: 20px 50px;
+  text-transform: uppercase;
+
+  &-primary {
+    background: $primary-color;
+  }
+}
+
 // Header
 
 #header {
@@ -58,5 +74,17 @@
 .jumbotron {
   background: url(../images/index/header_bg.jpg) no-repeat;
   background-size: 100%;
-  padding: 20px;
+  padding: 350px 0;
+  color: #fff;
+  @extend .text-center;
+
+  h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
 }
