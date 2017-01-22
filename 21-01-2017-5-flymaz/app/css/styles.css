@@ -448,9 +448,13 @@ a:hover {
   color: #fff;
   display: inline-block;
   padding: 20px 50px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-decoration: none !important; }
   .btn-primary {
-    background: #007ee5; }
+    background: #007ee5;
+    transition: background .3s; }
+    .btn-primary:hover {
+      background: #025aa5; }
 
 #header {
   position: fixed;
