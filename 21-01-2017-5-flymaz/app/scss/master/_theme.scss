@@ -1,0 +1,24 @@
+// Header 
+
+.navbar {
+  
+  .nav-brand {
+    @extend .pull-left;
+  }
+
+  .nav {
+    @extend .list-inline;
+  }
+
+  .navbar-nav {
+    @extend .pull-right;
+  }
+}
+
+// jumbotron
+
+.jumbotron {
+  background: url(../images/index/header_bg.jpg) no-repeat;
+  background-size: 100%;
+  padding: 20px;
+}

@@ -417,13 +417,13 @@ a:hover {
   width: 1171px;
   margin: 0 auto; }
 
-.pull-left {
+.pull-left, .navbar .nav-brand {
   float: left; }
 
-.pull-right {
+.pull-right, .navbar .navbar-nav {
   float: right; }
 
-.list-inline li {
+.list-inline li, .navbar .nav li {
   display: inline-block; }
 
 .list-unstyled {
@@ -442,3 +442,8 @@ a:hover {
 .col-12 {
   width: 100%;
   float: left; }
+
+.jumbotron {
+  background: url(../images/index/header_bg.jpg) no-repeat;
+  background-size: 100%;
+  padding: 20px; }
