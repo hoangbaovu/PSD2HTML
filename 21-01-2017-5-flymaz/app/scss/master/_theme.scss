@@ -3,13 +3,22 @@
 $primary-color: #007ee5;
 $primary-color-hover: #025aa5;
 
+  // title
+
+  %u-bold {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  // btn
+
 .btn {
   border-radius: 25px;
   color: #fff;
   display: inline-block;
   padding: 20px 50px;
-  text-transform: uppercase;
   text-decoration: none !important;
+  @extend %u-bold;
 
   &-primary {
     background: $primary-color;
@@ -24,6 +33,7 @@ $primary-color-hover: #025aa5;
     background: #fff;
     transition: background .3s;
     color: $primary-color !important;
+    border: 2px solid $primary-color;
 
     &:hover {
       background: #eee;
@@ -116,12 +126,33 @@ $primary-color-hover: #025aa5;
   overflow: hidden;
 
   h3 {
+    @extend %u-bold;
     font-size: 26px;
-    font-weight: bold;
     margin-bottom: 10px;
   }
 
   p {
     font-size: 16px;
+  }
+}
+
+// Features
+
+.features {
+  padding: 115px 0 85px;
+  
+  .title {
+    width: 715px;
+  
+    h3 {
+      @extend %u-bold;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #888;
+      font-size: 18px;
+    }
   }
 }

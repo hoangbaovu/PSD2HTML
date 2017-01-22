@@ -443,12 +443,15 @@ a:hover {
   width: 100%;
   float: left; }
 
+.btn, .call-to-action h3, .features .title h3 {
+  text-transform: uppercase;
+  font-weight: bold; }
+
 .btn {
   border-radius: 25px;
   color: #fff;
   display: inline-block;
   padding: 20px 50px;
-  text-transform: uppercase;
   text-decoration: none !important; }
   .btn-primary {
     background: #007ee5;
@@ -458,7 +461,8 @@ a:hover {
   .btn-outline-primary {
     background: #fff;
     transition: background .3s;
-    color: #007ee5 !important; }
+    color: #007ee5 !important;
+    border: 2px solid #007ee5; }
     .btn-outline-primary:hover {
       background: #eee; }
 
@@ -508,7 +512,17 @@ a:hover {
   overflow: hidden; }
   .call-to-action h3 {
     font-size: 26px;
-    font-weight: bold;
     margin-bottom: 10px; }
   .call-to-action p {
     font-size: 16px; }
+
+.features {
+  padding: 115px 0 85px; }
+  .features .title {
+    width: 715px; }
+    .features .title h3 {
+      font-size: 26px;
+      margin-bottom: 20px; }
+    .features .title p {
+      color: #888;
+      font-size: 18px; }
