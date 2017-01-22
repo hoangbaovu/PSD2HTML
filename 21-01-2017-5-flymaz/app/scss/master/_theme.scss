@@ -48,6 +48,7 @@ $primary-color: #007ee5;
 .social-share {
 
   @extend .pull-right;
+  margin-left: 30px;
 
   a {
     display: block;
