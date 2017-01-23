@@ -12,34 +12,38 @@ $primary-color-hover: #025aa5;
 
   // btn
 
-.btn {
-  border-radius: 25px;
-  color: #fff;
-  display: inline-block;
-  padding: 20px 50px;
-  text-decoration: none !important;
-  @extend %u-bold;
+  .btn {
+    border-radius: 25px;
+    color: #fff;
+    display: inline-block;
+    padding: 20px 50px;
+    text-decoration: none !important;
+    @extend %u-bold;
 
-  &-primary {
-    background: $primary-color;
-    transition: background .3s;
+    &-primary {
+      background: $primary-color;
+      transition: background .3s;
 
-    &:hover {
-      background: $primary-color-hover;
+      &:hover {
+        background: $primary-color-hover;
+      }
+    }
+
+    &-outline-primary {
+      background: #fff;
+      transition: background .3s;
+      color: $primary-color !important;
+      border: 2px solid $primary-color;
+
+      &:hover {
+        background: #eee;
+      }
     }
   }
 
-  &-outline-primary {
-    background: #fff;
-    transition: background .3s;
-    color: $primary-color !important;
-    border: 2px solid $primary-color;
-
-    &:hover {
-      background: #eee;
-    }
+  .clearfix {
+    clear: both;
   }
-}
 
 // Header
 
@@ -56,7 +60,7 @@ $primary-color-hover: #025aa5;
 
   .navbar-nav a {
     transition: color .3s;
-    
+
     &:hover {
       color: $primary-color;
     }
@@ -154,20 +158,76 @@ $primary-color-hover: #025aa5;
 
 .features {
   padding: 115px 0 85px;
+  overflow: hidden;
   
   .title {
     width: 715px;
   
     h3 {
-      @extend %u-bold;
       color: $primary-color;
       font-size: 26px;
-      margin-bottom: 20px;
     }
 
     p {
-      color: #888;
       font-size: 18px;
+    }
+  }
+
+  h3 {
+    @extend %u-bold;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: #888;
+  }
+
+  .phone {
+    overflow: hidden;
+
+    h3 {
+      color: #111;
+    }
+
+    p {
+      font-size: 22px;
+    }
+  }
+
+  .phone-1 {
+
+    padding: 80px 0;
+    overflow: hidden;
+    
+    .pull-left {
+      width: 530px;
+    }
+
+    .pull-right {
+      width: 602px;
+      padding: 240px 0;
+    }
+  }
+
+  .phone-2 {
+    padding: 80px 0;
+    overflow: hidden;
+
+    p {
+      margin-bottom: 20px;
+    }
+    
+    > .pull-left {
+      width: 602px;
+      padding: 120px 0;
+
+      .pull-left {
+        width: 250px;
+        padding-right: 30px;
+        font-size: 18px;
+        color: #777;
+      }
+
     }
   }
 }

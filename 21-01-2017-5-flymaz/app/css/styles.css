@@ -414,7 +414,7 @@ a:hover {
   text-decoration: underline; }
 
 .container {
-  width: 1171px;
+  width: 1132px;
   margin: 0 auto; }
 
 .pull-left, .navbar .nav-brand {
@@ -443,7 +443,7 @@ a:hover {
   width: 100%;
   float: left; }
 
-.btn, .call-to-action h3, .features .title h3 {
+.btn, .call-to-action h3, .features h3 {
   text-transform: uppercase;
   font-weight: bold; }
 
@@ -465,6 +465,9 @@ a:hover {
     border: 2px solid #007ee5; }
     .btn-outline-primary:hover {
       background: #eee; }
+
+.clearfix {
+  clear: both; }
 
 #header {
   position: fixed;
@@ -526,13 +529,43 @@ a:hover {
     font-size: 16px; }
 
 .features {
-  padding: 115px 0 85px; }
+  padding: 115px 0 85px;
+  overflow: hidden; }
   .features .title {
     width: 715px; }
     .features .title h3 {
       color: #007ee5;
-      font-size: 26px;
-      margin-bottom: 20px; }
+      font-size: 26px; }
     .features .title p {
-      color: #888;
       font-size: 18px; }
+  .features h3 {
+    margin-bottom: 20px; }
+  .features p {
+    color: #888; }
+  .features .phone {
+    overflow: hidden; }
+    .features .phone h3 {
+      color: #111; }
+    .features .phone p {
+      font-size: 22px; }
+  .features .phone-1 {
+    padding: 80px 0;
+    overflow: hidden; }
+    .features .phone-1 .pull-left, .features .phone-1 .navbar .nav-brand, .navbar .features .phone-1 .nav-brand {
+      width: 530px; }
+    .features .phone-1 .pull-right, .features .phone-1 .navbar .navbar-nav, .navbar .features .phone-1 .navbar-nav, .features .phone-1 .social-share {
+      width: 602px;
+      padding: 240px 0; }
+  .features .phone-2 {
+    padding: 80px 0;
+    overflow: hidden; }
+    .features .phone-2 p {
+      margin-bottom: 20px; }
+    .features .phone-2 > .pull-left, .features .navbar .phone-2 > .nav-brand, .navbar .features .phone-2 > .nav-brand {
+      width: 602px;
+      padding: 120px 0; }
+      .features .phone-2 > .pull-left .pull-left, .features .navbar .phone-2 > .nav-brand .pull-left, .navbar .features .phone-2 > .nav-brand .pull-left, .features .phone-2 > .pull-left .navbar .nav-brand, .navbar .features .phone-2 > .pull-left .nav-brand, .features .navbar .phone-2 > .nav-brand .nav-brand, .navbar .features .phone-2 > .nav-brand .nav-brand {
+        width: 250px;
+        padding-right: 30px;
+        font-size: 18px;
+        color: #777; }
