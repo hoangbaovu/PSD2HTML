@@ -429,7 +429,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .jumbotron {
+.text-center, .jumbotron, .services .title {
   text-align: center; }
 
 .clearfix {
@@ -570,27 +570,28 @@ a:hover {
         font-size: 18px;
         color: #777; }
 
-.features-2 img {
-  margin-right: 200px; }
+.features-2 {
+  overflow: hidden; }
+  .features-2 img {
+    margin-right: 200px; }
+  .features-2 h3 {
+    color: #111;
+    font-size: 32px;
+    margin-bottom: 20px; }
+  .features-2 p {
+    color: #888;
+    margin-bottom: 30px;
+    line-height: 1.6em; }
+  .features-2 .features-2-content {
+    padding: 130px 0 60px 90px;
+    width: 400px; }
+  .features-2 ul {
+    margin-bottom: 40px; }
+  .features-2 li {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    list-style-image: url(../images/common/li.png); }
 
-.features-2 h3 {
-  color: #111;
-  font-size: 32px;
-  margin-bottom: 20px; }
-
-.features-2 p {
-  color: #888;
-  margin-bottom: 30px;
-  line-height: 1.6em; }
-
-.features-2 .features-2-content {
-  padding: 130px 0 60px 90px;
-  width: 400px; }
-
-.features-2 ul {
-  margin-bottom: 40px; }
-
-.features-2 li {
-  margin-bottom: 30px;
-  padding-left: 20px;
-  list-style-image: url(../images/common/li.png); }
+.services .title h3 {
+  color: #007ee5;
+  font-size: 42px; }

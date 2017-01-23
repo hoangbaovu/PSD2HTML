@@ -235,6 +235,7 @@ $primary-color-hover: #025aa5;
 // Features 2
 
 .features-2 {
+  overflow: hidden;
 
   img {
     margin-right: 200px;
@@ -266,5 +267,19 @@ $primary-color-hover: #025aa5;
     margin-bottom: 30px;
     padding-left: 20px;
     list-style-image: url(../images/common/li.png);
+  }
+}
+
+// Services
+
+.services {
+
+  .title {
+    @extend .text-center;
+    
+    h3 {
+      color: $primary-color;
+      font-size: 42px;
+    }
   }
 }
