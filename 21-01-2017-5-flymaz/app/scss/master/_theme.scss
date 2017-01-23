@@ -231,3 +231,40 @@ $primary-color-hover: #025aa5;
     }
   }
 }
+
+// Features 2
+
+.features-2 {
+
+  img {
+    margin-right: 200px;
+  }
+
+  h3 {
+    @extend %u-bold;
+    color: #111;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: #888;
+    margin-bottom: 30px;
+    line-height: 1.6em;
+  }
+
+  .features-2-content {
+    padding: 130px 0 60px 90px;
+    width: 400px;
+  }
+
+  ul {
+    margin-bottom: 40px;
+  }
+
+  li {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    list-style-image: url(../images/common/li.png);
+  }
+}

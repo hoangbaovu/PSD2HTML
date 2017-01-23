@@ -443,7 +443,7 @@ a:hover {
   width: 100%;
   float: left; }
 
-.btn, .call-to-action h3, .features h3 {
+.btn, .call-to-action h3, .features h3, .features-2 h3 {
   text-transform: uppercase;
   font-weight: bold; }
 
@@ -569,3 +569,28 @@ a:hover {
         padding-right: 30px;
         font-size: 18px;
         color: #777; }
+
+.features-2 img {
+  margin-right: 200px; }
+
+.features-2 h3 {
+  color: #111;
+  font-size: 32px;
+  margin-bottom: 20px; }
+
+.features-2 p {
+  color: #888;
+  margin-bottom: 30px;
+  line-height: 1.6em; }
+
+.features-2 .features-2-content {
+  padding: 130px 0 60px 90px;
+  width: 400px; }
+
+.features-2 ul {
+  margin-bottom: 40px; }
+
+.features-2 li {
+  margin-bottom: 30px;
+  padding-left: 20px;
+  list-style-image: url(../images/common/li.png); }
