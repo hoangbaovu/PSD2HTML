@@ -260,7 +260,7 @@ $primary-color-hover: #025aa5;
   }
 
   ul {
-    margin-bottom: 40px;
+    margin: 0 0 40px 20px;
   }
 
   li {
@@ -276,7 +276,7 @@ $primary-color-hover: #025aa5;
 
   .title {
     @extend .text-center;
-    
+
     h3 {
       color: $primary-color;
       font-size: 42px;
