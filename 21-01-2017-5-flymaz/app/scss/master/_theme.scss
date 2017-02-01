@@ -416,7 +416,23 @@ $primary-color-hover: #025aa5;
     }
   }
 
+  .list-item {
+
+    li {
+
+      &:nth-child(1) h4 { color: $primary-color};
+      &:nth-child(2) h4 { color: #888};
+
+    }
+  }
+
+  .item {
+    padding: 0 30px;
+  }
+
   h4 {
+    color: #111;
     text-transform: uppercase;
+    margin: 30px;
   }
 }
