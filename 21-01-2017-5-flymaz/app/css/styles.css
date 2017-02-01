@@ -703,12 +703,20 @@ a:hover {
 
 .portfolio .list-item {
   display: flex;
-  flex-flow: row wrap; }
+  flex-flow: row wrap;
+  margin-top: 100px 0 0; }
+  .portfolio .list-item img:hover {
+    opacity: .8; }
   .portfolio .list-item h4 {
-    color: #007ee5;
     font-size: 22px;
     margin: 30px 0 15px;
     text-transform: uppercase; }
+    .portfolio .list-item h4 a {
+      color: #007ee5; }
   .portfolio .list-item p {
     color: #888;
     font-size: 14px; }
+
+.portfolio .item {
+  padding: 0 20px;
+  margin-bottom: 120px; }

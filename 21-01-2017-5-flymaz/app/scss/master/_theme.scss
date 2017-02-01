@@ -479,17 +479,30 @@ $primary-color-hover: #025aa5;
   .list-item {
     display: flex;
     flex-flow: row wrap;
+    margin-top: 100px 0 0;
+
+    img:hover {
+      opacity: .8;
+    }
 
     h4 {
-      color: $primary-color;
       font-size: 22px;
       margin: 30px 0 15px;;
       text-transform: uppercase;
+
+      a {
+        color: $primary-color;
+      }
     }
 
     p {
       color: #888;
       font-size: 14px;
     }
+  }
+
+  .item {
+    padding: 0 20px;
+    margin-bottom: 120px;
   }
 }
