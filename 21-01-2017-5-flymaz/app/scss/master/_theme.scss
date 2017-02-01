@@ -394,6 +394,9 @@ $primary-color-hover: #025aa5;
 
 .expericence {
 
+  padding: 100px 0;
+  @extend .text-center;
+
   .title {
     @extend .text-center;
     margin-bottom: 35px;
