@@ -621,13 +621,14 @@ a:hover {
 
 .ourteam {
   padding: 100px 0; }
+  .ourteam p {
+    color: #888; }
   .ourteam .title {
     margin-bottom: 35px; }
     .ourteam .title h3 {
       font-size: 32px;
       margin-bottom: 35px; }
     .ourteam .title p {
-      color: #888;
       font-size: 22px;
       width: 800px;
       margin: 0 auto; }

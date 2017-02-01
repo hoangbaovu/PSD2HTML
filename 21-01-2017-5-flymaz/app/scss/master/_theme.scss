@@ -328,6 +328,10 @@ $primary-color-hover: #025aa5;
 .ourteam {
   padding: 100px 0;
 
+  p {
+    color: #888;
+  }
+
   .title {
     @extend .text-center;
     margin-bottom: 35px;
@@ -338,7 +342,6 @@ $primary-color-hover: #025aa5;
     }
 
     p {
-      color: #888;
       font-size: 22px;
       width: 800px;
       margin: 0 auto;
