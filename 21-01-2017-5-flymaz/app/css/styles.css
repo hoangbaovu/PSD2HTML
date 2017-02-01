@@ -429,7 +429,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .jumbotron, .services .title, .services .item, .ourteam .title, .ourteam .item, .expericence, .expericence .title {
+.text-center, .jumbotron, .services .title, .services .item, .ourteam .title, .ourteam .title h3 .title, .ourteam .item, .expericence, .expericence .title, .portfolio {
   text-align: center; }
 
 .clearfix {
@@ -627,7 +627,17 @@ a:hover {
     margin-bottom: 35px; }
     .ourteam .title h3 {
       font-size: 32px;
-      margin-bottom: 35px; }
+      margin-bottom: 35px;
+      text-transform: uppercase; }
+      .ourteam .title h3 .title {
+        margin-bottom: 35px; }
+        .ourteam .title h3 .title h3 {
+          font-size: 32px;
+          margin-bottom: 35px; }
+        .ourteam .title h3 .title p {
+          font-size: 22px;
+          width: 800px;
+          margin: 0 auto; }
     .ourteam .title p {
       font-size: 22px;
       width: 800px;
@@ -678,3 +688,27 @@ a:hover {
     color: #111;
     text-transform: uppercase;
     margin: 30px; }
+
+.portfolio .title {
+  margin-bottom: 35px; }
+  .portfolio .title h3 {
+    color: #007ee5;
+    font-size: 32px;
+    margin-bottom: 35px;
+    text-transform: uppercase; }
+  .portfolio .title p {
+    font-size: 22px;
+    width: 800px;
+    margin: 0 auto; }
+
+.portfolio .list-item {
+  display: flex;
+  flex-flow: row wrap; }
+  .portfolio .list-item h4 {
+    color: #007ee5;
+    font-size: 22px;
+    margin: 30px 0 15px;
+    text-transform: uppercase; }
+  .portfolio .list-item p {
+    color: #888;
+    font-size: 14px; }
