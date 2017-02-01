@@ -418,6 +418,8 @@ $primary-color-hover: #025aa5;
 
   .list-item {
 
+    margin: 100px 0 0;
+
     li {
 
       &:nth-child(1) h4 { color: $primary-color};

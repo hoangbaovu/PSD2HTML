@@ -666,10 +666,12 @@ a:hover {
       font-size: 22px;
       width: 800px;
       margin: 0 auto; }
-  .expericence .list-item li:nth-child(1) h4 {
-    color: #007ee5; }
-  .expericence .list-item li:nth-child(2) h4 {
-    color: #888; }
+  .expericence .list-item {
+    margin: 100px 0 0; }
+    .expericence .list-item li:nth-child(1) h4 {
+      color: #007ee5; }
+    .expericence .list-item li:nth-child(2) h4 {
+      color: #888; }
   .expericence .item {
     padding: 0 30px; }
   .expericence h4 {
