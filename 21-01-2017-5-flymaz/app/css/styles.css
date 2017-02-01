@@ -728,10 +728,37 @@ a:hover {
       border-bottom: 12px solid #007ee5; }
     .statistics .item:nth-child(1) span::after {
       color: #007ee5; }
+  .statistics .item:nth-child(2) span {
+    color: #a18fd7; }
+    .statistics .item:nth-child(2) span::before {
+      border-bottom: 12px solid #a18fd7; }
+    .statistics .item:nth-child(2) span::after {
+      color: #a18fd7; }
+  .statistics .item:nth-child(3) span {
+    color: #cc6164;
+    font-weight: bold; }
+    .statistics .item:nth-child(3) span::before {
+      border-bottom: 12px solid #cc6164; }
+    .statistics .item:nth-child(3) span::after {
+      color: #cc6164; }
+  .statistics .item:nth-child(4) span {
+    color: #56b671;
+    font-weight: bold; }
+    .statistics .item:nth-child(4) span::before {
+      border-bottom: 12px solid #56b671; }
+    .statistics .item:nth-child(4) span::after {
+      color: #56b671; }
+  .statistics .item:nth-child(5) span {
+    color: #3d464d;
+    font-weight: bold; }
+    .statistics .item:nth-child(5) span::before {
+      border-bottom: 12px solid #3d464d; }
+    .statistics .item:nth-child(5) span::after {
+      color: #3d464d; }
   .statistics .item span {
     font-size: 42px;
     position: relative;
-    margin: 0 30px; }
+    margin: 0 40px; }
     .statistics .item span::before {
       content: "";
       width: 0;
