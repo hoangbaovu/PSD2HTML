@@ -339,21 +339,7 @@ $primary-color-hover: #025aa5;
     h3 {
       font-size: 32px;
       margin-bottom: 35px;
-      text-transform: uppercase;  .title {
-    @extend .text-center;
-    margin-bottom: 35px;
-
-    h3 {
-      font-size: 32px;
-      margin-bottom: 35px;
-    }
-
-    p {
-      font-size: 22px;
-      width: 800px;
-      margin: 0 auto;
-    }
-  }
+      text-transform: uppercase;
     }
 
     p {
@@ -371,11 +357,18 @@ $primary-color-hover: #025aa5;
   .item {
     @extend .text-center;
 
+    img:hover {
+      opacity: .8;
+    }
+
     h4 {
       font-size: 22px;
-      color: $primary-color;
       text-transform: uppercase;
       margin: 60px 0 20px;
+
+      a {
+        color: $primary-color;
+      }
     }
 
     .char {

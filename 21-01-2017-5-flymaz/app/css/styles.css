@@ -429,7 +429,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .jumbotron, .services .title, .services .item, .ourteam .title, .ourteam .title h3 .title, .ourteam .item, .expericence, .expericence .title, .portfolio {
+.text-center, .jumbotron, .services .title, .services .item, .ourteam .title, .ourteam .item, .expericence, .expericence .title, .portfolio {
   text-align: center; }
 
 .clearfix {
@@ -629,15 +629,6 @@ a:hover {
       font-size: 32px;
       margin-bottom: 35px;
       text-transform: uppercase; }
-      .ourteam .title h3 .title {
-        margin-bottom: 35px; }
-        .ourteam .title h3 .title h3 {
-          font-size: 32px;
-          margin-bottom: 35px; }
-        .ourteam .title h3 .title p {
-          font-size: 22px;
-          width: 800px;
-          margin: 0 auto; }
     .ourteam .title p {
       font-size: 22px;
       width: 800px;
@@ -645,11 +636,14 @@ a:hover {
   .ourteam .list-item {
     display: flex;
     margin-top: 130px; }
+  .ourteam .item img:hover {
+    opacity: .8; }
   .ourteam .item h4 {
     font-size: 22px;
-    color: #007ee5;
     text-transform: uppercase;
     margin: 60px 0 20px; }
+    .ourteam .item h4 a {
+      color: #007ee5; }
   .ourteam .item .char {
     font-style: italic;
     margin-bottom: 30px; }
