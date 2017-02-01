@@ -402,12 +402,14 @@ $primary-color-hover: #025aa5;
     margin-bottom: 35px;
 
     h3 {
+      color: $primary-color;
       font-size: 32px;
       margin-bottom: 35px;
       text-transform: uppercase;
     }
 
     p {
+      color: #888;
       font-size: 22px;
       width: 800px;
       margin: 0 auto;
