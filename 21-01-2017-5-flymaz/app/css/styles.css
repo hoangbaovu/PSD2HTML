@@ -718,7 +718,8 @@ a:hover {
 .statistics {
   padding: 100px 0; }
   .statistics .title {
-    margin-bottom: 200px; }
+    margin-bottom: 200px;
+    text-transform: uppercase; }
     .statistics .title h3 {
       color: #007ee5;
       font-size: 42px;
