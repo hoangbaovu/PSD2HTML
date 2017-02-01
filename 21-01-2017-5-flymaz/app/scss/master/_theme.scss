@@ -505,10 +505,13 @@ $primary-color-hover: #025aa5;
 .statistics {
 
   padding: 100px 0;
+  @extend .text-center;
 
   .title {
-    
+    margin-bottom: 200px;
+
     h3 {
+      color: $primary-color;
       font-size: 42px;
       font-weight: bold;
     }
@@ -516,9 +519,15 @@ $primary-color-hover: #025aa5;
 
   .list-item {
     display: flex;
+    margin: 0 auto;
   }
 
   .item {
+    padding: 0 40px;
+    
+    img {
+      margin: 0 auto;
+    }
 
     &:nth-child(1) span{ 
       color: #007ee5;
@@ -586,7 +595,8 @@ $primary-color-hover: #025aa5;
     span {
       font-size: 42px;
       position: relative;
-      margin: 0 40px;
+      display: block;
+      margin: 40px 0 0 20px;
 
       &::before {
         content: "";
@@ -596,7 +606,7 @@ $primary-color-hover: #025aa5;
         border-right: 8px solid transparent;
         position: absolute;
         bottom: 10px;
-        left: -30px;
+        left: -18px;
       }
 
       &::after {
