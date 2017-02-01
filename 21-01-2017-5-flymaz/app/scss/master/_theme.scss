@@ -389,3 +389,29 @@ $primary-color-hover: #025aa5;
     }
   }
 }
+
+// expericence
+
+.expericence {
+
+  .title {
+    @extend .text-center;
+    margin-bottom: 35px;
+
+    h3 {
+      font-size: 32px;
+      margin-bottom: 35px;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 22px;
+      width: 800px;
+      margin: 0 auto;
+    }
+  }
+
+  h4 {
+    text-transform: uppercase;
+  }
+}
