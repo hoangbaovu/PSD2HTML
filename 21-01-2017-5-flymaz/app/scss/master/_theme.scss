@@ -88,12 +88,14 @@ $primary-color-hover: #025aa5;
       padding: 0 10px;
     }
   }
+
+  .social-share {
+    @extend .pull-right;
+    margin-left: 30px;
+  }
 }
 
 .social-share {
-
-  @extend .pull-right;
-  margin-left: 30px;
 
   a {
     display: block;
@@ -324,5 +326,63 @@ $primary-color-hover: #025aa5;
 // Ourteam
 
 .ourteam {
-  
+  padding: 100px 0;
+
+  .title {
+    @extend .text-center;
+    margin-bottom: 35px;
+
+    h3 {
+      font-size: 32px;
+      margin-bottom: 35px;
+    }
+
+    p {
+      color: #888;
+      font-size: 22px;
+      width: 800px;
+      margin: 0 auto;
+    }
+  }
+
+  .list-item {
+    display: flex;
+    margin-top: 130px;
+  }
+
+  .item {
+    @extend .text-center;
+
+    h4 {
+      font-size: 22px;
+      color: $primary-color;
+      text-transform: uppercase;
+      margin: 60px 0 20px;
+    }
+
+    .char {
+      font-style: italic;
+      margin-bottom: 30px;
+    }
+  }
+
+  .social-share {
+
+    margin: 20px 0;
+
+    a {
+
+      &.facebook {
+        background: url(../images/common/social-share-2.png) 0 0;
+      }
+
+      &.twitter {
+        background: url(../images/common/social-share-2.png) -32px 0;
+      }
+
+      &.gplus {
+        background: url(../images/common/social-share-2.png) 21px 0;
+      }
+    }
+  }
 }
