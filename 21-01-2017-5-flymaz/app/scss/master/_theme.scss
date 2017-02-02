@@ -764,3 +764,34 @@ $primary-color-hover: #025aa5;
     }
   }
 }
+
+// testimonials-3
+
+.testimonials-3 {
+  padding: 100px 0;
+  @extend .text-center;
+
+  .title {
+    margin-bottom: 140px;
+    
+    h3 {
+      color: $primary-color;
+      font-size: 42px;
+      @extend %u-bold;
+    }
+  }
+
+  h4 {
+    font-size: 22px;
+    margin: 140px 0 90px;
+
+    a {
+      color: #888;
+    }
+  }
+
+  blockquote {
+    color: #444;
+    font-size: 38px;
+  }
+}
