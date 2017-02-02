@@ -795,3 +795,86 @@ $primary-color-hover: #025aa5;
     font-size: 38px;
   }
 }
+
+// pricing
+
+.pricing {
+  padding: 100px 0;
+  @extend .text-center;
+
+  .title {
+    
+    margin-bottom: 35px;
+
+    h3 {
+      color: $primary-color;
+      font-size: 32px;
+      margin-bottom: 35px;
+      @extend %u-bold;
+    }
+
+    p {
+      color: #888;
+      font-size: 22px;
+      width: 800px;
+      margin: 0 auto;
+    }
+  }
+
+  .list-item {
+    display: flex;
+  }
+
+  .item {
+
+    h4 {
+      color: #444;
+      font-size: 18px;
+      @extend %u-bold;
+      margin: 50px 0;
+    }
+  }
+
+  %att {
+    font-size: 21px;
+    position: absolute;
+  }
+
+  .price {
+    color: $primary-color;
+    display: block;
+    font-size: 62px;
+    position: relative;
+
+    &::before {
+      content: "$";
+      @extend %att;
+      left: 25px;
+      top: 8px;
+    }
+
+    &::after {
+      content: "/MO";
+      @extend %att;
+      bottom: 11px;
+    }
+  }
+
+  .btn {
+    color: $primary-color;
+    margin: 90px 0;
+  }
+
+  li {
+    margin-bottom: 35px;
+
+    p {
+      color: #888;
+      font-size: 16px;
+    }
+
+    b {
+      color: #111;
+    }
+  }
+}
