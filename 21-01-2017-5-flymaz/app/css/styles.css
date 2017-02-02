@@ -821,6 +821,8 @@ a:hover {
     margin: 0px 70px; }
   .testimonials-2 .item .pull-left, .testimonials-2 .item .navbar .nav-brand, .navbar .testimonials-2 .item .nav-brand {
     width: 155px; }
+    .testimonials-2 .item .pull-left img:hover, .testimonials-2 .item .navbar .nav-brand img:hover, .navbar .testimonials-2 .item .nav-brand img:hover {
+      opacity: .8; }
   .testimonials-2 .item .pull-right, .testimonials-2 .item .navbar .navbar-nav, .navbar .testimonials-2 .item .navbar-nav, .testimonials-2 .item .navbar .social-share, .navbar .testimonials-2 .item .social-share {
     width: calc(100% - 155px); }
     .testimonials-2 .item .pull-right h4, .testimonials-2 .item .navbar .navbar-nav h4, .navbar .testimonials-2 .item .navbar-nav h4, .testimonials-2 .item .navbar .social-share h4, .navbar .testimonials-2 .item .social-share h4 {

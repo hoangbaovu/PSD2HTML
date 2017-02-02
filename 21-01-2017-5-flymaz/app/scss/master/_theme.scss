@@ -688,6 +688,13 @@ $primary-color-hover: #025aa5;
 
     .pull-left {
       width: 155px;
+      
+      img {
+
+        &:hover {
+          opacity: .8;
+        }
+      }
     }
 
     .pull-right {
