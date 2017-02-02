@@ -716,7 +716,7 @@ $primary-color-hover: #025aa5;
   .testimonials-2-content {
 
     .item {
-      width: 50%;
+      width: 45%;
       margin-bottom: 115px;
     }
   }
@@ -728,6 +728,17 @@ $primary-color-hover: #025aa5;
     .list-item {
       justify-content: center;
       align-items: center;
+    }
+
+    .item {
+      padding: 40px;
+
+      img {
+        
+        &:hover {
+          opacity: .8;
+        }
+      }
     }
   }
 }

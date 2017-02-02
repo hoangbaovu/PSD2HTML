@@ -835,7 +835,7 @@ a:hover {
     font-size: 18px;
     width: 200px; }
   .testimonials-2 .testimonials-2-content .item {
-    width: 50%;
+    width: 45%;
     margin-bottom: 115px; }
   .testimonials-2 .bottom {
     background: #7b8994;
@@ -843,3 +843,7 @@ a:hover {
     .testimonials-2 .bottom .list-item {
       justify-content: center;
       align-items: center; }
+    .testimonials-2 .bottom .item {
+      padding: 40px; }
+      .testimonials-2 .bottom .item img:hover {
+        opacity: .8; }
