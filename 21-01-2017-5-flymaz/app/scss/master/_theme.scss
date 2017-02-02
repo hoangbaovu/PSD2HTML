@@ -685,8 +685,6 @@ $primary-color-hover: #025aa5;
   }
 
   .item {
-    width: 50%;
-    margin-bottom: 115px;
 
     .pull-left {
       width: 155px;
@@ -712,6 +710,24 @@ $primary-color-hover: #025aa5;
       color: #111;
       font-size: 18px;
       width: 200px;
+    }
+  }
+
+  .testimonials-2-content {
+
+    .item {
+      width: 50%;
+      margin-bottom: 115px;
+    }
+  }
+
+  .bottom {
+    background: #7b8994;
+    padding: 80px 0;
+
+    .list-item {
+      justify-content: center;
+      align-items: center;
     }
   }
 }
