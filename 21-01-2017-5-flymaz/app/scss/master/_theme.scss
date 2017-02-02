@@ -317,6 +317,14 @@ $primary-color-hover: #025aa5;
       @extend %u-bold;
       font-size: 22px;
       margin-bottom: 40px;
+
+      a {
+        color: $primary-color;
+
+        &:hover {
+          color: $primary-color-hover;
+        }
+      }
     }
 
     p {
@@ -701,10 +709,17 @@ $primary-color-hover: #025aa5;
       width: calc(100% - 155px);
 
       h4 {
-        color: $primary-color;
         font-size: 22px;
         margin: 60px 0 15px;
         @extend %u-bold;
+
+        a {
+          color: $primary-color;
+
+          &:hover {
+            color: $primary-color-hover;
+          }
+        }
       }
 
       p {

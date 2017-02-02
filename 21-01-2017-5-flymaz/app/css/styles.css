@@ -617,6 +617,10 @@ a:hover {
   .services .item h4 {
     font-size: 22px;
     margin-bottom: 40px; }
+    .services .item h4 a {
+      color: #007ee5; }
+      .services .item h4 a:hover {
+        color: #025aa5; }
   .services .item p {
     color: #888; }
 
@@ -826,9 +830,12 @@ a:hover {
   .testimonials-2 .item .pull-right, .testimonials-2 .item .navbar .navbar-nav, .navbar .testimonials-2 .item .navbar-nav, .testimonials-2 .item .navbar .social-share, .navbar .testimonials-2 .item .social-share {
     width: calc(100% - 155px); }
     .testimonials-2 .item .pull-right h4, .testimonials-2 .item .navbar .navbar-nav h4, .navbar .testimonials-2 .item .navbar-nav h4, .testimonials-2 .item .navbar .social-share h4, .navbar .testimonials-2 .item .social-share h4 {
-      color: #007ee5;
       font-size: 22px;
       margin: 60px 0 15px; }
+      .testimonials-2 .item .pull-right h4 a, .testimonials-2 .item .navbar .navbar-nav h4 a, .navbar .testimonials-2 .item .navbar-nav h4 a, .testimonials-2 .item .navbar .social-share h4 a, .navbar .testimonials-2 .item .social-share h4 a {
+        color: #007ee5; }
+        .testimonials-2 .item .pull-right h4 a:hover, .testimonials-2 .item .navbar .navbar-nav h4 a:hover, .navbar .testimonials-2 .item .navbar-nav h4 a:hover, .testimonials-2 .item .navbar .social-share h4 a:hover, .navbar .testimonials-2 .item .social-share h4 a:hover {
+          color: #025aa5; }
     .testimonials-2 .item .pull-right p, .testimonials-2 .item .navbar .navbar-nav p, .navbar .testimonials-2 .item .navbar-nav p, .testimonials-2 .item .navbar .social-share p, .navbar .testimonials-2 .item .social-share p {
       color: #888;
       font-size: 16px; }
