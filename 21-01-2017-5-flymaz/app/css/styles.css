@@ -429,7 +429,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .jumbotron, .services .title, .services .item, .ourteam .title, .ourteam .item, .expericence, .expericence .title, .portfolio, .statistics {
+.text-center, .jumbotron, .services .title, .services .item, .ourteam .title, .ourteam .item, .expericence, .expericence .title, .portfolio, .statistics, .testimonials-2 .title h3 {
   text-align: center; }
 
 .clearfix {
@@ -810,3 +810,11 @@ a:hover {
         left: -80px;
         bottom: 24px;
         height: 1px; }
+
+.testimonials-2 {
+  padding: 100px 0; }
+  .testimonials-2 .title h3 {
+    color: #007ee5;
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase; }

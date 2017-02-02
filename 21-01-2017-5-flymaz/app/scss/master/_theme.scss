@@ -658,3 +658,21 @@ $primary-color-hover: #025aa5;
     }
   }
 }
+
+// testimonials-2
+
+.testimonials-2 {
+
+  padding: 100px 0;
+
+  .title {
+
+    h3 {
+      color: $primary-color;
+      font-size: 42px;
+      font-weight: bold;
+      text-transform: uppercase;
+      @extend .text-center;
+    }
+  }
+}
