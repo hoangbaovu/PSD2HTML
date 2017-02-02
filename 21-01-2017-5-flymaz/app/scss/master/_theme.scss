@@ -286,6 +286,7 @@ $primary-color-hover: #025aa5;
       color: $primary-color;
       font-size: 42px;
       margin-bottom: 35px;
+      @extend %u-bold;
     }
 
     p {
@@ -339,7 +340,7 @@ $primary-color-hover: #025aa5;
     h3 {
       font-size: 32px;
       margin-bottom: 35px;
-      text-transform: uppercase;
+      @extend %u-bold;
     }
 
     p {
@@ -413,7 +414,7 @@ $primary-color-hover: #025aa5;
       color: $primary-color;
       font-size: 32px;
       margin-bottom: 35px;
-      text-transform: uppercase;
+      @extend %u-bold;
     }
 
     p {
@@ -459,7 +460,7 @@ $primary-color-hover: #025aa5;
       color: $primary-color;
       font-size: 32px;
       margin-bottom: 35px;
-      text-transform: uppercase;
+      @extend %u-bold;
     }
 
     p {
@@ -509,12 +510,11 @@ $primary-color-hover: #025aa5;
 
   .title {
     margin-bottom: 200px;
-    text-transform: uppercase;
 
     h3 {
       color: $primary-color;
       font-size: 42px;
-      font-weight: bold;
+      @extend %u-bold;
     }
   }
 
@@ -670,8 +670,7 @@ $primary-color-hover: #025aa5;
     h3 {
       color: $primary-color;
       font-size: 42px;
-      font-weight: bold;
-      text-transform: uppercase;
+      @extend %u-bold;
       @extend .text-center;
     }
   }

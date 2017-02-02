@@ -443,7 +443,7 @@ a:hover {
   width: 100%;
   float: left; }
 
-.btn, .call-to-action h3, .features h3, .features-2 h3, .services .item h4 {
+.btn, .call-to-action h3, .features h3, .features-2 h3, .services .title h3, .services .item h4, .ourteam .title h3, .expericence .title h3, .portfolio .title h3, .statistics .title h3, .testimonials-2 .title h3 {
   text-transform: uppercase;
   font-weight: bold; }
 
@@ -627,8 +627,7 @@ a:hover {
     margin-bottom: 35px; }
     .ourteam .title h3 {
       font-size: 32px;
-      margin-bottom: 35px;
-      text-transform: uppercase; }
+      margin-bottom: 35px; }
     .ourteam .title p {
       font-size: 22px;
       width: 800px;
@@ -663,8 +662,7 @@ a:hover {
     .expericence .title h3 {
       color: #007ee5;
       font-size: 32px;
-      margin-bottom: 35px;
-      text-transform: uppercase; }
+      margin-bottom: 35px; }
     .expericence .title p {
       color: #888;
       font-size: 22px;
@@ -688,8 +686,7 @@ a:hover {
   .portfolio .title h3 {
     color: #007ee5;
     font-size: 32px;
-    margin-bottom: 35px;
-    text-transform: uppercase; }
+    margin-bottom: 35px; }
   .portfolio .title p {
     font-size: 22px;
     width: 800px;
@@ -718,12 +715,10 @@ a:hover {
 .statistics {
   padding: 100px 0; }
   .statistics .title {
-    margin-bottom: 200px;
-    text-transform: uppercase; }
+    margin-bottom: 200px; }
     .statistics .title h3 {
       color: #007ee5;
-      font-size: 42px;
-      font-weight: bold; }
+      font-size: 42px; }
   .statistics .list-item {
     display: flex;
     margin: 0 auto; }
@@ -815,6 +810,4 @@ a:hover {
   padding: 100px 0; }
   .testimonials-2 .title h3 {
     color: #007ee5;
-    font-size: 42px;
-    font-weight: bold;
-    text-transform: uppercase; }
+    font-size: 42px; }
