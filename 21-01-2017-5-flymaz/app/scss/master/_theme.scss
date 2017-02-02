@@ -52,6 +52,7 @@ $primary-color-hover: #025aa5;
   width: 100%;
   padding-top: 57px;
   transition: all .3s;
+  z-index: 9999;
 }
 
 .shrink {
@@ -608,6 +609,7 @@ $primary-color-hover: #025aa5;
         position: absolute;
         bottom: 10px;
         left: -18px;
+        z-index: 1;
       }
 
       &::after {
@@ -666,12 +668,50 @@ $primary-color-hover: #025aa5;
   padding: 100px 0;
 
   .title {
+    margin-bottom: 85px;
 
     h3 {
       color: $primary-color;
       font-size: 42px;
       @extend %u-bold;
       @extend .text-center;
+    }
+  }
+
+  .list-item {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0px 70px;
+  }
+
+  .item {
+    width: 50%;
+    margin-bottom: 115px;
+
+    .pull-left {
+      width: 155px;
+    }
+
+    .pull-right {
+      width: calc(100% - 155px);
+
+      h4 {
+        color: $primary-color;
+        font-size: 22px;
+        margin: 60px 0 15px;
+        @extend %u-bold;
+      }
+
+      p {
+        color: #888;
+        font-size: 16px;
+      }
+    }
+
+    .content {
+      color: #111;
+      font-size: 18px;
+      width: 200px;
     }
   }
 }
