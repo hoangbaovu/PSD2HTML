@@ -161,6 +161,7 @@ $primary-color-hover: #025aa5;
   padding: 350px 0 170px;
   color: #fff;
   @extend .text-center;
+  position: relative;
 
   h2 {
     font-size: 36px;
@@ -175,6 +176,24 @@ $primary-color-hover: #025aa5;
 
 .jumbotron-2 {
   background: url(../images/index-2/header_bg.jpg) no-repeat;
+  background-size: 100% 100%;
+  color: #444;
+  @extend %u-bold;
+
+  h2 {
+    font-size: 88px;
+    margin: 0;
+  }
+
+  p {
+    font-size: 32px;
+  }
+
+  .social-share {
+    position: absolute;
+    bottom: 40px;
+    left: 48%;
+  }
 }
 
 // Call to action

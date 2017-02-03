@@ -443,7 +443,7 @@ a:hover {
   width: 100%;
   float: left; }
 
-.btn, .call-to-action h3, .features h3, .features-2 h3, .services .title h3, .services .item h4, .ourteam .title h3, .expericence .title h3, .portfolio .title h3, .statistics .title h3, .testimonials-2 .title h3, .testimonials-2 .item .pull-right h4, .testimonials-2 .item .navbar .navbar-nav h4, .navbar .testimonials-2 .item .navbar-nav h4, .testimonials-2 .item .navbar .social-share h4, .navbar .testimonials-2 .item .social-share h4, .testimonials-2 .item .header-2.shrink .navbar-nav h4, .header-2.shrink .testimonials-2 .item .navbar-nav h4, .testimonials-3 .title h3, .pricing .title h3, .pricing .item h4 {
+.btn, .jumbotron-2, .call-to-action h3, .features h3, .features-2 h3, .services .title h3, .services .item h4, .ourteam .title h3, .expericence .title h3, .portfolio .title h3, .statistics .title h3, .testimonials-2 .title h3, .testimonials-2 .item .pull-right h4, .testimonials-2 .item .navbar .navbar-nav h4, .navbar .testimonials-2 .item .navbar-nav h4, .testimonials-2 .item .navbar .social-share h4, .navbar .testimonials-2 .item .social-share h4, .testimonials-2 .item .header-2.shrink .navbar-nav h4, .header-2.shrink .testimonials-2 .item .navbar-nav h4, .testimonials-3 .title h3, .pricing .title h3, .pricing .item h4 {
   text-transform: uppercase;
   font-weight: bold; }
 
@@ -525,7 +525,8 @@ a:hover {
   background: url(../images/index/header_bg.jpg) no-repeat;
   background-size: 100% 100%;
   padding: 350px 0 170px;
-  color: #fff; }
+  color: #fff;
+  position: relative; }
   .jumbotron h2 {
     font-size: 36px;
     margin-bottom: 30px; }
@@ -534,7 +535,18 @@ a:hover {
     margin-bottom: 50px; }
 
 .jumbotron-2 {
-  background: url(../images/index-2/header_bg.jpg) no-repeat; }
+  background: url(../images/index-2/header_bg.jpg) no-repeat;
+  background-size: 100% 100%;
+  color: #444; }
+  .jumbotron-2 h2 {
+    font-size: 88px;
+    margin: 0; }
+  .jumbotron-2 p {
+    font-size: 32px; }
+  .jumbotron-2 .social-share {
+    position: absolute;
+    bottom: 40px;
+    left: 48%; }
 
 .call-to-action {
   background: #007ee5;
