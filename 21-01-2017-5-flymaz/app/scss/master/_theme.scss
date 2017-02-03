@@ -29,6 +29,10 @@ $primary-color-hover: #025aa5;
       }
     }
 
+    &-no-boder {
+      color: $primary-color;
+    }
+
     &-outline-primary {
       background: #fff;
       transition: background .3s;
@@ -823,9 +827,16 @@ $primary-color-hover: #025aa5;
 
   .list-item {
     display: flex;
+    justify-content: space-around;
   }
 
   .item {
+
+    padding: 60px;
+
+    &.active {
+      background: #f4f3f4;
+    }
 
     h4 {
       color: #444;
@@ -861,7 +872,6 @@ $primary-color-hover: #025aa5;
   }
 
   .btn {
-    color: $primary-color;
     margin: 90px 0;
   }
 
@@ -869,12 +879,8 @@ $primary-color-hover: #025aa5;
     margin-bottom: 35px;
 
     p {
-      color: #888;
+      color: #7b8994;
       font-size: 16px;
-    }
-
-    b {
-      color: #111;
     }
   }
 }

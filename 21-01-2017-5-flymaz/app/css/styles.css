@@ -458,6 +458,8 @@ a:hover {
     transition: background .3s; }
     .btn-primary:hover {
       background: #025aa5; }
+  .btn-no-boder {
+    color: #007ee5; }
   .btn-outline-primary {
     background: #fff;
     transition: background .3s;
@@ -887,11 +889,16 @@ a:hover {
       width: 800px;
       margin: 0 auto; }
   .pricing .list-item {
-    display: flex; }
-  .pricing .item h4 {
-    color: #444;
-    font-size: 18px;
-    margin: 50px 0; }
+    display: flex;
+    justify-content: space-around; }
+  .pricing .item {
+    padding: 60px; }
+    .pricing .item.active {
+      background: #f4f3f4; }
+    .pricing .item h4 {
+      color: #444;
+      font-size: 18px;
+      margin: 50px 0; }
   .pricing .price::before, .pricing .price::after {
     font-size: 21px;
     position: absolute; }
@@ -908,12 +915,9 @@ a:hover {
       content: "/MO";
       bottom: 11px; }
   .pricing .btn {
-    color: #007ee5;
     margin: 90px 0; }
   .pricing li {
     margin-bottom: 35px; }
     .pricing li p {
-      color: #888;
+      color: #7b8994;
       font-size: 16px; }
-    .pricing li b {
-      color: #111; }
