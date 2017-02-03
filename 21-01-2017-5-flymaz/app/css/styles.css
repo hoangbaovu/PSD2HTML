@@ -891,14 +891,9 @@ a:hover {
   .pricing .list-item {
     display: flex;
     justify-content: space-around; }
-  .pricing .item {
-    padding: 60px; }
-    .pricing .item.active {
-      background: #f4f3f4; }
-    .pricing .item h4 {
-      color: #444;
-      font-size: 18px;
-      margin: 50px 0; }
+  .pricing .item h4 {
+    color: #444;
+    font-size: 18px; }
   .pricing .price::before, .pricing .price::after {
     font-size: 21px;
     position: absolute; }
@@ -914,10 +909,51 @@ a:hover {
     .pricing .price::after {
       content: "/MO";
       bottom: 11px; }
-  .pricing .btn {
-    margin: 90px 0; }
   .pricing li {
     margin-bottom: 35px; }
     .pricing li p {
       color: #7b8994;
       font-size: 16px; }
+  .pricing-box {
+    background: #007ee5;
+    padding-bottom: 60px; }
+
+.pricing-1 .btn {
+  margin: 90px 0; }
+
+.pricing-1 .item {
+  padding: 60px; }
+  .pricing-1 .item.active {
+    background: #f4f3f4; }
+  .pricing-1 .item h4 {
+    color: #444;
+    margin: 50px 0; }
+
+.pricing-2 {
+  background: #f4f3f4; }
+  .pricing-2 .btn {
+    margin: 30px 0; }
+  .pricing-2 .item {
+    background: #fff;
+    position: relative; }
+    .pricing-2 .item.active::after {
+      background: #a8dba8;
+      content: "POPULAR";
+      color: #fff;
+      position: absolute;
+      width: 100%;
+      top: -59px;
+      left: 0;
+      padding: 20px 0; }
+    .pricing-2 .item h4 {
+      color: #fff;
+      border-bottom: 1px solid #fff;
+      padding: 20px 0; }
+    .pricing-2 .item ul {
+      padding: 40px 50px 20px;
+      border-bottom: 1px solid #f4f3f4; }
+  .pricing-2 .price {
+    color: #fff;
+    margin-top: 50px; }
+    .pricing-2 .price::after {
+      content: "/M"; }
