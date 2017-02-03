@@ -1027,3 +1027,51 @@ $primary-color-hover: #025aa5;
     }
   }
 }
+
+// footer-2
+
+.footer-2 {
+  
+  @extend .text-center;
+  color: #fff;
+  padding: 60px 0 0;
+
+  p {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .box-1 {
+    background: $primary-color;
+    padding: 60px 0;
+  }
+
+  .box-2 {
+    background: #eaeaea;
+    padding: 55px 0;
+  }
+
+  .social-share {
+
+    li {
+      margin: 0 10px;
+    }
+
+    a {
+      width: 56px;
+      height: 56px;
+
+      &.facebook {
+        background: url(../images/common/social-share-3.png) 0 0;
+      }
+
+      &.twitter {
+        background: url(../images/common/social-share-3.png) -96px 0;
+      }
+
+      &.gplus {
+        background: url(../images/common/social-share-3.png) 56px 0;
+      }
+    }
+  }
+}

@@ -429,7 +429,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .header-2 .navbar-nav, .jumbotron, .services .title, .services .item, .ourteam .title, .ourteam .item, .expericence, .expericence .title, .portfolio, .statistics, .testimonials-2 .title h3, .testimonials-3, .pricing {
+.text-center, .header-2 .navbar-nav, .jumbotron, .services .title, .services .item, .ourteam .title, .ourteam .item, .expericence, .expericence .title, .portfolio, .statistics, .testimonials-2 .title h3, .testimonials-3, .pricing, .footer-2 {
   text-align: center; }
 
 .clearfix {
@@ -998,3 +998,27 @@ a:hover {
     font-size: 16px; }
   .footer img:hover {
     opacity: .8; }
+
+.footer-2 {
+  color: #fff;
+  padding: 60px 0 0; }
+  .footer-2 p {
+    width: 600px;
+    margin: 0 auto; }
+  .footer-2 .box-1 {
+    background: #007ee5;
+    padding: 60px 0; }
+  .footer-2 .box-2 {
+    background: #eaeaea;
+    padding: 55px 0; }
+  .footer-2 .social-share li {
+    margin: 0 10px; }
+  .footer-2 .social-share a {
+    width: 56px;
+    height: 56px; }
+    .footer-2 .social-share a.facebook {
+      background: url(../images/common/social-share-3.png) 0 0; }
+    .footer-2 .social-share a.twitter {
+      background: url(../images/common/social-share-3.png) -96px 0; }
+    .footer-2 .social-share a.gplus {
+      background: url(../images/common/social-share-3.png) 56px 0; }
