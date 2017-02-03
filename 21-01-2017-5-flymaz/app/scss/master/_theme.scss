@@ -948,3 +948,28 @@ $primary-color-hover: #025aa5;
     }
   }
 }
+
+// footer
+
+.footer {
+  background: #3d464d;
+  padding: 70px 0;
+  overflow: hidden;
+
+  .copyright {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: #7b8994;
+    font-size: 16px;
+  }
+
+  img {
+    &:hover {
+      opacity: .8;
+    }
+  }
+}

@@ -957,3 +957,17 @@ a:hover {
     margin-top: 50px; }
     .pricing-2 .price::after {
       content: "/M"; }
+
+.footer {
+  background: #3d464d;
+  padding: 70px 0;
+  overflow: hidden; }
+  .footer .copyright {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px; }
+  .footer p {
+    color: #7b8994;
+    font-size: 16px; }
+  .footer img:hover {
+    opacity: .8; }
