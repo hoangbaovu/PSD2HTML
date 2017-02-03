@@ -417,10 +417,10 @@ a:hover {
   width: 1132px;
   margin: 0 auto; }
 
-.pull-left, .navbar .nav-brand {
+.pull-left, .navbar .nav-brand, .header-2.shrink .nav-brand {
   float: left; }
 
-.pull-right, .navbar .navbar-nav, .navbar .social-share {
+.pull-right, .navbar .navbar-nav, .navbar .social-share, .header-2.shrink .navbar-nav {
   float: right; }
 
 .list-inline li, .navbar .nav li {
@@ -429,7 +429,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .jumbotron, .services .title, .services .item, .ourteam .title, .ourteam .item, .expericence, .expericence .title, .portfolio, .statistics, .testimonials-2 .title h3, .testimonials-3, .pricing {
+.text-center, .header-2 .navbar-nav, .jumbotron, .services .title, .services .item, .ourteam .title, .ourteam .item, .expericence, .expericence .title, .portfolio, .statistics, .testimonials-2 .title h3, .testimonials-3, .pricing {
   text-align: center; }
 
 .clearfix {
@@ -443,7 +443,7 @@ a:hover {
   width: 100%;
   float: left; }
 
-.btn, .call-to-action h3, .features h3, .features-2 h3, .services .title h3, .services .item h4, .ourteam .title h3, .expericence .title h3, .portfolio .title h3, .statistics .title h3, .testimonials-2 .title h3, .testimonials-2 .item .pull-right h4, .testimonials-2 .item .navbar .navbar-nav h4, .navbar .testimonials-2 .item .navbar-nav h4, .testimonials-2 .item .navbar .social-share h4, .navbar .testimonials-2 .item .social-share h4, .testimonials-3 .title h3, .pricing .title h3, .pricing .item h4 {
+.btn, .call-to-action h3, .features h3, .features-2 h3, .services .title h3, .services .item h4, .ourteam .title h3, .expericence .title h3, .portfolio .title h3, .statistics .title h3, .testimonials-2 .title h3, .testimonials-2 .item .pull-right h4, .testimonials-2 .item .navbar .navbar-nav h4, .navbar .testimonials-2 .item .navbar-nav h4, .testimonials-2 .item .navbar .social-share h4, .navbar .testimonials-2 .item .social-share h4, .testimonials-2 .item .header-2.shrink .navbar-nav h4, .header-2.shrink .testimonials-2 .item .navbar-nav h4, .testimonials-3 .title h3, .pricing .title h3, .pricing .item h4 {
   text-transform: uppercase;
   font-weight: bold; }
 
@@ -497,6 +497,18 @@ a:hover {
 .navbar .social-share {
   margin-left: 30px; }
 
+.header-2 .nav-brand {
+  display: block;
+  float: none;
+  text-align: center; }
+
+.header-2 .navbar-nav {
+  float: none; }
+  .header-2 .navbar-nav a {
+    color: #007ee5; }
+    .header-2 .navbar-nav a:hover {
+      color: #025aa5; }
+
 .social-share a {
   display: block;
   width: 20px;
@@ -520,6 +532,9 @@ a:hover {
   .jumbotron p {
     font-size: 18px;
     margin-bottom: 50px; }
+
+.jumbotron-2 {
+  background: url(../images/index-2/header_bg.jpg) no-repeat; }
 
 .call-to-action {
   background: #007ee5;
@@ -555,9 +570,9 @@ a:hover {
   .features .phone-1 {
     padding: 80px 0;
     overflow: hidden; }
-    .features .phone-1 .pull-left, .features .phone-1 .navbar .nav-brand, .navbar .features .phone-1 .nav-brand {
+    .features .phone-1 .pull-left, .features .phone-1 .navbar .nav-brand, .navbar .features .phone-1 .nav-brand, .features .phone-1 .header-2.shrink .nav-brand, .header-2.shrink .features .phone-1 .nav-brand {
       width: 530px; }
-    .features .phone-1 .pull-right, .features .phone-1 .navbar .navbar-nav, .navbar .features .phone-1 .navbar-nav, .features .phone-1 .navbar .social-share, .navbar .features .phone-1 .social-share {
+    .features .phone-1 .pull-right, .features .phone-1 .navbar .navbar-nav, .navbar .features .phone-1 .navbar-nav, .features .phone-1 .navbar .social-share, .navbar .features .phone-1 .social-share, .features .phone-1 .header-2.shrink .navbar-nav, .header-2.shrink .features .phone-1 .navbar-nav {
       width: 602px;
       padding: 240px 0; }
   .features .phone-2 {
@@ -565,10 +580,10 @@ a:hover {
     overflow: hidden; }
     .features .phone-2 p {
       margin-bottom: 20px; }
-    .features .phone-2 > .pull-left, .features .navbar .phone-2 > .nav-brand, .navbar .features .phone-2 > .nav-brand {
+    .features .phone-2 > .pull-left, .features .navbar .phone-2 > .nav-brand, .navbar .features .phone-2 > .nav-brand, .features .header-2.shrink .phone-2 > .nav-brand, .header-2.shrink .features .phone-2 > .nav-brand {
       width: 602px;
       padding: 120px 0; }
-      .features .phone-2 > .pull-left .pull-left, .features .navbar .phone-2 > .nav-brand .pull-left, .navbar .features .phone-2 > .nav-brand .pull-left, .features .phone-2 > .pull-left .navbar .nav-brand, .navbar .features .phone-2 > .pull-left .nav-brand, .features .navbar .phone-2 > .nav-brand .nav-brand, .navbar .features .phone-2 > .nav-brand .nav-brand {
+      .features .phone-2 > .pull-left .pull-left, .features .navbar .phone-2 > .nav-brand .pull-left, .navbar .features .phone-2 > .nav-brand .pull-left, .features .header-2.shrink .phone-2 > .nav-brand .pull-left, .header-2.shrink .features .phone-2 > .nav-brand .pull-left, .features .phone-2 > .pull-left .navbar .nav-brand, .navbar .features .phone-2 > .pull-left .nav-brand, .features .navbar .phone-2 > .nav-brand .nav-brand, .navbar .features .phone-2 > .nav-brand .nav-brand, .features .phone-2 > .pull-left .header-2.shrink .nav-brand, .header-2.shrink .features .phone-2 > .pull-left .nav-brand, .features .header-2.shrink .phone-2 > .nav-brand .nav-brand, .header-2.shrink .features .phone-2 > .nav-brand .nav-brand {
         width: 250px;
         padding-right: 30px;
         font-size: 18px;
@@ -825,20 +840,20 @@ a:hover {
     display: flex;
     flex-flow: row wrap;
     margin: 0px 70px; }
-  .testimonials-2 .item .pull-left, .testimonials-2 .item .navbar .nav-brand, .navbar .testimonials-2 .item .nav-brand {
+  .testimonials-2 .item .pull-left, .testimonials-2 .item .navbar .nav-brand, .navbar .testimonials-2 .item .nav-brand, .testimonials-2 .item .header-2.shrink .nav-brand, .header-2.shrink .testimonials-2 .item .nav-brand {
     width: 155px; }
-    .testimonials-2 .item .pull-left img:hover, .testimonials-2 .item .navbar .nav-brand img:hover, .navbar .testimonials-2 .item .nav-brand img:hover {
+    .testimonials-2 .item .pull-left img:hover, .testimonials-2 .item .navbar .nav-brand img:hover, .navbar .testimonials-2 .item .nav-brand img:hover, .testimonials-2 .item .header-2.shrink .nav-brand img:hover, .header-2.shrink .testimonials-2 .item .nav-brand img:hover {
       opacity: .8; }
-  .testimonials-2 .item .pull-right, .testimonials-2 .item .navbar .navbar-nav, .navbar .testimonials-2 .item .navbar-nav, .testimonials-2 .item .navbar .social-share, .navbar .testimonials-2 .item .social-share {
+  .testimonials-2 .item .pull-right, .testimonials-2 .item .navbar .navbar-nav, .navbar .testimonials-2 .item .navbar-nav, .testimonials-2 .item .navbar .social-share, .navbar .testimonials-2 .item .social-share, .testimonials-2 .item .header-2.shrink .navbar-nav, .header-2.shrink .testimonials-2 .item .navbar-nav {
     width: calc(100% - 155px); }
-    .testimonials-2 .item .pull-right h4, .testimonials-2 .item .navbar .navbar-nav h4, .navbar .testimonials-2 .item .navbar-nav h4, .testimonials-2 .item .navbar .social-share h4, .navbar .testimonials-2 .item .social-share h4 {
+    .testimonials-2 .item .pull-right h4, .testimonials-2 .item .navbar .navbar-nav h4, .navbar .testimonials-2 .item .navbar-nav h4, .testimonials-2 .item .navbar .social-share h4, .navbar .testimonials-2 .item .social-share h4, .testimonials-2 .item .header-2.shrink .navbar-nav h4, .header-2.shrink .testimonials-2 .item .navbar-nav h4 {
       font-size: 22px;
       margin: 60px 0 15px; }
-      .testimonials-2 .item .pull-right h4 a, .testimonials-2 .item .navbar .navbar-nav h4 a, .navbar .testimonials-2 .item .navbar-nav h4 a, .testimonials-2 .item .navbar .social-share h4 a, .navbar .testimonials-2 .item .social-share h4 a {
+      .testimonials-2 .item .pull-right h4 a, .testimonials-2 .item .navbar .navbar-nav h4 a, .navbar .testimonials-2 .item .navbar-nav h4 a, .testimonials-2 .item .navbar .social-share h4 a, .navbar .testimonials-2 .item .social-share h4 a, .testimonials-2 .item .header-2.shrink .navbar-nav h4 a, .header-2.shrink .testimonials-2 .item .navbar-nav h4 a {
         color: #007ee5; }
-        .testimonials-2 .item .pull-right h4 a:hover, .testimonials-2 .item .navbar .navbar-nav h4 a:hover, .navbar .testimonials-2 .item .navbar-nav h4 a:hover, .testimonials-2 .item .navbar .social-share h4 a:hover, .navbar .testimonials-2 .item .social-share h4 a:hover {
+        .testimonials-2 .item .pull-right h4 a:hover, .testimonials-2 .item .navbar .navbar-nav h4 a:hover, .navbar .testimonials-2 .item .navbar-nav h4 a:hover, .testimonials-2 .item .navbar .social-share h4 a:hover, .navbar .testimonials-2 .item .social-share h4 a:hover, .testimonials-2 .item .header-2.shrink .navbar-nav h4 a:hover, .header-2.shrink .testimonials-2 .item .navbar-nav h4 a:hover {
           color: #025aa5; }
-    .testimonials-2 .item .pull-right p, .testimonials-2 .item .navbar .navbar-nav p, .navbar .testimonials-2 .item .navbar-nav p, .testimonials-2 .item .navbar .social-share p, .navbar .testimonials-2 .item .social-share p {
+    .testimonials-2 .item .pull-right p, .testimonials-2 .item .navbar .navbar-nav p, .navbar .testimonials-2 .item .navbar-nav p, .testimonials-2 .item .navbar .social-share p, .navbar .testimonials-2 .item .social-share p, .testimonials-2 .item .header-2.shrink .navbar-nav p, .header-2.shrink .testimonials-2 .item .navbar-nav p {
       color: #888;
       font-size: 16px; }
   .testimonials-2 .item .content {
