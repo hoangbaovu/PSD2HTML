@@ -144,6 +144,9 @@ a {
 a:hover {
   text-decoration: underline; }
 
+.d-flex {
+  display: flex; }
+
 .float-left {
   float: left; }
 
@@ -280,7 +283,6 @@ a:hover {
     margin-bottom: 20px; }
 
 .clients .d-flex {
-  display: flex;
   margin-bottom: 30px; }
 
 .clients .images img {
