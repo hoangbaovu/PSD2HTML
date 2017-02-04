@@ -104,13 +104,13 @@
 
   .images {
     img {
-      border: 6px solid #fff;
+      border: 6px solid $white;
       border-radius: 50%;
     }
   }
 
   blockquote {
-    background: #fff;
+    background: $white;
     padding: 20px 30px;
     color: #777;
     border: 1px solid #f3f3f3;
@@ -139,8 +139,85 @@
 
 .logo {
   padding: 60px;
-  
+
   .d-flex {
     justify-content: space-around;
+  }
+}
+
+.team {
+  background: $black !important;
+  color: $white;
+
+  .title {
+    text-align: center;
+    display: block;
+
+    h3 {
+      color: $white;
+      margin-bottom: 20px;
+    }
+
+    b {
+      color: $white;
+    }
+
+    p {
+      color: #777;
+    }
+  }
+
+  .d-flex {
+    justify-content: space-around;
+  }
+
+  .item {
+    
+    text-align: center;
+
+    img {
+      border: 7px solid $white;
+      border-radius: 50%;
+    }
+
+    h4 {
+      color: #fff;
+      font-size: 18px;
+    }
+
+    span {
+      color: #ebebeb;
+      font-size: 16px;
+    }
+  }
+
+  .social-share {
+    padding: 0;
+    margin: 20px 0 50px;
+    justify-content: center;
+
+    a {
+      display: block;
+      height: 40px;
+      width: 40px;
+      margin: 0 10px;
+
+      &.twitter {
+        background: url(../images/common/social.png) no-repeat 0 0;
+      }
+
+      &.facebook {
+        background: url(../images/common/social.png) no-repeat -50px 0;
+      }
+
+      &.pinterest {
+        background: url(../images/common/social.png) no-repeat -100px 0;
+      }
+    }
+  }
+
+  .footer {
+    color: #ebebeb;
+    text-align: center;
   }
 }

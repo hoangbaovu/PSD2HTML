@@ -315,3 +315,48 @@ a:hover {
   padding: 60px; }
   .logo .d-flex {
     justify-content: space-around; }
+
+.team {
+  background: #000 !important;
+  color: #fff; }
+  .team .title {
+    text-align: center;
+    display: block; }
+    .team .title h3 {
+      color: #fff;
+      margin-bottom: 20px; }
+    .team .title b {
+      color: #fff; }
+    .team .title p {
+      color: #777; }
+  .team .d-flex {
+    justify-content: space-around; }
+  .team .item {
+    text-align: center; }
+    .team .item img {
+      border: 7px solid #fff;
+      border-radius: 50%; }
+    .team .item h4 {
+      color: #fff;
+      font-size: 18px; }
+    .team .item span {
+      color: #ebebeb;
+      font-size: 16px; }
+  .team .social-share {
+    padding: 0;
+    margin: 20px 0 50px;
+    justify-content: center; }
+    .team .social-share a {
+      display: block;
+      height: 40px;
+      width: 40px;
+      margin: 0 10px; }
+      .team .social-share a.twitter {
+        background: url(../images/common/social.png) no-repeat 0 0; }
+      .team .social-share a.facebook {
+        background: url(../images/common/social.png) no-repeat -50px 0; }
+      .team .social-share a.pinterest {
+        background: url(../images/common/social.png) no-repeat -100px 0; }
+  .team .footer {
+    color: #ebebeb;
+    text-align: center; }
