@@ -86,3 +86,54 @@
     }
   }
 }
+
+.clients {
+  
+  .title {
+    text-align: center;
+    display: block;
+
+    h3 {
+      margin-bottom: 20px;
+    }
+  }
+
+  .d-flex {
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  .images {
+    img {
+      border: 6px solid #fff;
+      border-radius: 50%;
+    }
+  }
+
+  blockquote {
+    background: #fff;
+    padding: 20px 30px;
+    color: #777;
+    border: 1px solid #f3f3f3;
+    font-size: 26px;
+    line-height: 28px;
+    position: relative;
+
+    &::after {
+      content: "";
+      background: url(../images/common/blockquote.png) no-repeat;
+      position: absolute;
+      width: 20px;
+      height: 25px;
+      left: -20px;
+      top: 41%;
+    }
+
+    span {
+      display: block;
+      color: #7690c5;
+      font-size: 20px;
+      margin: 15px 0 0 10px;
+    }
+  }  
+}
