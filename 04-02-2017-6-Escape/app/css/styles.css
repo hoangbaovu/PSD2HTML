@@ -144,7 +144,7 @@ a {
 a:hover {
   text-decoration: underline; }
 
-.float-left, .nav-brand {
+.float-left {
   float: left; }
 
 .float-right {
@@ -172,3 +172,32 @@ a:hover {
 .col-12 {
   width: 100%;
   float: left; }
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: row; }
+
+.nav-brand {
+  display: inline-block; }
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: auto; }
+  .navbar-nav .nav-item {
+    margin: 0 15px; }
+    .navbar-nav .nav-item a {
+      color: #fff; }
+
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+  width: 100%; }
+
+.header {
+  background: red;
+  position: fixed;
+  top: 0;
+  width: 100%; }

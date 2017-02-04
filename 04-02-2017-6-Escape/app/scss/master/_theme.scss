@@ -1,1 +1,14 @@
 @import "master/theme/navbar";
+
+$primary-color: #222;
+
+.container {
+  @include container(940px);
+}
+
+.header {
+  background: red;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
