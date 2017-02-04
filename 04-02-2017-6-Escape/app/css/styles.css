@@ -173,6 +173,14 @@ a:hover {
   width: 100%;
   float: left; }
 
+.btn {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 20px 30px; }
+
 .navbar {
   position: relative;
   display: flex;
@@ -202,7 +210,8 @@ a:hover {
   .jumbotron h2 {
     font-size: 60px;
     font-weight: bold;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-bottom: 80px; }
   .jumbotron h3 {
     font-size: 32px; }
 

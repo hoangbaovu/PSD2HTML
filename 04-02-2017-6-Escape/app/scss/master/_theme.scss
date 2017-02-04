@@ -1,7 +1,7 @@
+@import "theme/variables";
+@import "theme/btn";
 @import "theme/navbar";
 @import "theme/jumbotron";
-
-$primary-color: #222;
 
 .container {
   @include container(940px);
