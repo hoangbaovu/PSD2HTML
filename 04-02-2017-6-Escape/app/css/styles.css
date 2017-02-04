@@ -233,7 +233,7 @@ a:hover {
     display: block;
     content: "";
     clear: both; }
-  #main section:nth-child(even) {
+  #main section:nth-child(odd) {
     background: #fafafa; }
   #main section p {
     font-size: 18px;
@@ -245,8 +245,11 @@ a:hover {
   .title b {
     color: #000; }
 
-.development .float-left {
+.development .content, .branding .content {
   width: 680px; }
 
-.development .float-right img {
+.development .images img, .branding .images img {
   margin-top: 20px; }
+
+.branding .content {
+  width: 660px; }

@@ -20,7 +20,7 @@
     padding: 100px 0;
     @include clearfix;
 
-    &:nth-child(even) {
+    &:nth-child(odd) {
       background: #fafafa;
     }
 
@@ -41,10 +41,18 @@
 }
 
 .development {
-  .float-left {
+  .content {
     width: 680px;
   }
-  .float-right {
+  .images {
     img { margin-top: 20px;}
+  }
+}
+
+.branding {
+  @extend .development;
+
+  .content {
+    width: 660px;
   }
 }
