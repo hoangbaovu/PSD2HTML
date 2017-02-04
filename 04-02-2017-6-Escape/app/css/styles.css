@@ -225,3 +225,28 @@ a:hover {
   top: 0;
   width: 100%;
   padding-top: 50px; }
+
+#main section {
+  color: #898989;
+  padding: 100px 0; }
+  #main section::after {
+    display: block;
+    content: "";
+    clear: both; }
+  #main section:nth-child(even) {
+    background: #fafafa; }
+  #main section p {
+    font-size: 18px;
+    line-height: 24px; }
+
+.title {
+  font-size: 60px;
+  margin: 0 0 50px; }
+  .title b {
+    color: #000; }
+
+.development .float-left {
+  width: 680px; }
+
+.development .float-right img {
+  margin-top: 20px; }
