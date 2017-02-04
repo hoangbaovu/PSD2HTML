@@ -63,11 +63,26 @@
     display: flex;
     list-style: none;
     flex-flow: row wrap;
+    padding: 0;
   }
 
   .item {
+    display: flex;
+    width: 45%;
+    margin: 0 47px 50px 0;
+
     img {
       display: block;
+      height: 70px;
+      width: 70px;
+    }
+
+    .content {
+      padding-left: 20px;
+    }
+
+    h4 {
+      margin: 0 0 15px;
     }
   }
 }

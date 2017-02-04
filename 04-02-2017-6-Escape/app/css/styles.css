@@ -257,7 +257,18 @@ a:hover {
 .skills .list {
   display: flex;
   list-style: none;
-  flex-flow: row wrap; }
+  flex-flow: row wrap;
+  padding: 0; }
 
-.skills .item img {
-  display: block; }
+.skills .item {
+  display: flex;
+  width: 45%;
+  margin: 0 47px 50px 0; }
+  .skills .item img {
+    display: block;
+    height: 70px;
+    width: 70px; }
+  .skills .item .content {
+    padding-left: 20px; }
+  .skills .item h4 {
+    margin: 0 0 15px; }
