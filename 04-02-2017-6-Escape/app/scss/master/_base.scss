@@ -1,8 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-}
+@import "base/_reset";
+@import "base/_mixin";
+
 
 a {
   text-decoration: none;
@@ -17,12 +15,20 @@ a:hover {
   margin: 0 auto;
 }
 
-.pull-left {
+.float-left {
   float: left;
 }
 
-.pull-right {
+.float-right {
   float: right;
+}
+
+.float-none {
+  float: none;
+}
+
+.clearfix {
+  clear: both;
 }
 
 .list-inline li{
@@ -35,10 +41,6 @@ a:hover {
 
 .text-center {
   text-align: center;
-}
-
-.clearfix {
-  clear: both;
 }
 
 .col-6 {
