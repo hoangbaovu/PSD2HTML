@@ -179,7 +179,8 @@ a:hover {
   flex-direction: row; }
 
 .nav-brand {
-  display: inline-block; }
+  display: inline-block;
+  margin-top: 10px; }
 
 .navbar-nav {
   display: flex;
@@ -191,13 +192,27 @@ a:hover {
     .navbar-nav .nav-item a {
       color: #fff; }
 
+.jumbotron {
+  background: url(../images/common/jumbotron.jpg) no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  margin-top: -20px;
+  padding: 226px 0 120px;
+  text-align: center; }
+  .jumbotron h2 {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .jumbotron h3 {
+    font-size: 32px; }
+
 .container {
   margin: 0 auto;
   max-width: 940px;
   width: 100%; }
 
 .header {
-  background: red;
   position: fixed;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  padding-top: 50px; }

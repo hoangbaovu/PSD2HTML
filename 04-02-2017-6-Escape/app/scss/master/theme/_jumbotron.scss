@@ -1,0 +1,18 @@
+.jumbotron {
+    background: url(../images/common/jumbotron.jpg) no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    margin-top: -20px;
+    padding: 226px 0 120px;
+    text-align: center;
+
+    h2 {
+        font-size: 60px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+}
