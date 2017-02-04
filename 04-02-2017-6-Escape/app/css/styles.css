@@ -253,3 +253,11 @@ a:hover {
 
 .branding .content {
   width: 660px; }
+
+.skills .list {
+  display: flex;
+  list-style: none;
+  flex-flow: row wrap; }
+
+.skills .item img {
+  display: block; }

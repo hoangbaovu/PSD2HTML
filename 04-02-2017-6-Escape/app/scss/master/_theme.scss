@@ -56,3 +56,18 @@
     width: 660px;
   }
 }
+
+.skills {
+
+  .list {
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+  }
+
+  .item {
+    img {
+      display: block;
+    }
+  }
+}
