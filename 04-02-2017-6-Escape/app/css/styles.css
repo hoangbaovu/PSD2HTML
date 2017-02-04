@@ -310,3 +310,8 @@ a:hover {
     color: #7690c5;
     font-size: 20px;
     margin: 15px 0 0 10px; }
+
+.logo {
+  padding: 60px; }
+  .logo .d-flex {
+    justify-content: space-around; }
