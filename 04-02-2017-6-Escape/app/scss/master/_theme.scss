@@ -12,6 +12,13 @@
   top: 0;
   width: 100%;
   padding-top: 50px;
+  transition: all .3s;
+  z-index: 99999;
+
+  &.shrink {
+    background: $black;
+    padding: 15px 0;
+  }
 }
 
 #main {

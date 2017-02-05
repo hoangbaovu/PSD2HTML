@@ -227,7 +227,12 @@ a:hover {
   position: fixed;
   top: 0;
   width: 100%;
-  padding-top: 50px; }
+  padding-top: 50px;
+  transition: all .3s;
+  z-index: 99999; }
+  .header.shrink {
+    background: #000;
+    padding: 15px 0; }
 
 #main section {
   color: #898989;
