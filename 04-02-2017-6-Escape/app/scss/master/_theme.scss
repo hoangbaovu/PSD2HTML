@@ -216,8 +216,21 @@
     }
   }
 
-  .footer {
+  .fter {
     color: #ebebeb;
     text-align: center;
+  }
+}
+
+.footer {
+  background: #7690c5;
+  color: $white;
+  padding: 100px 0;
+  overflow: hidden;
+
+  .title {
+    font-size: 60px;
+
+    b {color: $white};
   }
 }

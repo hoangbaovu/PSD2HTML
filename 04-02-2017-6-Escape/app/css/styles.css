@@ -357,6 +357,16 @@ a:hover {
         background: url(../images/common/social.png) no-repeat -50px 0; }
       .team .social-share a.pinterest {
         background: url(../images/common/social.png) no-repeat -100px 0; }
-  .team .footer {
+  .team .fter {
     color: #ebebeb;
     text-align: center; }
+
+.footer {
+  background: #7690c5;
+  color: #fff;
+  padding: 100px 0;
+  overflow: hidden; }
+  .footer .title {
+    font-size: 60px; }
+    .footer .title b {
+      color: #fff; }
