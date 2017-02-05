@@ -225,11 +225,14 @@
 .footer {
   background: #7690c5;
   color: $white;
-  padding: 100px 0;
+  padding: 100px 0 20px;
   overflow: hidden;
 
   .float-left {
     width: 50%;
+    margin-bottom: 100px;
+    
+    @include clearfix;
   }
 
   .title {
@@ -247,9 +250,21 @@
     width: 50%;
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 
     p {
       padding-left: 20px;
     }
   }
+}
+
+input, textarea {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 18px;
+  color: #bbb;
+  padding: 16px;
+  margin-bottom: 30px;
+  outline: 0;
+  width: 100%;
 }

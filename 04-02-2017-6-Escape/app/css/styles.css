@@ -364,10 +364,15 @@ a:hover {
 .footer {
   background: #7690c5;
   color: #fff;
-  padding: 100px 0;
+  padding: 100px 0 20px;
   overflow: hidden; }
   .footer .float-left {
-    width: 50%; }
+    width: 50%;
+    margin-bottom: 100px; }
+    .footer .float-left::after {
+      display: block;
+      content: "";
+      clear: both; }
   .footer .title {
     font-size: 60px; }
     .footer .title b {
@@ -378,6 +383,17 @@ a:hover {
   .footer .item {
     width: 50%;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    margin-bottom: 20px; }
     .footer .item p {
       padding-left: 20px; }
+
+input, textarea {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 18px;
+  color: #bbb;
+  padding: 16px;
+  margin-bottom: 30px;
+  outline: 0;
+  width: 100%; }
