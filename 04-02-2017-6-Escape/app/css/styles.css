@@ -366,7 +366,18 @@ a:hover {
   color: #fff;
   padding: 100px 0;
   overflow: hidden; }
+  .footer .float-left {
+    width: 50%; }
   .footer .title {
     font-size: 60px; }
     .footer .title b {
       color: #fff; }
+  .footer .d-flex {
+    flex-flow: row wrap;
+    padding: 0; }
+  .footer .item {
+    width: 50%;
+    display: flex;
+    align-items: center; }
+    .footer .item p {
+      padding-left: 20px; }

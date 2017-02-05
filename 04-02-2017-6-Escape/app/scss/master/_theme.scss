@@ -228,9 +228,28 @@
   padding: 100px 0;
   overflow: hidden;
 
+  .float-left {
+    width: 50%;
+  }
+
   .title {
     font-size: 60px;
 
     b {color: $white};
+  }
+
+  .d-flex {
+    flex-flow: row wrap;
+    padding: 0;
+  }
+
+  .item {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+    p {
+      padding-left: 20px;
+    }
   }
 }
