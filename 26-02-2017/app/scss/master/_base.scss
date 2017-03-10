@@ -1,0 +1,49 @@
+@import "base/_reset";
+@import "base/_mixin";
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-none {
+  float: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.list-inline li{
+  display: inline-block;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.col-6 {
+  width: 50%;
+  float: left;
+}
+
+.col-12 {
+  width: 100%;
+  float: left;
+}
