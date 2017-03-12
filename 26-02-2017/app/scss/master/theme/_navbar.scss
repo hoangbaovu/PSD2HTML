@@ -1,5 +1,46 @@
-.navbar {
+.nav {
 
+    li {
+        display: inline-block;
+    }
+}
+
+.navbar {
+    background: #fff;
+    display: flex;
+    padding: 20px;
+}
+
+.navbar-nav {
+
+    li {
+        padding: 0 20px;
+    }
+
+    .active {
+        
+        a {
+            border-bottom: 4px solid #0089cf;
+            color: #0089cf;
+            padding-bottom: 37px;
+        }
+    }
+    
+    a {
+        color: #333;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover {
+            color: #0089cf;
+        }
+    }
+}
+
+.mr-auto {
+    margin-right: auto!important;
 }
 
 .nav-brand {

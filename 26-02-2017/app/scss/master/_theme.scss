@@ -1,1 +1,14 @@
 @import "master/theme/navbar";
+
+body {
+    background: #c8cfdc;
+}
+
+
+.container {
+    max-width: 1282px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
