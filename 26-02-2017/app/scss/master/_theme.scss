@@ -70,3 +70,25 @@ body {
         }
     }
 }
+
+// .feat-1
+
+.feat-1 {
+    background: url(../images/feat/feat-1.jpg) no-repeat;
+    background-size: 100% 100%;
+
+    .content {
+        color: #fff;
+        padding: 260px 0 260px 60px;
+        width: 400px;
+
+        h2 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 25px;
+        }
+    }
+}
