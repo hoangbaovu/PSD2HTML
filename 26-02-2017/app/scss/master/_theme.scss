@@ -12,3 +12,61 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
+.top {
+
+    .wrap {
+        background: #fff;
+        overflow: hidden;
+        padding: 100px 0 150px;
+    }
+
+    .float-left {
+        width: 60%;
+        padding-top: 150px;
+
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    .float-right {
+        width: 40%;
+
+        .hang {
+            font-size: 25px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .name {
+            @extend .hang;
+            font-size: 35px;
+            line-height: 0;
+        }
+
+        .price {
+            color: #666;
+            font-size: 18px;
+        }
+
+        span.color {
+            color: #0089cf;
+        }
+    }
+
+    .size-charts {
+        
+        input {
+            padding: 20px;
+
+            &[type=submit] {
+                background: #333;
+                color: #fff;
+                outline: 0;
+                border: 2px solid #333;
+            }
+        }
+    }
+}

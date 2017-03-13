@@ -210,3 +210,38 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
+
+.top .wrap {
+  background: #fff;
+  overflow: hidden;
+  padding: 100px 0 150px; }
+
+.top .float-left, .top .nav-brand {
+  width: 60%;
+  padding-top: 150px; }
+  .top .float-left .center, .top .nav-brand .center {
+    display: block;
+    margin: 0 auto; }
+
+.top .float-right {
+  width: 40%; }
+  .top .float-right .hang, .top .float-right .name {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .top .float-right .name {
+    font-size: 35px;
+    line-height: 0; }
+  .top .float-right .price {
+    color: #666;
+    font-size: 18px; }
+  .top .float-right span.color {
+    color: #0089cf; }
+
+.top .size-charts input {
+  padding: 20px; }
+  .top .size-charts input[type=submit] {
+    background: #333;
+    color: #fff;
+    outline: 0;
+    border: 2px solid #333; }
