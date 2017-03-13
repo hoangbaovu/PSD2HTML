@@ -195,3 +195,30 @@ body {
         }
     }
 }
+
+// .social
+
+.social {
+    background: #fff;
+    padding: 110px 40px 185px;
+
+    .tag {
+        font-size: 25px;
+    }
+
+    .d-flex {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    li {
+
+        &:hover {
+            
+            img {
+                opacity: 0.8;
+            }
+        }
+    }
+}

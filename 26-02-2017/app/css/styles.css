@@ -317,3 +317,15 @@ body {
         width: 40%; }
       .feat-2 .box .size-charts input[type=submit] {
         width: 54%; }
+
+.social {
+  background: #fff;
+  padding: 110px 40px 185px; }
+  .social .tag {
+    font-size: 25px; }
+  .social .d-flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 0; }
+  .social li:hover img {
+    opacity: 0.8; }
