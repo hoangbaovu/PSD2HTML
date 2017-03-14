@@ -1,0 +1,33 @@
+.mr-auto {
+    margin-right: auto!important;
+}
+
+.navbar {
+    display: flex;
+    padding: 30px 0;
+    max-width: 1203px;
+    margin: 0 auto;
+
+    .nav-menu {
+        background: url(../images/common/menu.png) no-repeat;
+        display: block;
+        margin-right: 65px;
+        height: 18px;
+        width: 25px;
+    }
+
+    .nav-logout {
+        background: url(../images/common/logout.png) no-repeat;
+        display: block;
+        margin-left: 55px;
+        height: 29px;
+        width: 33px;
+    }
+
+    .phone-number {
+        background: #ffd200;
+        border-radius: 15px;
+        padding: 0 36px;
+        margin-top: -10px;
+    }
+}
