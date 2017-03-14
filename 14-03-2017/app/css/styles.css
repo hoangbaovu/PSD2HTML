@@ -165,6 +165,9 @@ a:hover {
 .text-center {
   text-align: center; }
 
+.d-fex {
+  display: flex; }
+
 .mr-auto {
   margin-right: auto !important; }
 
@@ -191,6 +194,29 @@ a:hover {
     padding: 0 36px;
     margin-top: -10px; }
 
+.btn {
+  border: 1px solid #010101;
+  border-radius: 15px;
+  padding: 23px 35px; }
+
 .container {
   max-width: 1079px;
   margin: 0 auto; }
+
+.banner {
+  background: url(../images/common/jumbotron.png) no-repeat;
+  background-size: 100%;
+  padding: 64px 0 265px; }
+  .banner h2 {
+    font-size: 60px;
+    line-height: 0; }
+  .banner h3 {
+    font-size: 24px;
+    margin-bottom: 70px; }
+  .banner .btn {
+    color: #212121;
+    font-size: 24px;
+    text-transform: uppercase; }
+
+.step {
+  background: #fff; }
