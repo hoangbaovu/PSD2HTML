@@ -1,3 +1,4 @@
+@import "base/_variables";
 @import "base/_reset";
 @import "base/_mixin";
 
@@ -36,14 +37,4 @@ a:hover {
 
 .text-center {
   text-align: center;
-}
-
-.col-6 {
-  width: 50%;
-  float: left;
-}
-
-.col-12 {
-  width: 100%;
-  float: left;
 }
