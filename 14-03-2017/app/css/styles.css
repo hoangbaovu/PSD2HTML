@@ -165,7 +165,7 @@ a:hover {
 .text-center {
   text-align: center; }
 
-.d-fex {
+.d-flex {
   display: flex; }
 
 .mr-auto {
@@ -195,13 +195,16 @@ a:hover {
     margin-top: -10px; }
 
 .btn {
-  border: 1px solid #010101;
   border-radius: 15px;
   padding: 23px 35px; }
 
 .container {
   max-width: 1079px;
   margin: 0 auto; }
+
+.heading {
+  font-size: 60px;
+  color: #000; }
 
 .banner {
   background: url(../images/common/jumbotron.png) no-repeat;
@@ -214,9 +217,44 @@ a:hover {
     font-size: 24px;
     margin-bottom: 70px; }
   .banner .btn {
+    border: 1px solid #010101;
     color: #212121;
     font-size: 24px;
     text-transform: uppercase; }
 
 .step {
   background: #fff; }
+  .step .d-flex {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    position: relative;
+    z-index: 0; }
+    .step .d-flex img {
+      background: #fff; }
+    .step .d-flex::after {
+      content: "";
+      background: url(../images/step/line.png) repeat-x;
+      position: absolute;
+      width: 85%;
+      height: 5px;
+      margin-top: 70px;
+      z-index: -1; }
+
+.advantage {
+  background: #f3f0e7;
+  padding: 60px 0 80px; }
+  .advantage li {
+    width: calc(100%/3); }
+  .advantage .title {
+    font-size: 24px; }
+  .advantage p {
+    font-size: 16px;
+    width: 270px;
+    margin: 0 auto; }
+  .advantage .d-flex {
+    margin-bottom: 70px; }
+  .advantage .btn {
+    background: #e11a27;
+    color: #fff;
+    font-size: 26px;
+    text-transform: uppercase; }
