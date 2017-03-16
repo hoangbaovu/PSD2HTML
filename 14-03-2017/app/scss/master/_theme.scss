@@ -92,3 +92,77 @@
         text-transform: uppercase;
     }
 }
+
+// .solutions
+
+.solutions {
+
+    .d-flex {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .active {
+        position: relative;
+
+        &::after {
+            content: "BESTSELLER";
+            color: #e11a27;
+            font-weight: bold;
+            position: absolute;
+            top: -13px;
+            left: 112px;
+        }
+
+        &::before {
+            content: "";
+            background: url(../images/common/best-sell.png) no-repeat top center;
+            height: 21px;
+            width: 193px;
+            position: absolute;
+            top: -21px;
+            left: 69px;
+        }
+    }
+
+    &-box {
+        background: #ffd200;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 0 17px;
+        height: 100%;
+        width: 314px;
+
+        h3 {
+            font-size: 36px;
+        }
+    }
+
+    .info {
+        background: $white;
+        padding: 20px 0;
+        position: relative;
+        height: 290px;
+
+        ul {
+            list-style: url(../images/common/list.png);
+        }
+
+        .price {
+            @extend .text-center;
+            font-size: 60px;
+            line-height: 0;
+            position: absolute;
+            bottom: 0;
+            left: 26%;
+
+        }
+    }
+
+    &-box-footer {
+        @extend .text-center;
+        font-size: 21px;
+        padding-top: 10px;
+        line-height: 0;
+    }
+}
