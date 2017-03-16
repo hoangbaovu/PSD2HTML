@@ -223,7 +223,8 @@ a:hover {
     text-transform: uppercase; }
 
 .step {
-  background: #fff; }
+  background: #fff;
+  padding: 55px 0 90px; }
   .step .d-flex {
     flex-flow: row wrap;
     justify-content: space-around;
