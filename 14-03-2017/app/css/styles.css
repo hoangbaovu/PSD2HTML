@@ -263,56 +263,54 @@ a:hover {
     font-size: 26px;
     text-transform: uppercase; }
 
-.solutions .d-flex {
-  flex-flow: row wrap;
-  justify-content: center; }
-
-.solutions .active {
-  position: relative; }
-  .solutions .active::after {
-    content: "BESTSELLER";
-    color: #e11a27;
-    font-weight: bold;
-    position: absolute;
-    top: -13px;
-    left: 112px; }
-  .solutions .active::before {
-    content: "";
-    background: url(../images/common/best-sell.png) no-repeat top center;
-    height: 21px;
-    width: 193px;
-    position: absolute;
-    top: -21px;
-    left: 69px; }
-
-.solutions-box {
-  background: #ffd200;
-  border-radius: 10px;
-  padding: 5px;
-  margin: 0 17px;
-  height: 100%;
-  width: 314px; }
-  .solutions-box h3 {
-    font-size: 36px; }
-
-.solutions .info {
-  background: #fff;
-  padding: 20px 0;
-  position: relative;
-  height: 290px; }
-  .solutions .info ul {
-    list-style: url(../images/common/list.png); }
-  .solutions .info .price {
-    font-size: 60px;
-    line-height: 0;
-    position: absolute;
-    bottom: 0;
-    left: 26%; }
-
-.solutions-box-footer {
-  font-size: 21px;
-  padding-top: 10px;
-  line-height: 0; }
+.solutions {
+  padding: 70px 0 115px; }
+  .solutions .d-flex {
+    flex-flow: row wrap;
+    justify-content: center; }
+  .solutions .active {
+    position: relative; }
+    .solutions .active::after {
+      content: "BESTSELLER";
+      color: #e11a27;
+      font-weight: bold;
+      position: absolute;
+      top: -13px;
+      left: 112px; }
+    .solutions .active::before {
+      content: "";
+      background: url(../images/common/best-sell.png) no-repeat top center;
+      height: 21px;
+      width: 193px;
+      position: absolute;
+      top: -21px;
+      left: 69px; }
+  .solutions-box {
+    background: #ffd200;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 17px;
+    height: 100%;
+    width: 314px; }
+    .solutions-box h3 {
+      font-size: 36px; }
+  .solutions .info {
+    background: #fff;
+    padding: 20px 0;
+    position: relative;
+    height: 290px; }
+    .solutions .info ul {
+      list-style: url(../images/common/list.png); }
+    .solutions .info .price {
+      font-size: 60px;
+      line-height: 0;
+      position: absolute;
+      bottom: 0;
+      left: 26%; }
+  .solutions-box-footer {
+    font-size: 21px;
+    padding-top: 10px;
+    line-height: 0; }
 
 .testimonials {
   background: url(../images/testimonials/testimonials.png);
