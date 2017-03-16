@@ -26,13 +26,6 @@
         font-size: 24px;
         margin-bottom: 70px;
     }
-
-    .btn {
-        border: 1px solid #010101;
-        color: #212121;
-        font-size: 24px;
-        text-transform: uppercase;
-    }
 }
 
 .step {
@@ -164,5 +157,53 @@
         font-size: 21px;
         padding-top: 10px;
         line-height: 0;
+    }
+}
+
+// .testimonials
+
+.testimonials {
+
+    background: url(../images/testimonials/testimonials.png);
+    background-size: 100%;
+    padding: 40px 0 55px;
+
+    &-content {
+
+        width: 539px;
+        
+        .info {
+
+            img {
+                margin-right: 30px;
+            }
+
+            a.btn {
+                margin-left: 95px;
+            }
+        }
+
+        .info-bio {
+            overflow: hidden;
+        }
+
+        .name {
+            font-size: 30px;
+            margin-top: 60px;
+            line-height: 0;
+        }
+
+        .job {
+            font-size: 18px;
+        }
+
+        .caption {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        a.float-right {
+            margin-bottom: 115px;
+        }
     }
 }
