@@ -162,7 +162,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .solutions .info .price, .solutions-box-footer {
+.text-center, .solutions .info .price, .solutions-box-footer, .terms .box-title h3, .copyright {
   text-align: center; }
 
 .text-right {
@@ -204,6 +204,12 @@ a:hover {
 .btn-border {
   border: 1px solid #010101;
   color: #212121;
+  text-transform: uppercase; }
+
+.btn-primary {
+  background: #e11a27;
+  color: #fff;
+  font-size: 26px;
   text-transform: uppercase; }
 
 .container {
@@ -257,11 +263,6 @@ a:hover {
     margin: 0 auto; }
   .advantage .d-flex {
     margin-bottom: 70px; }
-  .advantage .btn {
-    background: #e11a27;
-    color: #fff;
-    font-size: 26px;
-    text-transform: uppercase; }
 
 .solutions {
   padding: 70px 0 115px; }
@@ -335,3 +336,73 @@ a:hover {
       margin-bottom: 30px; }
     .testimonials-content a.float-right {
       margin-bottom: 115px; }
+
+.terms {
+  padding: 90px 0 120px; }
+  .terms .d-flex {
+    flex-flow: row wrap;
+    justify-content: center; }
+  .terms-box {
+    border-radius: 5px;
+    width: 314px;
+    margin-right: auto; }
+  .terms .box-content {
+    background: #f7f0e6;
+    padding: 35px 30px; }
+  .terms .box-title {
+    background: #ffd200;
+    border-bottom: 5px solid #fff; }
+    .terms .box-title h3 {
+      padding: 20px 0 0;
+      text-transform: uppercase; }
+  .terms a.btn {
+    display: inline-block;
+    margin-top: 80px; }
+
+.footer {
+  background: #ffd200;
+  padding: 50px 0 55px;
+  overflow: hidden; }
+  .footer .float-left {
+    width: 78%; }
+    .footer .float-left ul {
+      display: inline-block; }
+  .footer .float-right {
+    width: calc(100%-78%); }
+    .footer .float-right ul {
+      display: inline-block; }
+  .footer-list {
+    border-top: 1px solid #000;
+    padding: 20px 0;
+    margin: 0 50px 0 0;
+    font-size: 18px; }
+    .footer-list li {
+      margin: 10px 0;
+      padding-right: 50px; }
+    .footer-list a {
+      color: #000; }
+
+.social {
+  padding-right: 45px;
+  margin-bottom: 50px; }
+  .social li {
+    display: inline-block;
+    padding-right: 20px;
+    margin: 0; }
+  .social a {
+    background: url(../images/common/social.png);
+    display: block;
+    width: 24px;
+    height: 24px; }
+    .social a.facebook {
+      background-position: 0 0; }
+    .social a.vk {
+      background-position: -44px 0; }
+    .social a.instagram {
+      background-position: 24px 0; }
+
+.design-by {
+  display: block; }
+
+.copyright {
+  font-size: 14px; }

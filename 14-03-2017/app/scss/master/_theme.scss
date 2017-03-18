@@ -78,12 +78,6 @@
         margin-bottom: 70px;
     }
 
-    .btn {
-        background: #e11a27;
-        color: $white;
-        font-size: 26px;
-        text-transform: uppercase;
-    }
 }
 
 // .solutions
@@ -208,4 +202,128 @@
             margin-bottom: 115px;
         }
     }
+}
+
+// .terms
+
+.terms {
+
+    padding: 90px 0 120px;
+
+    .d-flex {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    &-box {
+        border-radius: 5px;
+        width: 314px;
+        margin-right: auto;
+    }
+
+
+    .box-content {
+        background: #f7f0e6;
+        padding: 35px 30px;
+    }
+
+    .box-title {
+        background: #ffd200;
+        border-bottom: 5px solid $white;
+
+        h3 {
+            @extend .text-center;
+            padding: 20px 0 0;
+            text-transform: uppercase;
+        }
+    }
+
+    a.btn {
+        display: inline-block;
+        margin-top: 80px;
+    }
+}
+
+// .footer
+
+.footer {
+
+    background: #ffd200;
+    padding: 50px 0 55px;
+    overflow: hidden;
+
+    .float-left {
+
+        width: 78%;
+
+        ul {
+            display: inline-block;
+        }
+    }
+
+    .float-right {
+
+        width: calc(100%-78%);
+
+        ul {
+            display: inline-block;
+        }
+    }
+
+    &-list {
+        border-top: 1px solid #000;
+        padding: 20px 0;
+        margin: 0 50px 0 0;
+        font-size: 18px;
+
+        li {
+            margin: 10px 0;
+            padding-right: 50px;
+        }
+
+        a {
+            color: $black;
+        }
+    }
+}
+
+.social {
+
+    padding-right: 45px;
+    margin-bottom: 50px;
+
+    li {
+        display: inline-block;
+        padding-right: 20px;
+        margin: 0;
+    }
+    
+
+    a {
+        background: url(../images/common/social.png);
+        display: block;
+        width: 24px;
+        height: 24px;
+
+        &.facebook {
+            background-position: 0 0;
+        }
+
+        &.vk {
+            background-position: -44px 0;
+        }
+
+        &.instagram {
+            background-position: 24px 0;
+        }
+    }
+}
+
+.design-by {
+    display: block;
+}
+
+.copyright {
+    @extend .text-center;
+    font-size: 14px;
 }
