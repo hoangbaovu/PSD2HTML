@@ -312,6 +312,8 @@ a:hover {
     font-size: 21px;
     padding-top: 10px;
     line-height: 0; }
+    .solutions-box-footer a {
+      color: #000; }
 
 .testimonials {
   background: url(../images/testimonials/testimonials.png);
