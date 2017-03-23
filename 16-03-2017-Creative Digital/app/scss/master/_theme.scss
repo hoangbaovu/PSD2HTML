@@ -41,3 +41,50 @@
     }
 }
 
+.heading {
+    position: relative;
+    margin-bottom: 120px;
+
+    h2 {
+        @extend .text-center;
+        font-size: 38px;
+        text-transform: uppercase;
+        color: $white;
+        
+        &::after {
+            content: "W";
+            font-size: 274px;
+            color: rgba(255, 255, 255, 0.15);
+            position: absolute;
+            top: -142px;
+            left: 41%;
+        }
+    }
+}
+
+.about {
+    background: $primary-color;
+    padding: 173px 0 130px;
+
+    a {
+        @extend .text-center;
+        color: $white;
+        text-transform: uppercase;
+    }
+
+    p {
+        color: $white;
+        line-height: 24px;
+    }
+
+    .d-flex {
+        flex-direction: row;
+        flex-flow: row wrap;
+        @extend .text-center;
+
+        li {
+            width: 266px;
+            margin-right: 20px;
+        }
+    }
+}

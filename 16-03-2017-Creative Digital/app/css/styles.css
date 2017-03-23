@@ -162,8 +162,11 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .ad .creative, .ad p {
+.text-center, .ad .creative, .ad p, .heading h2, .about a, .about .d-flex {
   text-align: center; }
+
+.d-flex {
+  display: flex; }
 
 .navbar {
   display: flex;
@@ -234,3 +237,34 @@ a:hover {
     .ad .scroll-down img {
       display: block;
       margin: 20px auto 0; }
+
+.heading {
+  position: relative;
+  margin-bottom: 120px; }
+  .heading h2 {
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #fff; }
+    .heading h2::after {
+      content: "W";
+      font-size: 274px;
+      color: rgba(255, 255, 255, 0.15);
+      position: absolute;
+      top: -142px;
+      left: 41%; }
+
+.about {
+  background: #11749e;
+  padding: 173px 0 130px; }
+  .about a {
+    color: #fff;
+    text-transform: uppercase; }
+  .about p {
+    color: #fff;
+    line-height: 24px; }
+  .about .d-flex {
+    flex-direction: row;
+    flex-flow: row wrap; }
+    .about .d-flex li {
+      width: 266px;
+      margin-right: 20px; }
