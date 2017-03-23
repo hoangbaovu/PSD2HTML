@@ -44,12 +44,14 @@
 .heading {
     position: relative;
     margin-bottom: 120px;
+    @extend .text-center;
 
     h2 {
-        @extend .text-center;
+        
         font-size: 38px;
         text-transform: uppercase;
         color: $white;
+        z-index: 1;
         
         &::after {
             content: "W";
@@ -58,7 +60,14 @@
             position: absolute;
             top: -142px;
             left: 41%;
+            z-index: -1;
         }
+    }
+
+    .subtitle {
+        color: #222;
+        font-size: 30px;
+        margin-top: 100px;
     }
 }
 
@@ -120,5 +129,41 @@
 
     .float-right {
         width: 475px;
+    }
+}
+
+.blog {
+    padding: 165px 0 110px;
+
+    .heading {
+        h2 {
+            color: $black;
+            
+            &::after {
+                content: "B";
+                color: #e2e2e2;
+            }
+        }
+    }
+
+    .d-flex {
+        @extend .text-center;
+
+        a {
+            color: #11749e;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            margin-top: 30px;
+        }
+
+        p {
+            color: #222;
+            padding: 0 10px;
+            font-size: 15px;
+            line-height: 24px;
+        }
     }
 }
