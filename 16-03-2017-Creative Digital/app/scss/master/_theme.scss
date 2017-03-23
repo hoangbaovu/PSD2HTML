@@ -88,3 +88,37 @@
         }
     }
 }
+
+.news {
+    overflow: hidden;
+}
+
+.news-bg-right {
+    background: #222 url(../images/news/bg_01.png) no-repeat right top;
+    color: $white;
+    overflow: hidden;
+    padding: 80px 0 115px;
+
+    .float-left {
+        width: 475px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
+.news-bg-left {
+    @extend .news-bg-right;
+    background: #f3f3f3 url(../images/news/bg_02.png) no-repeat left top;
+    color: #222;
+
+    .float-right {
+        width: 475px;
+    }
+}

@@ -268,3 +268,25 @@ a:hover {
     .about .d-flex li {
       width: 266px;
       margin-right: 20px; }
+
+.news {
+  overflow: hidden; }
+
+.news-bg-right, .news-bg-left {
+  background: #222 url(../images/news/bg_01.png) no-repeat right top;
+  color: #fff;
+  overflow: hidden;
+  padding: 80px 0 115px; }
+  .news-bg-right .float-left, .news-bg-left .float-left {
+    width: 475px; }
+  .news-bg-right h3, .news-bg-left h3 {
+    font-size: 25px; }
+  .news-bg-right p, .news-bg-left p {
+    font-size: 15px;
+    line-height: 24px; }
+
+.news-bg-left {
+  background: #f3f3f3 url(../images/news/bg_02.png) no-repeat left top;
+  color: #222; }
+  .news-bg-left .float-right {
+    width: 475px; }
