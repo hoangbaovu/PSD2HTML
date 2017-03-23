@@ -1,0 +1,67 @@
+.navbar {
+    display: flex;
+    padding-top: 30px;
+
+    ul {
+        margin: 20px 0 0;
+    }
+}
+
+.navbar-border {
+    border-bottom: 1px solid #7a7a7a;
+    position: absolute;
+    z-index: 999;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-brand {
+    margin-right: auto;
+}
+
+.nav-menu {
+
+    li {
+        padding: 20px;
+
+        &.active {
+            border-bottom: 6px solid $primary-color;
+        }
+        
+        &:hover {
+            border-bottom: 6px solid $primary-color;
+        }
+    }
+    
+    a {
+        color: $white;
+        font-size: 20px;
+    }
+}
+
+.social-icon {
+
+    a {
+        background: url(../images/common/social-icon.png);
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+
+        &.facebook {
+            background-position: 0 0;
+        }
+
+        &.twitter {
+            background-position: -40px 0;
+        }
+
+        &.skype {
+            background-position: -80px 0;
+        }
+
+        &.linkedin {
+            background-position: -120px 0;
+        }
+    }
+}
