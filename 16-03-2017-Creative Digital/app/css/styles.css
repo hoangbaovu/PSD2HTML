@@ -315,3 +315,15 @@ a:hover {
     padding: 0 10px;
     font-size: 15px;
     line-height: 24px; }
+
+.quick-action {
+  background: #11749e;
+  padding: 115px 0 160px; }
+  .quick-action .action img {
+    margin-right: 30px; }
+  .quick-action .action p {
+    color: #fff;
+    width: 81%;
+    font-size: 15px;
+    line-height: 24px;
+    margin: -12px 0 0; }
