@@ -1,5 +1,5 @@
 {
-  "name": "00-00-2017-Web",
+  "name": "00-00-2017",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -27,6 +27,7 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^2.1.0",
     "gulp-useref": "^3.1.2",
-    "run-sequence": "^1.2.2"
+    "run-sequence": "^1.2.2",
+    "gulp-wait": "^0.0.2"
   }
 }

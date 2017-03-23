@@ -29,5 +29,5 @@
     "gulp-useref": "^3.1.2",
     "run-sequence": "^1.2.2",
     "gulp-wait": "^0.0.2"
-  },
+  }
 }
