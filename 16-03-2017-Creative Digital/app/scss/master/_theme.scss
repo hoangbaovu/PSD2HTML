@@ -226,3 +226,72 @@
         margin: 0 auto;
     }
 }
+
+.team {
+    
+    padding: 140px 0 100px;
+
+    .heading {
+        h2 {
+            color: $black;
+            
+            &::after {
+                content: "T";
+                color: #e2e2e2;
+                left: 43%;
+            }
+        }
+    }
+
+    .item {
+        background: #222;
+        position: relative;
+        margin: 0 15px 0 0;
+
+        &:hover {
+
+            img {
+                -webkit-filter: opacity(30%); /* Safari 6.0 - 9.0 */
+                filter: opacity(30%);
+            }
+            
+            .info {
+                bottom: 40%;
+            }
+        }
+    }
+
+    img {
+        transition: all .3s;
+        width: 269px;
+        height: 414px;
+    }
+
+    .info {
+        background: $white;
+        position: absolute;
+        bottom: -30px;
+        left: 30px;
+        width: 207px;
+        transition: all .3s;
+    }
+
+    .name {
+        @extend .text-center;
+        padding: 0;
+        margin: 20px 0 -10px;
+        font-size: 20px;
+        text-transform: uppercase;
+
+        a {
+            color: $primary-color;
+        }
+    }
+
+    .job {
+        @extend .text-center;
+        color: $black;
+        font-weight: bold;
+    }
+
+}
