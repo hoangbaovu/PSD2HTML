@@ -60,7 +60,7 @@
             position: absolute;
             top: -142px;
             left: 41%;
-            z-index: -1;
+            z-index: 0;
         }
     }
 
@@ -294,4 +294,48 @@
         font-weight: bold;
     }
 
+}
+
+.contact {
+    background: url(../images/common/contact.png);
+    background-size: 100%;
+    padding: 228px 0 100px;
+
+    .heading {
+
+        h2 {
+
+            &::after {
+                content: "C";
+                color: rgba(255, 255, 255, 0.15);
+            }
+        }
+    }
+
+    input {
+        width: 24%;
+    }
+
+    textarea {
+        width: 90%;
+    }
+}
+
+input {
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid $white;
+    color: $white;
+    font-size: 15px;
+    padding: 20px 40px;
+    line-height: 25px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+
+    &::placeholder {
+        color: $white;
+    }
+}
+
+textarea {
+    @extend input;
 }

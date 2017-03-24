@@ -1,5 +1,5 @@
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
-button, hr, input {
+button, hr, input, textarea {
   overflow: visible; }
 
 audio, canvas, progress, video {
@@ -85,7 +85,7 @@ img {
 svg:not(:root) {
   overflow: hidden; }
 
-button, input, optgroup, select, textarea {
+button, input, textarea, optgroup, select, textarea {
   font-family: sans-serif;
   font-size: 100%;
   line-height: 1.15;
@@ -253,7 +253,7 @@ a:hover {
       position: absolute;
       top: -142px;
       left: 41%;
-      z-index: -1; }
+      z-index: 0; }
   .heading .subtitle {
     color: #222;
     font-size: 30px;
@@ -391,3 +391,27 @@ a:hover {
   .team .job {
     color: #000;
     font-weight: bold; }
+
+.contact {
+  background: url(../images/common/contact.png);
+  background-size: 100%;
+  padding: 228px 0 100px; }
+  .contact .heading h2::after {
+    content: "C";
+    color: rgba(255, 255, 255, 0.15); }
+  .contact input, .contact textarea {
+    width: 24%; }
+  .contact textarea {
+    width: 90%; }
+
+input, textarea {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 15px;
+  padding: 20px 40px;
+  line-height: 25px;
+  margin-right: 20px;
+  margin-bottom: 30px; }
+  input::placeholder, textarea::placeholder {
+    color: #fff; }
