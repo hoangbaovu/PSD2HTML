@@ -187,3 +187,42 @@
         }
     }
 }
+
+.feature {
+    background: url(../images/features/feature-bg.png);
+    padding: 100px 0;
+
+    &-content {
+        color: $white;
+        width: 460px;
+        
+        h3 {
+            font-size: 25px;
+            line-height: 36px;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 24px;
+        }
+
+        ul {
+            padding: 0;
+            margin-top: 80px;
+        }
+
+        li {
+            margin: 30px 0;
+        }
+
+        span {
+            background: $primary-color;
+            padding: 10px 160px 10px 15px;
+            text-transform: uppercase;
+        }
+    }
+
+    &-phone {
+        margin: 0 auto;
+    }
+}

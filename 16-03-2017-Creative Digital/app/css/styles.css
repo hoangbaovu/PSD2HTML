@@ -327,3 +327,27 @@ a:hover {
     font-size: 15px;
     line-height: 24px;
     margin: -12px 0 0; }
+
+.feature {
+  background: url(../images/features/feature-bg.png);
+  padding: 100px 0; }
+  .feature-content {
+    color: #fff;
+    width: 460px; }
+    .feature-content h3 {
+      font-size: 25px;
+      line-height: 36px; }
+    .feature-content p {
+      font-size: 15px;
+      line-height: 24px; }
+    .feature-content ul {
+      padding: 0;
+      margin-top: 80px; }
+    .feature-content li {
+      margin: 30px 0; }
+    .feature-content span {
+      background: #11749e;
+      padding: 10px 160px 10px 15px;
+      text-transform: uppercase; }
+  .feature-phone {
+    margin: 0 auto; }
