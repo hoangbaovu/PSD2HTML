@@ -196,19 +196,21 @@ a:hover {
   color: #fff;
   font-size: 20px; }
 
-.social-icon a {
-  background: url(../images/common/social-icon.png);
-  display: inline-block;
-  width: 20px;
-  height: 20px; }
-  .social-icon a.facebook {
-    background-position: 0 0; }
-  .social-icon a.twitter {
-    background-position: -40px 0; }
-  .social-icon a.skype {
-    background-position: -80px 0; }
-  .social-icon a.linkedin {
-    background-position: -120px 0; }
+.social-icon {
+  margin: 38px 0 0; }
+  .social-icon a {
+    background: url(../images/common/social-icon.png);
+    display: inline-block;
+    width: 20px;
+    height: 20px; }
+    .social-icon a.facebook {
+      background-position: 0 0; }
+    .social-icon a.twitter {
+      background-position: -40px 0; }
+    .social-icon a.skype {
+      background-position: -80px 0; }
+    .social-icon a.linkedin {
+      background-position: -120px 0; }
 
 .container {
   max-width: 1200px;
