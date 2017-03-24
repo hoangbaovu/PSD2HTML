@@ -142,6 +142,7 @@
             &::after {
                 content: "B";
                 color: #e2e2e2;
+                z-index: -1;
             }
         }
     }
@@ -239,6 +240,7 @@
                 content: "T";
                 color: #e2e2e2;
                 left: 43%;
+                z-index: -1;
             }
         }
     }
@@ -338,4 +340,15 @@ input {
 
 textarea {
     @extend input;
+}
+
+.footer {
+    background: #222;
+    color: $white;
+    padding: 0 0 47px;
+    overflow: hidden;
+
+    .float-right {
+        margin-top: 5px;
+    }
 }

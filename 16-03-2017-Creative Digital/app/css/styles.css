@@ -303,7 +303,8 @@ a:hover {
     color: #000; }
     .blog .heading h2::after {
       content: "B";
-      color: #e2e2e2; }
+      color: #e2e2e2;
+      z-index: -1; }
   .blog .d-flex a {
     color: #11749e;
     font-size: 18px;
@@ -359,7 +360,8 @@ a:hover {
     .team .heading h2::after {
       content: "T";
       color: #e2e2e2;
-      left: 43%; }
+      left: 43%;
+      z-index: -1; }
   .team .item {
     background: #222;
     position: relative;
@@ -415,3 +417,11 @@ input, textarea {
   margin-bottom: 30px; }
   input::placeholder, textarea::placeholder {
     color: #fff; }
+
+.footer {
+  background: #222;
+  color: #fff;
+  padding: 0 0 47px;
+  overflow: hidden; }
+  .footer .float-right {
+    margin-top: 5px; }
