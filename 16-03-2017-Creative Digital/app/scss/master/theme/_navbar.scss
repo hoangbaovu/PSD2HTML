@@ -18,12 +18,17 @@
 
 .nav-brand {
     margin-right: auto;
+
+    &:hover {
+        opacity: .8;
+    }
 }
 
 .nav-menu {
 
     li {
         padding: 20px;
+        transition: all .3s;
 
         &.active {
             border-bottom: 6px solid $primary-color;

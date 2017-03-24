@@ -184,9 +184,12 @@ a:hover {
 
 .nav-brand {
   margin-right: auto; }
+  .nav-brand:hover {
+    opacity: .8; }
 
 .nav-menu li {
-  padding: 20px; }
+  padding: 20px;
+  transition: all .3s; }
   .nav-menu li.active {
     border-bottom: 6px solid #11749e; }
   .nav-menu li:hover {
@@ -287,6 +290,8 @@ a:hover {
   padding: 80px 0 115px; }
   .news-bg-right .float-left, .news-bg-left .float-left {
     width: 475px; }
+  .news-bg-right a, .news-bg-left a {
+    color: #fff; }
   .news-bg-right h3, .news-bg-left h3 {
     font-size: 25px; }
   .news-bg-right p, .news-bg-left p {
@@ -298,6 +303,8 @@ a:hover {
   color: #222; }
   .news-bg-left .float-right {
     width: 475px; }
+  .news-bg-left a {
+    color: #222; }
 
 .blog {
   padding: 165px 0 110px; }
