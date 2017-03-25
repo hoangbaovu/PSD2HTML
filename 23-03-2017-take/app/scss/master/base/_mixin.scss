@@ -1,0 +1,15 @@
+//Mixin container
+@mixin container($max-width) {
+  margin: 0 auto;
+  max-width: $max-width;
+  width: 100%;
+}
+
+// Mixin clearfix
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
