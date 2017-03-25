@@ -1,1 +1,46 @@
 @import "master/theme/_navbar";
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+#header {
+    background: url(../images/header/header.jpg) no-repeat top center;
+    background-size: 100%;
+    overflow: hidden;
+
+    .nav-brand {
+        display: block;
+        margin-top: 56px;
+    }
+
+    .header-content {
+        overflow: hidden;
+        
+        .left {
+            @extend .float-left;
+            color: $white;
+            width: 470px;
+
+            h1 {
+                font-size: 60px;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: 24px;
+            }
+        }
+
+        .right {
+
+            @extend .float-left;
+            
+            img {
+                @extend .text-center;
+            }
+        }
+    }
+}
