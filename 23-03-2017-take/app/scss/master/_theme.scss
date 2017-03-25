@@ -1,5 +1,9 @@
 @import "master/theme/_navbar";
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container {
     max-width: 1230px;
     padding: 0 30px;
@@ -22,13 +26,16 @@
         .left {
             @extend .float-left;
             color: $white;
+            margin-top: 250px;
             width: 470px;
 
             h1 {
                 font-size: 60px;
+                font-weight: 300;
             }
 
             p {
+                font-family: 'Open Sans', sans-serif;
                 font-size: 13px;
                 line-height: 24px;
             }
@@ -43,4 +50,159 @@
             }
         }
     }
+}
+
+.title-35 {
+    color: #222626;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.text {
+
+    overflow: hidden;
+    margin: -184px 0 0 0;
+    
+    p {
+        color: #959595;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0 0 40px;
+    }
+
+    .left {
+        @extend .float-left;
+        width: 570px;
+    }
+
+    .right {
+        @extend .float-left;
+        width: 630px;
+        margin-top: 112px;
+        padding: 0 0 0 30px;
+    }
+}
+
+%box-grid {
+    height: 168px;
+    padding: 15px 50px 60px 40px;
+    position: relative;
+
+    h3 {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+}
+
+.box-grid {
+    display: flex;
+    color: $white;
+    flex-flow: row wrap;
+    margin-bottom: 100px;
+
+    .more {
+        position: absolute;
+        bottom: 24px;
+        
+        a {
+            font-size: 14px;
+            color: $white;
+            font-weight: 600;
+        }
+    }
+
+    .small {
+        width: 310px;
+        @extend %box-grid;
+    }
+
+    .large {
+        width: 710px;
+        @extend %box-grid; 
+    }
+}
+
+.box-bg-01 {
+    background: url(../images/box/box_01.png) no-repeat;
+}
+
+.box-bg-02 {
+    background: url(../images/box/box_02.png) no-repeat;
+}
+
+.green {
+    background-color: #82ca9c;
+}
+
+.pink {
+    background-color: #f5989d;
+}
+
+.dark-blue {
+    background-color: #615f7d;
+}
+
+.four-col {
+    margin-bottom: 160px;
+}
+
+// full-image
+
+.full-image {
+    background: url(../images/full/full.png) no-repeat;
+    background-size: 100%;
+    padding: 300px 0 73px;
+    color: $white;
+
+    h2 {
+        font-size: 60px;
+        font-weight: 300;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 24px;
+        width: 470px;
+    }
+
+    .more {
+        color: $white;
+        font-size: 14px;
+        font-weight: 600;    
+    }
+}
+
+// .reason
+
+.reason {
+    background: #82ca9c;
+    padding: 130px 0 170px;
+    color: $white !important;
+
+    .title-35 {
+        color: $white;
+        margin-bottom: 70px;
+    }
+    
+    .col {
+        
+        h3 {
+            color: $white;
+        }
+
+        p {
+            color: $white;
+        }
+    }
+}
+
+// .buying
+
+.buying {
+    background: #f6f7fa;
 }
