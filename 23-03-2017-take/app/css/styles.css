@@ -144,10 +144,10 @@ a {
 a:hover {
   text-decoration: underline; }
 
-.float-left, #header .header-content .left, #header .header-content .right, .text .left, .text .right {
+.float-left, #header .header-content .left, #header .header-content .right, .text .left, .text .right, .footer__left, .footer__right .mail {
   float: left; }
 
-.float-right {
+.float-right, .footer__right {
   float: right; }
 
 .float-none {
@@ -354,3 +354,50 @@ body {
       background-position: 0 0; }
     .logo-company a.windows {
       background-position: 26px 0; }
+
+.list {
+  padding: 0;
+  margin-right: 100px; }
+  .list__item {
+    font-size: 13px;
+    margin-bottom: 14px; }
+    .list__item a {
+      color: #fff; }
+    .list__item--first {
+      margin-bottom: 30px; }
+
+.footer {
+  background: #192431;
+  color: #fff;
+  padding: 130px 0 150px;
+  overflow: hidden; }
+  .footer__title {
+    font-size: 13px;
+    font-weight: 600; }
+  .footer__left {
+    width: 570px; }
+    .footer__left--para {
+      color: #f6f7fa;
+      font-size: 13px;
+      line-height: 24px; }
+  .footer__right {
+    width: 470px; }
+    .footer__right .mail {
+      background: #fff;
+      width: 360px;
+      padding: 15px; }
+    .footer__right .submit {
+      border: 0 none;
+      background: #82ca9c url(../images/common/submit.png) center no-repeat;
+      width: 60px;
+      float: left;
+      padding: 0;
+      text-align: center;
+      height: 52px;
+      cursor: pointer; }
+    .footer__right form {
+      margin-bottom: 20px;
+      overflow: hidden; }
+    .footer__right--para {
+      color: #57697f;
+      font-size: 12px; }

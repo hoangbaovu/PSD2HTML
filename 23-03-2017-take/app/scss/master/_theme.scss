@@ -265,3 +265,82 @@ body {
         }
     }
 }
+
+
+.list {
+    
+    padding: 0;
+    margin-right: 100px;
+
+    &__item {
+        font-size: 13px;
+        margin-bottom: 14px;
+
+        a {
+            color: $white;
+        }
+
+        &--first {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+// footer
+
+.footer {
+
+    background: #192431;
+    color: $white;
+    padding: 130px 0 150px;
+    overflow: hidden;
+
+    &__title {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    
+    &__left {
+        @extend .float-left;
+        width: 570px;
+
+        &--para {
+            color: #f6f7fa;
+            font-size: 13px;
+            line-height: 24px;
+        }
+    }
+
+    &__right {
+        @extend .float-right;
+        width: 470px;
+
+        .mail {
+            background: $white;
+            width: 360px;
+            padding: 15px;
+            @extend .float-left;
+        }
+
+        .submit {
+            border: 0 none;
+            background: #82ca9c url(../images/common/submit.png) center no-repeat;
+            width: 60px;
+            float: left;
+            padding: 0;
+            text-align: center;
+            height: 52px;
+            cursor: pointer;
+        }
+
+        form {
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        &--para {
+            color: #57697f;
+            font-size: 12px;
+        }
+    }
+}
