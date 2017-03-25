@@ -179,6 +179,16 @@ a:hover {
     font-size: 14px;
     line-height: 24px; }
 
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 19px 45px;
+  text-transform: uppercase;
+  margin: 10px 0; }
+
 body {
   font-family: 'Open Sans', sans-serif; }
 
@@ -207,6 +217,11 @@ body {
         font-family: 'Open Sans', sans-serif;
         font-size: 13px;
         line-height: 24px; }
+
+.title-30 {
+  color: #2e3b4e;
+  font-size: 30px;
+  font-weight: 300; }
 
 .title-35 {
   color: #222626;
@@ -304,4 +319,38 @@ body {
     color: #fff; }
 
 .buying {
-  background: #f6f7fa; }
+  background: #f6f7fa;
+  padding: 150px 0; }
+  .buying .box {
+    width: 50%;
+    padding: 48px 55px; }
+  .buying .box-background {
+    background: #fff; }
+  .buying span {
+    background: #e1e1e1;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 5px 20px;
+    text-transform: uppercase; }
+    .buying span.popular {
+      background: #bd8cbf; }
+  .buying .content {
+    color: #8297a7;
+    width: 410px;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 30px; }
+
+.logo-company {
+  margin-top: 10px; }
+  .logo-company a {
+    background: url(../images/common/logo_company.png);
+    display: inline-block;
+    height: 26px;
+    width: 26px; }
+    .logo-company a.mac {
+      background-position: 0 0; }
+    .logo-company a.windows {
+      background-position: 26px 0; }
