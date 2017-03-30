@@ -1,15 +1,16 @@
 .navbar {
      background: rgba(0, 0, 0, .5);
      overflow: hidden;
+     height: 70px;
 
      .nav {
 
          @extend .float-left;
-         margin: 30px 0;
+         margin: 30px 0 0 100px;
 
          &__list {
              
-             margin: 0 25px;
+             margin: 0 90px 0 0;
              position: relative;
 
              &::after {
@@ -17,7 +18,7 @@
                  color: $white;
                  margin-left: 10px;
                  position: absolute;
-                 right: -15px;
+                 right: -45px;
              }
 
              &:last-child {
@@ -29,10 +30,20 @@
          }
          
          a {
+             font: 14px $font-subtitle;
              color: $white;
-             font-size: 14px;
              margin-right: 20px;
              text-transform: uppercase;
          }
      }
+}
+
+.nav-brand {
+    @extend .float-left;
+    margin-top: 18px;
+    transition: all .3s;
+
+    &:hover {
+        opacity: .8;
+    }
 }

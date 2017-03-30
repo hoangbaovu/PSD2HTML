@@ -10,8 +10,18 @@
 #header {
     background: url(../images/common/header.jpg);
     background-size: 100%;
-    overflow: hidden;
-    padding: 0 0 212px;
+    border-bottom: 10px solid $white;
+    padding: 0 0 186px;
+    position: relative;
+
+    .header__bullet {
+        background: url(../images/common/bullet.png);
+        bottom: -61px;
+        position: absolute;
+        height: 110px;
+        width: 106px;
+        left: calc(50%/1.07);
+    }
 }
 
 .social-icon {
@@ -27,6 +37,7 @@
         background: url(../images/common/social.png) no-repeat;
         display: block;
         height: 16px;
+        transition: all .3s;
         width: 16px;
 
         &.twitter {
@@ -40,6 +51,10 @@
         &.instagram {
             background-position: -80px 0;
         }
+
+        &:hover {
+            opacity: .8;
+        }
     }
 }
 
@@ -50,12 +65,13 @@
     padding-top: 90px;
 
     &__title {
-        font-family: 'PlayfairDisplay-Bold';
-        font-size: 92px;
+        font: 92px $font-banner;
     }
 
     &__subtitle {
-        font-size: 24px;
-        line-height: 36px;
+        font: 24px/36px $font-text;
+        margin-top: 38px;
+        display: inline-block;
+        @include clearfix;
     }
 }

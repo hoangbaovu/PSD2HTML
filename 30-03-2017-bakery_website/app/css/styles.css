@@ -144,7 +144,7 @@ a {
 a:hover {
   text-decoration: underline; }
 
-.float-left, .navbar .nav {
+.float-left, .navbar .nav, .nav-brand {
   float: left; }
 
 .float-right, .social-icon {
@@ -179,37 +179,53 @@ a:hover {
 
 @font-face {
   font-family: 'Proxima-Nova';
-  src: url("../fonts/proxima-nova.ttf") format("truetype"); }
+  src: url("../fonts/proxima-nova.otf") format("opentype"); }
 
 .navbar {
   background: rgba(0, 0, 0, 0.5);
-  overflow: hidden; }
+  overflow: hidden;
+  height: 70px; }
   .navbar .nav {
-    margin: 30px 0; }
+    margin: 30px 0 0 100px; }
     .navbar .nav__list {
-      margin: 0 25px;
+      margin: 0 90px 0 0;
       position: relative; }
       .navbar .nav__list::after {
         content: "~";
         color: #fff;
         margin-left: 10px;
         position: absolute;
-        right: -15px; }
+        right: -45px; }
       .navbar .nav__list:last-child::after {
         content: ""; }
     .navbar .nav a {
+      font: 14px "Alegreya-Regular";
       color: #fff;
-      font-size: 14px;
       margin-right: 20px;
       text-transform: uppercase; }
 
+.nav-brand {
+  margin-top: 18px;
+  transition: all .3s; }
+  .nav-brand:hover {
+    opacity: .8; }
+
 .btn {
-  background: rgba(0, 0, 0, 0.5);
-  border: 1px dashed #9e9c93;
-  color: #fff;
-  padding: 19px 26px; }
+  background: transparent;
+  display: inline-block;
+  font: 14px/24px "Alegreya-Bold";
+  padding: 20px 50px;
+  text-transform: uppercase; }
   .btn:hover {
     text-decoration: none; }
+  .btn--banner {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px dashed #9e9c93;
+    color: #fff;
+    letter-spacing: 5px;
+    transition: background .3s; }
+    .btn--banner:hover {
+      background: rgba(0, 0, 0, 0.5); }
 
 .container {
   max-width: 1260px;
@@ -218,8 +234,16 @@ a:hover {
 #header {
   background: url(../images/common/header.jpg);
   background-size: 100%;
-  overflow: hidden;
-  padding: 0 0 212px; }
+  border-bottom: 10px solid #fff;
+  padding: 0 0 186px;
+  position: relative; }
+  #header .header__bullet {
+    background: url(../images/common/bullet.png);
+    bottom: -61px;
+    position: absolute;
+    height: 110px;
+    width: 106px;
+    left: calc(50%/1.07); }
 
 .social-icon {
   margin: 30px 0; }
@@ -229,6 +253,7 @@ a:hover {
     background: url(../images/common/social.png) no-repeat;
     display: block;
     height: 16px;
+    transition: all .3s;
     width: 16px; }
     .social-icon a.twitter {
       background-position: 0 0; }
@@ -236,13 +261,19 @@ a:hover {
       background-position: -40px 0; }
     .social-icon a.instagram {
       background-position: -80px 0; }
+    .social-icon a:hover {
+      opacity: .8; }
 
 .banner {
   color: #fff;
   padding-top: 90px; }
   .banner__title {
-    font-family: 'PlayfairDisplay-Bold';
-    font-size: 92px; }
+    font: 92px "PlayfairDisplay-Bold"; }
   .banner__subtitle {
-    font-size: 24px;
-    line-height: 36px; }
+    font: 24px/36px "Proxima-Nova";
+    margin-top: 38px;
+    display: inline-block; }
+    .banner__subtitle::after {
+      display: block;
+      content: "";
+      clear: both; }
