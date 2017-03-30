@@ -1,1 +1,41 @@
 @import "master/theme/_navbar";
+
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+#header {
+    background: url(../images/common/header.png);
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.social-icon {
+    @extend .float-right;
+    @extend .list-inline;
+    margin: 30px 0;
+
+    li {
+        margin-right: 30px;
+    }
+
+    a {
+        background: url(../images/common/social.png) no-repeat;
+        display: block;
+        height: 16px;
+        width: 16px;
+
+        &.twitter {
+            background-position: 0 0;
+        }
+
+        &.facebook {
+            background-position: -40px 0;
+        }
+
+        &.instagram {
+            background-position: -80px 0;
+        }
+    }
+}
