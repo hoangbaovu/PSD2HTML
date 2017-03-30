@@ -1,3 +1,4 @@
+@import "master/theme/_fonts";
 @import "master/theme/_navbar";
 @import "master/theme/_btn";
 
@@ -47,8 +48,8 @@
     @extend .text-center;
     color: $white;
 
-    h2 {
-        
+    &__title {
+        font-family: 'Alegreya-Regular';
         font-size: 92px;
     }
 

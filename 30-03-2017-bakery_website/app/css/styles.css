@@ -165,6 +165,10 @@ a:hover {
 .text-center, .banner {
   text-align: center; }
 
+@font-face {
+  font-family: 'Alegreya-Regular';
+  src: url("../fonts/Alegreya-Regular.ttf") format("truetype"); }
+
 .navbar {
   background: rgba(0, 0, 0, 0.5);
   overflow: hidden; }
@@ -223,7 +227,8 @@ a:hover {
 
 .banner {
   color: #fff; }
-  .banner h2 {
+  .banner__title {
+    font-family: 'Alegreya-Regular';
     font-size: 92px; }
   .banner p {
     font-size: 24px;
