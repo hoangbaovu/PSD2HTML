@@ -169,6 +169,18 @@ a:hover {
   font-family: 'Alegreya-Regular';
   src: url("../fonts/Alegreya-Regular.ttf") format("truetype"); }
 
+@font-face {
+  font-family: 'Alegreya-Bold';
+  src: url("../fonts/Alegreya-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'PlayfairDisplay-Bold';
+  src: url("../fonts/PlayfairDisplay-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url("../fonts/proxima-nova.ttf") format("truetype"); }
+
 .navbar {
   background: rgba(0, 0, 0, 0.5);
   overflow: hidden; }

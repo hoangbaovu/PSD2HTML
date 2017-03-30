@@ -2,3 +2,22 @@
   font-family: 'Alegreya-Regular';
   src: url('../fonts/Alegreya-Regular.ttf')  format('truetype')
 }
+
+@font-face {
+  font-family: 'Alegreya-Bold';
+  src: url('../fonts/Alegreya-Regular.ttf')  format('truetype')
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Bold';
+  src: url('../fonts/PlayfairDisplay-Bold.ttf')  format('truetype')
+}
+
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url('../fonts/proxima-nova.ttf')  format('truetype')
+}
+$font-title     : 'Alegreya-Bold';
+$font-subtitle  : 'Alegreya-Regular';
+$font-text      : 'Proxima-Nova';
+$font-banner    : 'PlayfairDisplay-Bold';
