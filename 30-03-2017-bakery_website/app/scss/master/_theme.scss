@@ -1,4 +1,5 @@
 @import "master/theme/_navbar";
+@import "master/theme/_btn";
 
 .container {
     max-width: 1260px;
@@ -9,6 +10,7 @@
     background: url(../images/common/header.png);
     background-size: 100%;
     overflow: hidden;
+    padding: 0 0 212px;
 }
 
 .social-icon {
@@ -37,5 +39,21 @@
         &.instagram {
             background-position: -80px 0;
         }
+    }
+}
+
+.banner {
+
+    @extend .text-center;
+    color: $white;
+
+    h2 {
+        
+        font-size: 92px;
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 36px;
     }
 }
