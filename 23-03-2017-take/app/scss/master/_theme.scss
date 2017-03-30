@@ -11,6 +11,8 @@ body {
     margin: 0 auto;
 }
 
+.container-f {}
+
 #header {
     background: url(../images/header/header.jpg) no-repeat top center;
     background-size: 100%;
@@ -19,6 +21,10 @@ body {
     .nav-brand {
         display: block;
         margin-top: 56px;
+
+        &:hover {
+            opacity: .8;
+        }
     }
 
     .header-content {
@@ -262,6 +268,10 @@ body {
 
         &.windows {
             background-position: 26px 0;
+        }
+
+        &:hover {
+            opacity: .8;
         }
     }
 }

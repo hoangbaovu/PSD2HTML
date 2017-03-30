@@ -188,6 +188,9 @@ a:hover {
   padding: 19px 45px;
   text-transform: uppercase;
   margin: 10px 0; }
+  .btn:hover {
+    opacity: .8;
+    text-decoration: none; }
 
 body {
   font-family: 'Open Sans', sans-serif; }
@@ -204,6 +207,8 @@ body {
   #header .nav-brand {
     display: block;
     margin-top: 56px; }
+    #header .nav-brand:hover {
+      opacity: .8; }
   #header .header-content {
     overflow: hidden; }
     #header .header-content .left {
@@ -354,6 +359,8 @@ body {
       background-position: 0 0; }
     .logo-company a.windows {
       background-position: 26px 0; }
+    .logo-company a:hover {
+      opacity: .8; }
 
 .list {
   padding: 0;
