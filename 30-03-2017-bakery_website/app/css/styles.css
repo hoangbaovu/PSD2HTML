@@ -159,7 +159,7 @@ a:hover {
 .list-inline li, .social-icon li {
   display: inline-block; }
 
-.list-unstyled {
+.list-unstyled, .slider-navigator {
   list-style: none; }
 
 .text-center, .banner, .art-of-cakes .content, .slider-time {
@@ -373,7 +373,7 @@ a:hover {
 
 .perfect-pancakes {
   background: url(../images/home/perfect_pancakes.jpg);
-  background-size: 100%;
+  background-size: 100% 100%;
   padding: 140px 0 108px; }
 
 .slider {
@@ -416,3 +416,33 @@ a:hover {
       color: #979285;
       font: bold 18px/0 "Alegreya-Bold";
       margin-top: -25px; }
+  .slider-navigator {
+    display: flex;
+    justify-content: center; }
+    .slider-navigator__list {
+      margin: 0 30px; }
+      .slider-navigator__list:first-child {
+        margin-left: 0; }
+      .slider-navigator__list:hover {
+        opacity: .8; }
+  .slider-pager {
+    position: relative; }
+  .slider-control__prev, .slider-control__next {
+    background: url(../images/home/slider/slider_control.png) no-repeat;
+    position: absolute;
+    height: 35px;
+    top: 35px;
+    width: 35px;
+    text-indent: -9999px; }
+    .slider-control__prev:hover, .slider-control__next:hover {
+      background: url(../images/home/slider/slider_control.png) no-repeat; }
+  .slider-control__prev {
+    background-position: 0 0;
+    left: 0; }
+    .slider-control__prev:hover {
+      background-position: -71px 0; }
+  .slider-control__next {
+    background-position: -35px 0;
+    right: 0; }
+    .slider-control__next:hover {
+      background-position: -105px 0; }

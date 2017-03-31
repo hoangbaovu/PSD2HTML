@@ -211,7 +211,7 @@
 
 .perfect-pancakes {
     background: url(../images/home/perfect_pancakes.jpg);
-    background-size: 100%;
+    background-size: 100% 100%;
     padding: 140px 0 108px;
 }
 
@@ -270,6 +270,64 @@
             color: #979285;
             font: bold 18px/0 $font-title;
             margin-top: -25px;
+        }
+    }
+
+    &-navigator {
+        
+        @extend .list-unstyled;
+        display: flex;
+        justify-content: center;
+        
+
+        &__list {
+            margin: 0 30px;
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            &:hover {
+                opacity: .8;
+            }
+        }
+    }
+
+    &-pager {
+        position: relative;
+    }
+
+    &-control {
+        
+        &__prev, &__next {
+            background: url(../images/home/slider/slider_control.png) no-repeat;
+            position: absolute;
+            height: 35px;
+            top: 35px;
+            width: 35px;
+            text-indent: -9999px;
+
+            &:hover {
+                background: url(../images/home/slider/slider_control.png) no-repeat;
+            }
+        }
+
+        &__prev {
+            background-position: 0 0;
+            left: 0;
+
+            &:hover {
+                background-position: -71px 0;
+            }
+        }
+
+        &__next {
+            background-position: -35px 0;
+            right: 0;
+
+            &:hover {
+                background-position: -105px 0;
+            }
         }
     }
 }
