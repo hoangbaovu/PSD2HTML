@@ -162,7 +162,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .banner, .art-of-cakes .content {
+.text-center, .banner, .art-of-cakes .content, .slider-time {
   text-align: center; }
 
 @font-face {
@@ -382,7 +382,8 @@ a:hover {
   .slider-right {
     background: #fff url(../images/home/slider/right_background.png) bottom right no-repeat;
     padding: 80px 60px 40px;
-    width: 550px; }
+    width: 550px;
+    position: relative; }
     .slider-right__title {
       color: #56534c;
       font: bold 48px/0 "Alegreya-Bold"; }
@@ -394,3 +395,24 @@ a:hover {
       color: #56534c;
       font: 14px/24px "Proxima-Nova";
       margin: 65px 0 100px; }
+  .slider-time {
+    background: url(../images/home/slider/slider_texture.jpg) no-repeat;
+    box-shadow: 0 0 85px #888;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -50px;
+    right: -60px; }
+    .slider-time__ready {
+      color: #a47d5e;
+      font: bold 18px/0 "Alegreya-Bold";
+      text-transform: uppercase;
+      margin-top: 46px; }
+    .slider-time__time {
+      color: #dfc691;
+      font: bold 92px/0 "Alegreya-Bold";
+      margin-top: 45px; }
+    .slider-time__min {
+      color: #979285;
+      font: bold 18px/0 "Alegreya-Bold";
+      margin-top: -25px; }

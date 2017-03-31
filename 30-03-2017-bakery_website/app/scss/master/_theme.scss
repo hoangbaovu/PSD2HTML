@@ -223,6 +223,7 @@
         background: $white url(../images/home/slider/right_background.png) bottom right no-repeat;
         padding: 80px 60px 40px;
         width: 550px;
+        position: relative;
 
         &__title {
             color: #56534c;
@@ -239,6 +240,36 @@
             color: #56534c;
             font: 14px/24px $font-text;
             margin: 65px 0 100px;
+        }
+    }
+
+    &-time {
+        @extend .text-center;
+        background: url(../images/home/slider/slider_texture.jpg) no-repeat;
+        box-shadow: 0 0 85px #888;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: -50px;
+        right: -60px;
+
+        &__ready {
+            color: #a47d5e;
+            font: bold 18px/0 $font-title;
+            text-transform: uppercase;
+            margin-top: 46px;
+        }
+
+        &__time {
+            color: #dfc691;
+            font: bold 92px/0 $font-title;
+            margin-top: 45px;
+        }
+
+        &__min {
+            color: #979285;
+            font: bold 18px/0 $font-title;
+            margin-top: -25px;
         }
     }
 }
