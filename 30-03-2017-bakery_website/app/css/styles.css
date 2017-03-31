@@ -162,7 +162,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .banner {
+.text-center, .banner, .art-of-cakes .content {
   text-align: center; }
 
 @font-face {
@@ -180,6 +180,10 @@ a:hover {
 @font-face {
   font-family: 'Proxima-Nova';
   src: url("../fonts/proxima-nova.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'SCRIPTIN';
+  src: url("../fonts/SCRIPTIN.ttf") format("truetype"); }
 
 .navbar {
   background: rgba(0, 0, 0, 0.5);
@@ -277,3 +281,69 @@ a:hover {
       display: block;
       content: "";
       clear: both; }
+
+.blockquote {
+  color: #a47d5e;
+  font: 24px/30px 'SCRIPTIN';
+  position: relative; }
+  .blockquote::after {
+    content: "";
+    background: url(../images/common/blockquote_open.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 14px;
+    width: 23px; }
+  .blockquote::before {
+    content: "";
+    background: url(../images/common/blockquote_close.png);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 14px;
+    width: 23px; }
+
+.art-of-cakes {
+  background: #fff;
+  padding: 100px 0; }
+  .art-of-cakes .content {
+    display: flex; }
+    .art-of-cakes .content__title {
+      color: #56534c;
+      font: bold 48px/0 "Alegreya-Bold"; }
+      .art-of-cakes .content__title--24 {
+        font-size: 24px;
+        line-height: 30px; }
+    .art-of-cakes .content__subtitle {
+      color: #a47d5e;
+      font: bold 14px/0 "Alegreya-Regular";
+      text-transform: uppercase; }
+    .art-of-cakes .content__text {
+      color: #56534c;
+      font: 14px/24px "Proxima-Nova";
+      margin-top: 70px;
+      width: 470px; }
+  .art-of-cakes .chef-cook {
+    display: flex;
+    justify-content: center; }
+    .art-of-cakes .chef-cook__left, .art-of-cakes .chef-cook__right {
+      padding: 34px 22px;
+      position: relative; }
+      .art-of-cakes .chef-cook__left::after, .art-of-cakes .chef-cook__right::after {
+        content: "";
+        border-top: 1px solid #d7d5ca;
+        position: absolute;
+        width: 111px;
+        height: 1px;
+        bottom: 15px;
+        left: -15px; }
+      .art-of-cakes .chef-cook__left::before, .art-of-cakes .chef-cook__right::before {
+        content: "";
+        border-bottom: 1px solid #d7d5ca;
+        position: absolute;
+        width: 111px;
+        height: 1px;
+        top: 15px;
+        left: -15px; }
+    .art-of-cakes .chef-cook__center {
+      margin: 0px 30px; }

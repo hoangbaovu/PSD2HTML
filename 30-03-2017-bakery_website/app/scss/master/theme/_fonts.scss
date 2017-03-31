@@ -17,6 +17,12 @@
   font-family: 'Proxima-Nova';
   src: url('../fonts/proxima-nova.otf')  format('opentype')
 }
+
+@font-face {
+  font-family: 'SCRIPTIN';
+  src: url('../fonts/SCRIPTIN.ttf')  format('truetype');
+}
+
 $font-title     : 'Alegreya-Bold';
 $font-subtitle  : 'Alegreya-Regular';
 $font-text      : 'Proxima-Nova';

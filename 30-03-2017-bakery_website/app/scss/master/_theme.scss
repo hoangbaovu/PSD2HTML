@@ -75,3 +75,103 @@
         @include clearfix;
     }
 }
+
+// .art-of-cakes
+
+.blockquote {
+    color: #a47d5e;
+    font: 24px/30px 'SCRIPTIN';
+    position: relative;
+
+    &::after {
+        content: "";
+        background: url(../images/common/blockquote_open.png);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 14px;
+        width: 23px;
+    }
+
+    &::before {
+        content: "";
+        background: url(../images/common/blockquote_close.png);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 14px;
+        width: 23px;
+    }
+}
+
+.art-of-cakes {
+    background: $white;
+    padding: 100px 0;
+
+
+    .content {
+        display: flex;
+        @extend .text-center;
+
+        &__title {
+            color: #56534c;
+            font: bold 48px/0 $font-title;
+
+            &--24 {
+                font-size: 24px;
+                line-height: 30px;
+            }
+        }
+
+        &__subtitle {
+            color: #a47d5e;
+            font: bold 14px/0 $font-subtitle;
+            text-transform: uppercase;
+        }
+
+        &__text {
+            color: #56534c;
+            font: 14px/24px $font-text;
+            margin-top: 70px;
+            width: 470px;
+        }
+    }
+
+    .chef-cook {
+        display: flex;
+        justify-content: center;
+
+        &__left {
+            padding: 34px 22px;
+            position: relative;
+
+            &::after {
+                content: "";
+                border-top: 1px solid #d7d5ca;
+                position: absolute;
+                width: 111px;
+                height: 1px;
+                bottom: 15px;
+                left: -15px;
+            }
+
+            &::before {
+                content: "";
+                border-bottom: 1px solid #d7d5ca;
+                position: absolute;
+                width: 111px;
+                height: 1px;
+                top: 15px;
+                left: -15px;
+            }
+        }
+
+        &__right {
+            @extend .chef-cook__left;
+        }
+
+        &__center {
+            margin: 0px 30px;
+        }
+    }
+}
