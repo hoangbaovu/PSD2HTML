@@ -159,10 +159,10 @@ a:hover {
 .list-inline li, .social-icon li {
   display: inline-block; }
 
-.list-unstyled, .slider-navigator {
+.list-unstyled, .slider-navigator, .breakfast-left__list {
   list-style: none; }
 
-.text-center, .banner, .art-of-cakes .content, .slider-time {
+.text-center, .banner, .art-of-cakes .content, .slider-time, .breakfast-left {
   text-align: center; }
 
 @font-face {
@@ -446,3 +446,29 @@ a:hover {
     right: 0; }
     .slider-control__next:hover {
       background-position: -105px 0; }
+
+.breakfast {
+  background: url(../images/home/breakfast/breakfast.jpg);
+  background-size: 100% 100%;
+  padding: 90px 0; }
+  .breakfast-left {
+    width: 630px; }
+    .breakfast-left .list__item--font-title .list__item__title {
+      font: bold 60px/0 "Alegreya-Bold"; }
+    .breakfast-left .list__item__title {
+      color: #fff;
+      font: bold 30px/0 "Alegreya-Bold";
+      margin-bottom: 50px; }
+    .breakfast-left .list__item__open {
+      color: #c8a593;
+      font: bold 18px/0 "Alegreya-Bold";
+      margin-bottom: 70px;
+      text-transform: uppercase; }
+    .breakfast-left .list__item__text {
+      color: #c2beba;
+      font: 16px/0 "Proxima-Nova";
+      margin-bottom: 40px; }
+    .breakfast-left .list__item__price {
+      color: #dfc691;
+      font: 36px/0 "Alegreya-Regular";
+      margin-bottom: 50px; }

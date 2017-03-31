@@ -331,3 +331,56 @@
         }
     }
 }
+
+// .breakfast
+
+.breakfast {
+    background: url(../images/home/breakfast/breakfast.jpg);
+    background-size: 100% 100%;
+    padding: 90px 0;
+
+    &-left {
+
+        @extend .text-center;
+        width: 630px;
+
+        &__list {
+            @extend .list-unstyled;
+        }
+
+        .list__item {
+
+            &--font-title {
+                
+                .list__item__title {
+                    font: bold 60px/0 $font-title;
+                }
+            }
+
+            &__title {
+                color: $white;
+                font: bold 30px/0 $font-title;
+                margin-bottom: 50px;
+            }
+
+            &__open {
+                color: #c8a593;
+                font: bold 18px/0 $font-title;
+                margin-bottom: 70px;
+                text-transform: uppercase;
+            }
+
+            &__text {
+                color: #c2beba;
+                font: 16px/0 $font-text;
+                margin-bottom: 40px;
+            }
+
+            &__price {
+                color: #dfc691;
+                font: 36px/0 $font-subtitle;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
