@@ -135,6 +135,37 @@
             margin-top: 70px;
             width: 470px;
         }
+
+        &-right {
+            align-items: center;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            position: relative;
+
+            &__list-item {
+                margin: 0 20px;
+                box-sizing: border-box;
+                outline: 5px solid $white;
+                outline-offset: -18px;
+                overflow: hidden;
+                transition: outline .3s;
+
+                &:hover {
+                    outline-color: #a47d5e;
+                }
+            }
+
+            &__cake-center {
+                background: url(../images/home/cake_center.png);
+                height: 247px;
+                width: 247px;
+                position: absolute;
+                top: 165px;
+                left: 272px;
+                opacity: .9;
+            }
+        }
     }
 
     .chef-cook {

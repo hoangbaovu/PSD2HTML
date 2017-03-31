@@ -323,6 +323,29 @@ a:hover {
       font: 14px/24px "Proxima-Nova";
       margin-top: 70px;
       width: 470px; }
+    .art-of-cakes .content-right {
+      align-items: center;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      position: relative; }
+      .art-of-cakes .content-right__list-item {
+        margin: 0 20px;
+        box-sizing: border-box;
+        outline: 5px solid #fff;
+        outline-offset: -18px;
+        overflow: hidden;
+        transition: outline .3s; }
+        .art-of-cakes .content-right__list-item:hover {
+          outline-color: #a47d5e; }
+      .art-of-cakes .content-right__cake-center {
+        background: url(../images/home/cake_center.png);
+        height: 247px;
+        width: 247px;
+        position: absolute;
+        top: 165px;
+        left: 272px;
+        opacity: .9; }
   .art-of-cakes .chef-cook {
     display: flex;
     justify-content: center; }
