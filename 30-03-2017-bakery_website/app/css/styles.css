@@ -370,3 +370,27 @@ a:hover {
         left: -15px; }
     .art-of-cakes .chef-cook__center {
       margin: 0px 30px; }
+
+.perfect-pancakes {
+  background: url(../images/home/perfect_pancakes.jpg);
+  background-size: 100%;
+  padding: 140px 0 108px; }
+
+.slider {
+  display: flex;
+  justify-content: center; }
+  .slider-right {
+    background: #fff url(../images/home/slider/right_background.png) bottom right no-repeat;
+    padding: 80px 60px 40px;
+    width: 550px; }
+    .slider-right__title {
+      color: #56534c;
+      font: bold 48px/0 "Alegreya-Bold"; }
+    .slider-right__subtitle {
+      color: #a47d5e;
+      font: 14px/0 "Alegreya-Bold";
+      text-transform: uppercase; }
+    .slider-right__text {
+      color: #56534c;
+      font: 14px/24px "Proxima-Nova";
+      margin: 65px 0 100px; }

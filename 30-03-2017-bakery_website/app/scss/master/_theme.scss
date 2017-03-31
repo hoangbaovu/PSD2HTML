@@ -206,3 +206,39 @@
         }
     }
 }
+
+// .perfect-pancakes
+
+.perfect-pancakes {
+    background: url(../images/home/perfect_pancakes.jpg);
+    background-size: 100%;
+    padding: 140px 0 108px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+
+    &-right {
+        background: $white url(../images/home/slider/right_background.png) bottom right no-repeat;
+        padding: 80px 60px 40px;
+        width: 550px;
+
+        &__title {
+            color: #56534c;
+            font: bold 48px/0 $font-title;
+        }
+
+        &__subtitle {
+            color: #a47d5e;
+            font: 14px/0 $font-title;
+            text-transform: uppercase;
+        }
+
+        &__text {
+            color: #56534c;
+            font: 14px/24px $font-text;
+            margin: 65px 0 100px;
+        }
+    }
+}
