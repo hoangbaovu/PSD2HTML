@@ -484,6 +484,18 @@
             color: #56534c;
             font: 14px/20px $font-text;
         }
+
+        a {
+
+            transition: all .3s;
+            
+            &:hover {
+                
+                img {
+                    opacity: .8;
+                }
+            }
+        }
     }
 
     &-box {

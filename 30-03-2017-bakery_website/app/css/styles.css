@@ -559,6 +559,10 @@ a:hover {
     .home-best .list-item__text {
       color: #56534c;
       font: 14px/20px "Proxima-Nova"; }
+    .home-best .list-item a {
+      transition: all .3s; }
+      .home-best .list-item a:hover img {
+        opacity: .8; }
   .home-best-box {
     position: relative; }
 
