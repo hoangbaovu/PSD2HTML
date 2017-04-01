@@ -162,7 +162,7 @@ a:hover {
 .list-unstyled, .slider-navigator, .breakfast-left__list, .home-best .left__list {
   list-style: none; }
 
-.text-center, .banner, .art-of-cakes .content, .slider-time, .breakfast-left, .breakfast-menu__title, .breakfast-menu__text, .breakfast-menu__time, .home-best .left__list, .box-time-item {
+.text-center, .banner, .art-of-cakes .content, .slider-time, .breakfast-left, .breakfast-menu__title, .breakfast-menu__text, .breakfast-menu__time, .home-best__title, .home-best__text, .home-best .left__list, .box-time-item {
   text-align: center; }
 
 @font-face {
@@ -535,8 +535,15 @@ a:hover {
       height: 61px; }
 
 .home-best {
-  background: #f3f1e9;
+  background: #f3f1e9 url(../images/home/best/background.png) top center no-repeat;
   padding: 70px 0 48px; }
+  .home-best__title {
+    color: #56534c;
+    font: bold 48px/0 "Alegreya-Bold"; }
+  .home-best__text {
+    color: #a47d5e;
+    font: 14px/0 "Alegreya-Bold";
+    text-transform: uppercase; }
   .home-best .container {
     display: flex; }
   .home-best-left {
@@ -563,6 +570,17 @@ a:hover {
       opacity: .8; }
   .home-best-box {
     position: relative; }
+
+.box-recipe {
+  background: #fff;
+  border: 1px dashed #dfc691;
+  bottom: -20px;
+  color: #dfc691;
+  font: bold 18px "Alegreya-Bold";
+  padding: 20px 34px;
+  position: absolute;
+  left: -20px;
+  text-transform: uppercase; }
 
 .box-time-list {
   position: absolute;

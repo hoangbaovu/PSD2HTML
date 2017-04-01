@@ -441,8 +441,21 @@
 
 .home-best {
 
-    background: #f3f1e9;
+    background: #f3f1e9 url(../images/home/best/background.png) top center no-repeat;
     padding: 70px 0 48px;
+
+    &__title {
+        @extend .text-center;
+        color: #56534c;
+        font: bold 48px/0 $font-title;
+    }
+
+    &__text {
+        @extend .text-center;
+        color: #a47d5e;
+        font: 14px/0 $font-title;
+        text-transform: uppercase;
+    }
     
     .container {
         display: flex;
@@ -499,6 +512,18 @@
     &-box {
         position: relative;
     }
+}
+
+.box-recipe {
+    background: $white;
+    border: 1px dashed #dfc691; 
+    bottom: -20px;
+    color: #dfc691;
+    font: bold 18px $font-title;
+    padding: 20px 34px;
+    position: absolute;
+    left: -20px;
+    text-transform: uppercase;
 }
 
 .box-time-list {
