@@ -337,7 +337,13 @@
 .breakfast {
     background: url(../images/home/breakfast/breakfast.jpg);
     background-size: 100% 100%;
-    padding: 90px 0;
+    padding: 90px 0 0;
+    
+    .container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
 
     &-left {
 
@@ -381,6 +387,51 @@
                 font: 36px/0 $font-subtitle;
                 margin-bottom: 50px;
             }
+        }
+    }
+
+    &-menu {
+        background: url(../images/home/breakfast/breakfast_menu.png) no-repeat;
+        height: 588px;
+        padding: 50px 0 70px;
+        width: 458px;
+        overflow: hidden;
+
+        &__content {
+            width: 370px;
+            margin: 0 auto;
+        }
+
+        &__title {
+            @extend .text-center;
+            color: #56534c;
+            font: bold 44px/60px $font-title;
+        }
+
+        &__text {
+            @extend .text-center;
+            color: #56534c;
+            font: 14px/30px $font-text;
+            padding: 0 15px;
+            margin-bottom: 35px;
+        }
+
+        &__header {
+            @include clearfix;
+            margin-top: 25px;
+        }
+
+        &__time {
+            @extend .text-center;
+            color: #56534c;
+            font: bold 14px $font-title;
+            width: 50%;
+            margin-top: -20px;
+        }
+
+        &__line {
+            background: url(../images/home/breakfast/breakfast_menu_line.png) no-repeat;
+            height: 61px;
         }
     }
 }

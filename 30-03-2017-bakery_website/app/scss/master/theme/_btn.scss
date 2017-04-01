@@ -4,6 +4,7 @@
     font: 14px/24px $font-title;
     padding: 20px 50px;
     text-transform: uppercase;
+    transition: all .3s;
 
     &:hover {
         text-decoration: none;
@@ -14,10 +15,22 @@
         border: 1px dashed #9e9c93;
         color: $white;
         letter-spacing: 5px;
-        transition: background .3s;
 
         &:hover {
             background: rgba(0, 0, 0, .5);
+        }
+    }
+
+    &--menu {
+        border: 1px solid #9e9c93;
+        color: #a47d5e;
+        font: bold 18px $font-title;
+        margin: 0 85px;
+        padding: 16px 70px;
+
+        &:hover {
+            background: rgba(164,125,94, .8);
+            color: $white;
         }
     }
 }

@@ -162,7 +162,7 @@ a:hover {
 .list-unstyled, .slider-navigator, .breakfast-left__list {
   list-style: none; }
 
-.text-center, .banner, .art-of-cakes .content, .slider-time, .breakfast-left {
+.text-center, .banner, .art-of-cakes .content, .slider-time, .breakfast-left, .breakfast-menu__title, .breakfast-menu__text, .breakfast-menu__time {
   text-align: center; }
 
 @font-face {
@@ -219,17 +219,26 @@ a:hover {
   display: inline-block;
   font: 14px/24px "Alegreya-Bold";
   padding: 20px 50px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: all .3s; }
   .btn:hover {
     text-decoration: none; }
   .btn--banner {
     background: rgba(0, 0, 0, 0.2);
     border: 1px dashed #9e9c93;
     color: #fff;
-    letter-spacing: 5px;
-    transition: background .3s; }
+    letter-spacing: 5px; }
     .btn--banner:hover {
       background: rgba(0, 0, 0, 0.5); }
+  .btn--menu {
+    border: 1px solid #9e9c93;
+    color: #a47d5e;
+    font: bold 18px "Alegreya-Bold";
+    margin: 0 85px;
+    padding: 16px 70px; }
+    .btn--menu:hover {
+      background: rgba(164, 125, 94, 0.8);
+      color: #fff; }
 
 .container {
   max-width: 1260px;
@@ -450,7 +459,11 @@ a:hover {
 .breakfast {
   background: url(../images/home/breakfast/breakfast.jpg);
   background-size: 100% 100%;
-  padding: 90px 0; }
+  padding: 90px 0 0; }
+  .breakfast .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; }
   .breakfast-left {
     width: 630px; }
     .breakfast-left .list__item--font-title .list__item__title {
@@ -472,3 +485,34 @@ a:hover {
       color: #dfc691;
       font: 36px/0 "Alegreya-Regular";
       margin-bottom: 50px; }
+  .breakfast-menu {
+    background: url(../images/home/breakfast/breakfast_menu.png) no-repeat;
+    height: 588px;
+    padding: 50px 0 70px;
+    width: 458px;
+    overflow: hidden; }
+    .breakfast-menu__content {
+      width: 370px;
+      margin: 0 auto; }
+    .breakfast-menu__title {
+      color: #56534c;
+      font: bold 44px/60px "Alegreya-Bold"; }
+    .breakfast-menu__text {
+      color: #56534c;
+      font: 14px/30px "Proxima-Nova";
+      padding: 0 15px;
+      margin-bottom: 35px; }
+    .breakfast-menu__header {
+      margin-top: 25px; }
+      .breakfast-menu__header::after {
+        display: block;
+        content: "";
+        clear: both; }
+    .breakfast-menu__time {
+      color: #56534c;
+      font: bold 14px "Alegreya-Bold";
+      width: 50%;
+      margin-top: -20px; }
+    .breakfast-menu__line {
+      background: url(../images/home/breakfast/breakfast_menu_line.png) no-repeat;
+      height: 61px; }
