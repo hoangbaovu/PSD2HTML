@@ -159,10 +159,10 @@ a:hover {
 .list-inline li, .social-icon li {
   display: inline-block; }
 
-.list-unstyled, .slider-navigator, .breakfast-left__list {
+.list-unstyled, .slider-navigator, .breakfast-left__list, .home-best .left__list {
   list-style: none; }
 
-.text-center, .banner, .art-of-cakes .content, .slider-time, .breakfast-left, .breakfast-menu__title, .breakfast-menu__text, .breakfast-menu__time {
+.text-center, .banner, .art-of-cakes .content, .slider-time, .breakfast-left, .breakfast-menu__title, .breakfast-menu__text, .breakfast-menu__time, .home-best .left__list, .box-time-item {
   text-align: center; }
 
 @font-face {
@@ -313,7 +313,7 @@ a:hover {
     width: 23px; }
 
 .art-of-cakes {
-  background: #fff;
+  background: url(../images/home/art-of-cakes.png) repeat;
   padding: 100px 0; }
   .art-of-cakes .content {
     display: flex; }
@@ -465,7 +465,8 @@ a:hover {
     flex-flow: row wrap;
     justify-content: center; }
   .breakfast-left {
-    width: 630px; }
+    width: 630px;
+    margin-right: auto; }
     .breakfast-left .list__item--font-title .list__item__title {
       font: bold 60px/0 "Alegreya-Bold"; }
     .breakfast-left .list__item__title {
@@ -516,3 +517,63 @@ a:hover {
     .breakfast-menu__line {
       background: url(../images/home/breakfast/breakfast_menu_line.png) no-repeat;
       height: 61px; }
+
+.home-best {
+  background: #f3f1e9;
+  padding: 70px 0 48px; }
+  .home-best .container {
+    display: flex; }
+  .home-best__left {
+    width: 300px;
+    margin-right: auto; }
+  .home-best-right {
+    margin-top: 90px; }
+    .home-best-right__imgbg {
+      border: 10px solid #fff;
+      width: 820px;
+      height: 537px; }
+  .home-best .left__list {
+    display: flex;
+    flex-flow: column wrap; }
+  .home-best .list-item {
+    margin-bottom: 50px; }
+    .home-best .list-item__title {
+      color: #a47d5e;
+      font: bold 30px/0 "Alegreya-Bold"; }
+    .home-best .list-item__text {
+      color: #56534c;
+      font: 14px/20px "Proxima-Nova"; }
+  .home-best-box {
+    position: relative; }
+
+.box-time-list {
+  position: absolute;
+  top: -20px;
+  right: 10px;
+  margin: 0;
+  display: flex;
+  flex-flow: column wrap; }
+
+.box-time-item {
+  background: rgba(255, 255, 255, 0.8);
+  height: 200px;
+  width: 200px; }
+  .box-time-item:first-child {
+    margin-bottom: 1px; }
+  .box-time-item:last-child {
+    box-shadow: 0 0 85px #888; }
+  .box-time-item--background {
+    background: #fff url(../images/home/slider/slider_texture.jpg) no-repeat; }
+  .box-time-item__ready {
+    color: #a47d5e;
+    font: bold 18px/0 "Alegreya-Bold";
+    text-transform: uppercase;
+    margin-top: 46px; }
+  .box-time-item__time {
+    color: #56534c;
+    font: bold 92px/0 "Alegreya-Bold";
+    margin-top: 45px; }
+  .box-time-item__min {
+    color: #979285;
+    font: bold 18px/0 "Alegreya-Bold";
+    margin-top: -25px; }
