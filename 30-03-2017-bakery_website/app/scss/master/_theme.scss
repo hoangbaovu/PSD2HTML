@@ -538,3 +538,37 @@
         margin-top: -25px;
     }
 }
+
+// .footer
+
+.footer {
+    background: #f3f1e9;
+    overflow: hidden;
+    padding: 0 0 30px;
+
+    .container {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    &__logo {
+        
+        transition: all .3s;
+        
+        &:hover {
+            opacity: .8;
+        }
+    }
+
+    &__left {
+        margin-left: auto;
+    }
+
+    &__center {
+        padding: 17px 30px;
+    }
+
+    &__right {
+        margin-right: auto;
+    }
+}

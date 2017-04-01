@@ -144,7 +144,7 @@ a {
 a:hover {
   text-decoration: underline; }
 
-.float-left, .navbar .nav, .nav-brand {
+.float-left, .nav, .nav-brand {
   float: left; }
 
 .float-right, .social-icon {
@@ -189,24 +189,40 @@ a:hover {
   background: rgba(0, 0, 0, 0.5);
   overflow: hidden;
   height: 70px; }
-  .navbar .nav {
-    margin: 30px 0 0 100px; }
-    .navbar .nav__list {
-      margin: 0 90px 0 0;
-      position: relative; }
-      .navbar .nav__list::after {
-        content: "~";
-        color: #fff;
-        margin-left: 10px;
-        position: absolute;
-        right: -45px; }
-      .navbar .nav__list:last-child::after {
-        content: ""; }
-    .navbar .nav a {
-      font: 14px "Alegreya-Regular";
+
+.nav {
+  margin: 30px 0 0 100px; }
+  .nav__list {
+    margin: 0 90px 0 0;
+    position: relative; }
+    .nav__list::after {
+      content: "~";
       color: #fff;
-      margin-right: 20px;
-      text-transform: uppercase; }
+      margin-left: 10px;
+      position: absolute;
+      right: -45px; }
+    .nav__list:last-child::after {
+      content: ""; }
+  .nav a {
+    font: 14px "Alegreya-Regular";
+    color: #fff;
+    margin-right: 20px;
+    text-transform: uppercase; }
+  .nav--footer {
+    border-top: 1px solid #c2beba;
+    border-bottom: 1px solid #c2beba;
+    padding: 30px 39px;
+    margin: 0;
+    letter-spacing: 2px; }
+    .nav--footer .nav__list {
+      margin-right: 87px; }
+      .nav--footer .nav__list::after {
+        color: #56534c; }
+      .nav--footer .nav__list:last-child {
+        margin: 0; }
+    .nav--footer a {
+      color: #56534c;
+      margin: 0; }
 
 .nav-brand {
   margin-top: 18px;
@@ -577,3 +593,21 @@ a:hover {
     color: #979285;
     font: bold 18px/0 "Alegreya-Bold";
     margin-top: -25px; }
+
+.footer {
+  background: #f3f1e9;
+  overflow: hidden;
+  padding: 0 0 30px; }
+  .footer .container {
+    display: flex;
+    flex-flow: row nowrap; }
+  .footer__logo {
+    transition: all .3s; }
+    .footer__logo:hover {
+      opacity: .8; }
+  .footer__left {
+    margin-left: auto; }
+  .footer__center {
+    padding: 17px 30px; }
+  .footer__right {
+    margin-right: auto; }
