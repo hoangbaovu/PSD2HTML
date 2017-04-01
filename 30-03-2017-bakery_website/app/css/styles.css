@@ -539,7 +539,7 @@ a:hover {
   padding: 70px 0 48px; }
   .home-best .container {
     display: flex; }
-  .home-best__left {
+  .home-best-left {
     width: 300px;
     margin-right: auto; }
   .home-best-right {
@@ -559,10 +559,8 @@ a:hover {
     .home-best .list-item__text {
       color: #56534c;
       font: 14px/20px "Proxima-Nova"; }
-    .home-best .list-item a {
-      transition: all .3s; }
-      .home-best .list-item a:hover img {
-        opacity: .8; }
+    .home-best .list-item a:hover img {
+      opacity: .8; }
   .home-best-box {
     position: relative; }
 

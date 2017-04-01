@@ -448,7 +448,7 @@
         display: flex;
     }
     
-    &__left {
+    &-left {
         width: 300px;
         margin-right: auto;
     }
@@ -487,8 +487,6 @@
 
         a {
 
-            transition: all .3s;
-            
             &:hover {
                 
                 img {
