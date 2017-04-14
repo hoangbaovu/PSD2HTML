@@ -1,1 +1,107 @@
 @import "master/theme/_navbar";
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.header {
+    background: #0e358c;
+    
+
+    &__subtitle {
+        position: absolute;
+        right: 0;
+        bottom: 33px;
+        z-index: 2;
+    }
+}
+
+.product {
+
+    display: flex;
+    height: 300px;
+
+    &__text {
+        @extend .text-center;
+    }
+
+    p {
+        color: #fff;
+    }
+
+    &__01 {
+        width: 160px;
+        position: relative;
+
+        &__01 {
+            position: absolute;
+            left: 0;
+            z-index: 7;
+        }
+    }
+
+    &__02 {
+        position: relative;
+        width: 254px;
+
+        &__01 {
+            position: absolute;
+            left: -7px;
+            top: 66px;
+        }
+
+        &__02 {
+            position: absolute;
+            right: 0;
+            top: 66px;
+            z-index: 1;
+        }
+    }
+
+    &__03 {
+
+        position: relative;
+        width: 150px;
+
+        &__01 {
+            position: absolute;
+            left: -6px;
+            z-index: 0;
+        }
+    }
+
+    &__04 {
+        position: relative;
+        width: 221px;
+
+        &__01 {
+            position: absolute;
+            left: 0;
+            top: 68px;
+            z-index: 2;
+        }
+
+        &__02 {
+            position: absolute;
+            right: 0;
+            left: 82px;
+            top: 54px;
+            z-index: 1;
+        }
+    }
+
+    &__05 {
+        position: relative;
+        width: 147px;
+        margin-left: -40px;
+
+        &__01 {
+            position: absolute;
+            left: 0;
+            z-index: 0;
+        }
+    }
+}
