@@ -165,6 +165,12 @@ a:hover {
 .text-center, .product-list--masterpieces .product-list__title, .product__text, .banner__img, .free-education, .header-content__title {
   text-align: center; }
 
+a {
+  color: #000;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
 .container {
   width: 900px;
   margin: 0 auto;
@@ -222,7 +228,10 @@ a:hover {
     top: -20px;
     left: -34px; }
   .product-list__img {
-    position: relative; }
+    position: relative;
+    transition: all .3s; }
+    .product-list__img:hover {
+      opacity: .8; }
   .product-list__GAKKEN {
     font-size: 12px; }
   .product-list__title {

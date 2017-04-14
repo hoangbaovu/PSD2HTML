@@ -1,5 +1,14 @@
 @import "master/theme/_navbar";
 
+a {
+    color: #000;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 .container{
     width: 900px;
     margin: 0 auto;
@@ -100,6 +109,11 @@
 
     &__img {
         position: relative;
+        transition: all .3s;
+
+        &:hover {
+            opacity: .8;
+        }
     }
 
     &__GAKKEN {
