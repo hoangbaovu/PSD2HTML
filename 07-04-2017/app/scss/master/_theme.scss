@@ -19,6 +19,59 @@
     }
 }
 
+.product-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    &__item {
+        list-style: none;
+        margin: 0 7.5px;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    p {
+        color: $black;
+        font-weight: bold;
+    }
+
+    sub {
+        font-size: 18px;
+        bottom: 0;
+        left: -13px;
+
+        @extend p;
+    }
+
+    sup {
+        font-size: 10px;
+        top: -20px;
+        left: -34px;
+        @extend p;
+    }
+
+    &__img {
+        background: $white;
+        padding: 20px 71px;
+    }
+
+    &__GAKKEN {
+        font-size: 12px;
+    }
+
+    &__title {
+        font-size: 24px;
+        margin: 0;
+        flex: 2;
+    }
+
+    &__price {
+        font-size: 44px;
+        line-height: 0;
+    }
+}
+
 .product {
 
     display: flex;
@@ -102,6 +155,57 @@
             position: absolute;
             left: 0;
             z-index: 0;
+        }
+    }
+}
+
+.banner {
+    background: url(../images/header/banner_re_bg.png) top left;
+    height: 316px;
+
+    &__img {
+        @extend .text-center;
+        margin: 0;
+    }
+}
+
+.tsutaya {
+    background: url(../images/tsutaya/flower.png) center 72% no-repeat, url(../images/tsutaya/background.jpg) left top repeat;
+    margin-top: -16px;
+    padding: 20px 0 210px;
+}
+
+.free-education {
+    @extend .text-center;
+
+    p {
+        font-weight: bold;
+    }
+    
+    &__left {
+        display: inline-block;
+        font-size: 16.42px;
+        margin-right: 15px;
+    }
+
+    &__right {
+        display: inline-block;
+        font-size: 22.77px;
+
+        span {
+            font-size: 44.52px;
+        }
+
+        sub {
+            font-size: 18.21px;
+            bottom: 0;
+            left: 0;
+        }
+
+        sup {
+            font-size: 10.12px;
+            top: -20px;
+            left: -15px;
         }
     }
 }
