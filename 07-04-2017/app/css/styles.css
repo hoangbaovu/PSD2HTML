@@ -162,7 +162,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .product__text, .banner__img, .free-education, .header-content__title {
+.text-center, .product-list--masterpieces .product-list__title, .product__text, .banner__img, .free-education, .header-content__title {
   text-align: center; }
 
 .container {
@@ -185,6 +185,10 @@ a:hover {
   .product-list--padding .product-list__img {
     background: #fff;
     padding: 20px 71px; }
+  .product-list--masterpieces .product-list__img {
+    padding: 0 20px; }
+  .product-list--masterpieces .product-list__title {
+    font-size: 18.04px; }
   .product-list__item {
     list-style: none;
     margin: 0 7.5px;
@@ -334,6 +338,12 @@ a:hover {
 .header-content--pink .header-content__img {
   margin-top: -55px; }
 
+.header-content--yellow .header-content__title {
+  background: #fff0a0; }
+
+.header-content--yellow .header-content__img {
+  margin-top: -53px; }
+
 .wrap {
   background: #fff;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
@@ -347,8 +357,15 @@ a:hover {
     margin: 40px 0; }
 
 .reference {
-  background: #f8c9c9 url(../images/common/header_content.png); }
+  background: #f8c9c9 url(../images/common/header_content.png);
+  padding-bottom: 146px; }
   .reference .product-list__img {
     margin: 0 0 18px; }
   .reference .product-list__subtitle {
     flex: 0; }
+
+.masterpieces {
+  background: #fff0a0 url(../images/common/header_content.png); }
+  .masterpieces .wrap {
+    padding: 40px 0;
+    margin-top: 20px; }

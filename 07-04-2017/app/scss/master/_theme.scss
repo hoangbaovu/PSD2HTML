@@ -32,6 +32,18 @@
         }        
     }
 
+    &--masterpieces {
+
+        .product-list__img {
+            padding: 0 20px;
+        }
+
+        .product-list__title {
+            @extend .text-center;
+            font-size: 18.04px;
+        }
+    }
+
     &__item {
         list-style: none;
         margin: 0 7.5px;
@@ -279,6 +291,17 @@
             margin-top: -55px;
         }
     }
+
+    &--yellow {
+
+        .header-content__title {
+            background: #fff0a0;
+        }
+
+        .header-content__img {
+            margin-top: -53px;
+        }
+    }
 }
 
 .wrap {
@@ -301,6 +324,7 @@
 
 .reference {
     background: #f8c9c9 url(../images/common/header_content.png);
+    padding-bottom: 146px;
 
     .product-list__img {
         margin: 0 0 18px;
@@ -308,5 +332,16 @@
 
     .product-list__subtitle {
         flex: 0;
+    }
+}
+
+// masterpieces 
+
+.masterpieces {
+    background: #fff0a0 url(../images/common/header_content.png);
+
+    .wrap {
+        padding: 40px 0;
+        margin-top: 20px;
     }
 }
