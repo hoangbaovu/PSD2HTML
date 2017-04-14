@@ -316,6 +316,18 @@ a {
             margin-top: -53px;
         }
     }
+
+    &--green {
+
+        .header-content__title {
+            background: #bce777;
+            margin: 0;
+        }
+
+        .header-content__img {
+            margin-top: -53px;
+        }
+    }
 }
 
 .wrap {
@@ -325,9 +337,14 @@ a {
     width: 860px;
 }
 
-.books {
-    background: #c6e7f9 url(../images/common/header_content.png);
+%background {
+    background: url(../images/common/header_content.png);
     padding-bottom: 146px;
+}
+
+.books {
+    @extend %background;
+    background-color: #c6e7f9;
 
     .product-list {
         margin: 40px 0;
@@ -337,8 +354,8 @@ a {
 // reference
 
 .reference {
-    background: #f8c9c9 url(../images/common/header_content.png);
-    padding-bottom: 146px;
+    @extend %background;
+    background-color: #f8c9c9;
 
     .product-list__img {
         margin: 0 0 18px;
@@ -352,10 +369,41 @@ a {
 // masterpieces 
 
 .masterpieces {
-    background: #fff0a0 url(../images/common/header_content.png);
+    @extend %background;
+    background-color: #fff0a0;
 
     .wrap {
         padding: 40px 0;
         margin-top: 20px;
+    }
+}
+
+// film
+
+.film {
+    @extend %background;
+    background-color: #bce777;
+
+    &-description {
+        background: $white;
+        border: 3px solid #5b321e;
+        box-sizing: border-box;
+        padding: 30px 63px;
+        width: 643px;
+        margin: 0 auto;
+
+        &__text {
+            @extend .text-center;
+            color: #5b321e;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 32px;
+        }
+    }
+
+    .wrap {
+        margin: 40px 0;
+        padding: 35px;
+        box-sizing: border-box;
     }
 }
