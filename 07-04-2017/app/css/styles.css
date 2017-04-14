@@ -162,7 +162,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .product__text, .banner__img, .free-education {
+.text-center, .product__text, .banner__img, .free-education, .header-content__title {
   text-align: center; }
 
 .container {
@@ -182,11 +182,30 @@ a:hover {
   display: flex;
   flex-flow: row wrap;
   justify-content: center; }
+  .product-list--padding .product-list__img {
+    background: #fff;
+    padding: 20px 71px; }
   .product-list__item {
     list-style: none;
     margin: 0 7.5px;
     display: flex;
     flex-flow: column wrap; }
+  .product-list .product-list--lower::after, .product-list .product-list--middle::after, .product-list .product-list--junior::after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    height: 46px;
+    width: 100px; }
+  .product-list--lower::after {
+    background: url(../images/common/lower.png); }
+  .product-list--middle::after {
+    background: url(../images/common/middle.png); }
+  .product-list--junior::after {
+    background: url(../images/common/junior.png);
+    height: 24px !important;
+    top: -19px !important;
+    left: -33px !important; }
   .product-list p, .product-list sub, .product-list sup {
     color: #000;
     font-weight: bold; }
@@ -199,13 +218,15 @@ a:hover {
     top: -20px;
     left: -34px; }
   .product-list__img {
-    background: #fff;
-    padding: 20px 71px; }
+    position: relative; }
   .product-list__GAKKEN {
     font-size: 12px; }
   .product-list__title {
     font-size: 24px;
     margin: 0;
+    flex: 1; }
+  .product-list__subtitle {
+    font-size: 12px;
     flex: 2; }
   .product-list__price {
     font-size: 44px;
@@ -297,3 +318,23 @@ a:hover {
     font-size: 10.12px;
     top: -20px;
     left: -15px; }
+
+.header-content__title {
+  margin: -20px 0; }
+
+.header-content__img {
+  margin-top: -65px; }
+
+.header-content--blue .header-content__title {
+  background: #c6e7f9; }
+
+.wrap {
+  background: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  padding: 70px 0;
+  width: 860px; }
+
+.books {
+  background: #c6e7f9 url(../images/common/header_content.png); }
+  .books .product-list {
+    margin: 40px 0; }
