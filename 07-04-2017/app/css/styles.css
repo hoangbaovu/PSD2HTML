@@ -162,7 +162,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .product-list--masterpieces .product-list__title, .product-list--news .product-list__title, .product__text, .banner__img, .free-education, .header-content__title, .film-description__text {
+.text-center, .product-list--masterpieces .product-list__title, .product-list--news .product-list__title, .product__text, .banner__img, .free-education, .header-content__title, .film-description__text, .topical__footer {
   text-align: center; }
 
 a {
@@ -392,13 +392,20 @@ a {
 .header-content--green .header-content__img {
   margin-top: -53px; }
 
+.header-content--blue-2 .header-content__title {
+  background: #009fe8;
+  margin: -13px 0; }
+
+.header-content--blue-2 .header-content__img {
+  margin-top: -54px; }
+
 .wrap {
   background: #fff;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   padding: 70px 0 0;
   width: 860px; }
 
-.books, .reference, .masterpieces, .film, .news {
+.books, .reference, .masterpieces, .film, .news, .topical {
   background: url(../images/common/header_content.png);
   padding-bottom: 146px; }
 
@@ -441,3 +448,22 @@ a {
 
 .news {
   background-color: #f2e2ca; }
+
+.topical {
+  background-color: #009fe8;
+  overflow: hidden; }
+  .topical .product-list__item {
+    margin: 0 53.5px; }
+  .topical .product-list__price {
+    margin: 20px 0 51px; }
+  .topical__footer {
+    padding: 60px 0 50px;
+    position: relative; }
+    .topical__footer::after {
+      content: "";
+      background: url(../images/topical/topical_line.png) center center;
+      top: 0;
+      left: 0;
+      height: 4px;
+      width: 100%;
+      position: absolute; }

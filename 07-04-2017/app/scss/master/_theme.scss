@@ -382,6 +382,17 @@ a {
             margin-top: -53px;
         }
     }
+
+    &--blue-2 {
+        .header-content__title {
+            background: #009fe8;
+            margin: -13px 0;
+        }
+
+        .header-content__img {
+            margin-top: -54px;
+        }
+    }
 }
 
 .wrap {
@@ -467,8 +478,37 @@ a {
 .news {
     @extend %background;
     background-color: #f2e2ca;
+}
 
-    .wrap {
+// topical
 
+.topical {
+    @extend %background;
+    background-color: #009fe8;
+    
+    overflow: hidden;
+
+    .product-list__item {
+        margin: 0 53.5px;
+    }
+
+    .product-list__price {
+        margin: 20px 0 51px;
+    }
+
+    &__footer {
+        @extend .text-center;
+        padding: 60px 0 50px;
+        position: relative;
+
+        &::after {
+            content: "";
+            background: url(../images/topical/topical_line.png) center center;
+            top: 0;
+            left: 0;
+            height: 4px;
+            width: 100%;
+            position: absolute;
+        }
     }
 }
