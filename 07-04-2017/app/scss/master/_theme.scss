@@ -53,6 +53,22 @@ a {
         }
     }
 
+    &--news {
+
+        .product-list__item {
+            margin-bottom: 52px;
+        }
+        .product-list__img {
+            padding: 0 20px;
+            margin: 0;
+        }
+
+        .product-list__title {
+            @extend .text-center;
+            font-size: 16px;
+        }
+    }
+
     &__item {
         list-style: none;
         margin: 0 7.5px;
@@ -85,6 +101,33 @@ a {
         height: 24px !important;
         top: -19px !important;
         left: -33px !important;
+    }
+
+    &--praise::after {
+        @extend %after;
+        background: url(../images/common/praise.png);
+        height: 70px !important;
+        width: 70px !important;
+        top: -21px !important;
+        left: -9px !important;
+    }
+
+    &--8-3::after {
+        @extend %after;
+        background: url(../images/common/praise_8-3.png);
+        height: 70px !important;
+        width: 70px !important;
+        top: -21px !important;
+        left: -9px !important;
+    }
+
+    &--8-10::after {
+        @extend %after;
+        background: url(../images/common/praise_8-10.png);
+        height: 70px !important;
+        width: 70px !important;
+        top: -21px !important;
+        left: -9px !important;
     }
 
     p {
@@ -306,6 +349,17 @@ a {
         }
     }
 
+    &--pink-2 {
+        .header-content__title {
+            background: #f2e2ca;
+            margin: -13px 0;
+        }
+
+        .header-content__img {
+            margin-top: -54px;
+        }
+    }
+
     &--yellow {
 
         .header-content__title {
@@ -405,5 +459,16 @@ a {
         margin: 40px 0;
         padding: 35px;
         box-sizing: border-box;
+    }
+}
+
+// news
+
+.news {
+    @extend %background;
+    background-color: #f2e2ca;
+
+    .wrap {
+
     }
 }
