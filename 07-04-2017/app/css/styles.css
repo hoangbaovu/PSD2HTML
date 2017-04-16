@@ -412,7 +412,7 @@ a {
   padding: 70px 0 0;
   width: 860px; }
 
-.books, .reference, .masterpieces, .film, .news, .topical {
+.books, .reference, .masterpieces, .film, .news, .topical, .sound {
   background: url(../images/common/header_content.png);
   padding-bottom: 146px; }
 
@@ -474,3 +474,14 @@ a {
       height: 4px;
       width: 100%;
       position: absolute; }
+
+.sound {
+  background-color: #c4b9e8; }
+
+.lets-go {
+  background: #fabe00;
+  padding-top: 60px;
+  margin: 0; }
+  .lets-go__img img {
+    display: block;
+    margin: 0 auto; }
