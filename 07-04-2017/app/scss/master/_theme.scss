@@ -393,6 +393,17 @@ a {
             margin-top: -54px;
         }
     }
+
+    &--purple {
+        .header-content__title {
+            background: #c4b9e8;
+            margin: -13px 0;
+        }
+
+        .header-content__img {
+            margin-top: -54px;
+        }
+    }
 }
 
 .wrap {

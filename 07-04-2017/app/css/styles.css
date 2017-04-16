@@ -399,6 +399,13 @@ a {
 .header-content--blue-2 .header-content__img {
   margin-top: -54px; }
 
+.header-content--purple .header-content__title {
+  background: #c4b9e8;
+  margin: -13px 0; }
+
+.header-content--purple .header-content__img {
+  margin-top: -54px; }
+
 .wrap {
   background: #fff;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
