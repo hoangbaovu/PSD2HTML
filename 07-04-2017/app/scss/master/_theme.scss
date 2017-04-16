@@ -539,10 +539,27 @@ a {
     margin: 0;
 
     &__img {
-
+        margin: 0;
+        
         img {
             display: block;
             margin: 0 auto;
+        }
+    }
+}
+
+// footer
+
+.footer {
+    background: #003559;
+    padding: 110px 0 105px;
+
+    &__title {
+        @extend .text-center;
+        color: #fabe00;
+        font: {
+            size: 54px;
+            weight: bold;
         }
     }
 }

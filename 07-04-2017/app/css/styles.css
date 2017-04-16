@@ -162,7 +162,7 @@ a:hover {
 .list-unstyled {
   list-style: none; }
 
-.text-center, .product-list--masterpieces .product-list__title, .product-list--news .product-list__title, .product__text, .banner__img, .free-education, .header-content__title, .film-description__text, .topical__footer {
+.text-center, .product-list--masterpieces .product-list__title, .product-list--news .product-list__title, .product__text, .banner__img, .free-education, .header-content__title, .film-description__text, .topical__footer, .footer__title {
   text-align: center; }
 
 a {
@@ -482,6 +482,16 @@ a {
   background: #fabe00;
   padding-top: 60px;
   margin: 0; }
-  .lets-go__img img {
-    display: block;
-    margin: 0 auto; }
+  .lets-go__img {
+    margin: 0; }
+    .lets-go__img img {
+      display: block;
+      margin: 0 auto; }
+
+.footer {
+  background: #003559;
+  padding: 110px 0 105px; }
+  .footer__title {
+    color: #fabe00;
+    font-size: 54px;
+    font-weight: bold; }
