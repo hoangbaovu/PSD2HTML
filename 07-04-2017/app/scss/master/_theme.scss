@@ -19,6 +19,11 @@ a {
 .header {
     background: #0e358c;
     
+    &__title {
+        margin: 0 auto;
+        display: block;
+        padding-top: 32px;
+    }
 
     &__subtitle {
         position: absolute;
@@ -32,12 +37,13 @@ a {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding: 0;
 
     &--padding {
 
         .product-list__img {
             background: $white;
-            padding: 20px 71px;
+            padding: 10px 71px;
         }        
     }
 
@@ -161,11 +167,12 @@ a {
 
     &__GAKKEN {
         font-size: 12px;
+        margin: 0;
     }
 
     &__title {
         font-size: 24px;
-        margin: 0;
+        margin: 5px 0;
         flex: 1;
     }
 
@@ -177,6 +184,7 @@ a {
     &__price {
         font-size: 44px;
         line-height: 0;
+        margin: 20px 0 44px;
     }
 }
 
@@ -187,6 +195,10 @@ a {
 
     &__text {
         @extend .text-center;
+        font-family: font72376;
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 16px;
     }
 
     p {
@@ -199,8 +211,9 @@ a {
 
         &__01 {
             position: absolute;
-            left: 0;
-            z-index: 7;
+            left: -3px;
+            z-index: 1;
+            top: 38px;
         }
     }
 
@@ -269,7 +282,10 @@ a {
 
 .banner {
     background: url(../images/header/banner_re_bg.png) top left;
-    height: 316px;
+    height: 300px;
+    margin-top: -20px;
+    position: relative;
+    z-index: 999;
 
     &__img {
         @extend .text-center;
@@ -397,7 +413,7 @@ a {
     &--purple {
         .header-content__title {
             background: #c4b9e8;
-            margin: -13px 0;
+            margin: -13px 0 0;
         }
 
         .header-content__img {
@@ -422,8 +438,16 @@ a {
     @extend %background;
     background-color: #c6e7f9;
 
+    .wrap {
+        padding: 17px 0 0;
+    }
+
     .product-list {
         margin: 40px 0;
+
+        &__item {
+            margin: 0 43px;
+        }
     }
 }
 
@@ -449,7 +473,7 @@ a {
     background-color: #fff0a0;
 
     .wrap {
-        padding: 40px 0;
+        padding: 14px 0;
         margin-top: 20px;
     }
 }
@@ -464,7 +488,7 @@ a {
         background: $white;
         border: 3px solid #5b321e;
         box-sizing: border-box;
-        padding: 30px 63px;
+        padding: 0 63px;
         width: 643px;
         margin: 0 auto;
 
@@ -507,6 +531,10 @@ a {
         margin: 20px 0 51px;
     }
 
+    .product-list__subtitle {
+        margin: 5px 0;
+    }
+
     &__footer {
         @extend .text-center;
         padding: 60px 0 50px;
@@ -528,7 +556,8 @@ a {
 
 .sound {
     @extend %background;
-    background-color: #c4b9e8; 
+    background-color: #c4b9e8;
+    padding-top: 41px;
 }
 
 // lets-go
