@@ -13,6 +13,16 @@
     }
 }
 
+.top-nav {
+    background: #008ad0;
+
+    &__text {
+        color: $white;
+        font-size: 22px;
+        line-height: 0;
+    }
+}
+
 .login-form {
 
     background: #f9f9f9;

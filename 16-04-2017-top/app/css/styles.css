@@ -173,6 +173,13 @@ a:hover {
   display: flex;
   align-items: center; }
 
+.top-nav {
+  background: #008ad0; }
+  .top-nav__text {
+    color: #fff;
+    font-size: 22px;
+    line-height: 0; }
+
 .login-form {
   background: #f9f9f9;
   border-radius: 5px;
