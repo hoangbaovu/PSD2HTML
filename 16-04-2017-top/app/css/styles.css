@@ -169,20 +169,25 @@ a:hover {
   margin: 0 auto;
   width: 1200px; }
 
+.header .container {
+  display: flex;
+  align-items: center; }
+
 .login-form {
-  background: #fefefe;
+  background: #f9f9f9;
   border-radius: 5px;
-  padding: 46px 77px 50px; }
+  padding: 15px 20px;
+  margin-left: auto; }
   .login-form__heading {
     color: #4FB8DC;
-    font-size: 46px;
+    font-size: 26px;
     line-height: 0; }
   .login-form__btn {
     background: #b5b5b5;
     border-radius: 5px;
     color: #fff;
     display: block;
-    font-size: 22px;
+    font-size: 16px;
     padding: 10px 20px 5px;
     margin: 20px 0;
     border: 0; }
@@ -197,17 +202,18 @@ a:hover {
     .login-form__input--email {
       background: url(../images/common/form_user.png) no-repeat 5px center; }
     .login-form__input--password {
-      background: url(../images/common/form_pw.png) no-repeat 5px center; }
+      background: url(../images/common/form_pw.png) no-repeat 5px center;
+      margin-right: 0; }
   .login-form-footer {
     display: flex;
     align-items: center; }
   .login-form__question {
     color: #b5b5b5;
-    font-size: 22px;
+    font-size: 16px;
     margin-right: auto; }
     .login-form__question img {
       margin: 0 10px; }
   .login-form__link {
     color: #0080c5;
-    font-size: 22px;
+    font-size: 16px;
     text-decoration: underline; }
