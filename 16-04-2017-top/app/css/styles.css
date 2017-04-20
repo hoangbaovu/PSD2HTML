@@ -241,3 +241,41 @@ a:hover {
       color: #fff;
       font-size: 16px;
       text-transform: uppercase; }
+
+.main {
+  display: flex; }
+
+.sidebar {
+  width: 300px; }
+
+.box--border {
+  border: 1px solid #ffb657; }
+
+.box__title {
+  background: url(../images/common/sidebar/box__title.png);
+  line-height: 0;
+  padding: 30px 0 30px 40px;
+  margin-top: 0;
+  position: relative; }
+  .box__title::after {
+    content: "";
+    background: #ffb657;
+    height: 35px;
+    width: 14px;
+    position: absolute;
+    top: 11px;
+    left: 20px;
+    border-radius: 7px; }
+  .box__title::before {
+    content: "";
+    border-bottom: 1px dashed #ffb657;
+    position: absolute;
+    height: 1px;
+    width: 92%;
+    top: 50px;
+    left: 15px;
+    border-radius: 7px; }
+
+.box .list-item {
+  list-style-image: url(../images/common/bullet_01.png);
+  margin: 15px 0; }
