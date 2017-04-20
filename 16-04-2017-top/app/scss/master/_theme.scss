@@ -123,7 +123,15 @@
 // main
 
 .main {
-    display: flex;
+    
+    .container {
+        display: flex;
+    }
+}
+
+.main-content {
+    width: 100%;
+    padding: 20px;
 }
 
 .sidebar {
@@ -171,3 +179,4 @@
         margin: 15px 0;
     }
 }
+
