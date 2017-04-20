@@ -183,8 +183,8 @@ a:hover {
 .login-form {
   background: #f9f9f9;
   border-radius: 5px;
-  padding: 15px 20px;
-  margin-left: auto; }
+  padding: 5px 20px;
+  margin: 20px 0 20px auto; }
   .login-form__heading {
     color: #4FB8DC;
     font-size: 26px;
