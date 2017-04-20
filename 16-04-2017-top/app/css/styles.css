@@ -156,7 +156,7 @@ a:hover {
 .clearfix {
   clear: both; }
 
-.list-inline li {
+.list-inline li, .nav li {
   display: inline-block; }
 
 .list-unstyled {
@@ -224,3 +224,20 @@ a:hover {
     color: #0080c5;
     font-size: 16px;
     text-decoration: underline; }
+
+.navbar {
+  background: url(../images/common/menu_background.png); }
+
+.nav {
+  display: flex;
+  margin: 0;
+  padding: 0; }
+  .nav__item {
+    border-left: 1px solid #fff;
+    padding: 11px 71.8px; }
+    .nav__item:last-child {
+      border-right: 1px solid #fff; }
+    .nav__item a {
+      color: #fff;
+      font-size: 16px;
+      text-transform: uppercase; }
