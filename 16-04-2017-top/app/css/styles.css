@@ -457,6 +457,27 @@ ul.bxslider {
     left: 15px;
     border-radius: 7px; }
 
-.box .list-item {
+.list-item a {
+  color: #333; }
+
+.list--tri .list-item {
+  list-style-image: url(../images/common/bullet_02.png); }
+
+.list-item {
   list-style-image: url(../images/common/bullet_01.png);
   margin: 15px 0; }
+
+.title {
+  background: url(../images/common/sidebar/box__title.png);
+  border-bottom: 1px solid #d7d7d7;
+  padding: 20px 50px;
+  position: relative; }
+  .title::after {
+    content: "";
+    background: #ffb657;
+    height: 35px;
+    width: 14px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    border-radius: 7px; }
