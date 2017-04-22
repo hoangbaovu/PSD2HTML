@@ -481,3 +481,36 @@ ul.bxslider {
     top: 15px;
     left: 20px;
     border-radius: 7px; }
+
+.footer {
+  background: #f4f4f4; }
+  .footer .container {
+    display: flex;
+    align-content: center; }
+  .footer hr {
+    padding-top: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0; }
+  .footer a {
+    color: #333; }
+  .footer .footer-link {
+    margin: 50px 0px; }
+    .footer .footer-link li {
+      position: relative;
+      margin: 0 5px; }
+      .footer .footer-link li::after {
+        content: "";
+        border-right: 1px solid #333;
+        position: absolute;
+        top: 0;
+        right: -7px;
+        width: 1px;
+        height: 20px; }
+  .footer .copyright {
+    background: #008ad0; }
+    .footer .copyright__text {
+      color: #fff;
+      font-size: 20px;
+      line-height: 0;
+      text-align: center; }
