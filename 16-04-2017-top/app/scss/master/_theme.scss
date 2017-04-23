@@ -215,7 +215,6 @@
         border-radius: 7px;
     }
 }
-
 // footer
 
 .footer {
@@ -266,4 +265,8 @@
             text-align: center;
         }
     }
+}
+
+.list-item__content {
+    display: none;
 }
